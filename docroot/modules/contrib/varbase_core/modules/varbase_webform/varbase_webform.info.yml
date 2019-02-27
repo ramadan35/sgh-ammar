@@ -1,0 +1,20 @@
+name: 'Varbase Webform'
+description: 'Provide webforms features and settings.'
+type: module
+package: Varbase
+# version: 8.x-6.x-dev
+# core: 8.x
+# project: varbase_core
+dependencies:
+  - ultimate_cron:ultimate_cron
+  - webform:webform
+  - webform:webform_bootstrap
+  - webform:webform_node
+  - webform:webform_templates
+  - webform:webform_ui
+
+# Information added by Drupal.org packaging script on 2018-11-08
+version: '8.x-6.2'
+core: '8.x'
+project: 'varbase_core'
+datestamp: 1541691787

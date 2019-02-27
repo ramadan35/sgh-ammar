@@ -1,0 +1,167 @@
+header {
+  background: #FFF;
+}
+header .header-top {
+  background: #50A155;
+  text-align: right;
+  padding-top: 10px;
+}
+header .header-top #block-topmenu {
+  display: inline-block;
+}
+header .header-top #block-topmenu ul.menu {
+  text-align: right;
+  width: 100%;
+}
+header .header-top #block-topmenu ul.menu li {
+  display: inline-block;
+  border-right: 1px solid #FFF;
+  line-height: 0px;
+}
+header .header-top #block-topmenu ul.menu li a {
+  color: #FFF;
+  font-size: 12px;
+  padding: 0 8px;
+  line-height: 14px;
+}
+header .header-top #block-topmenu ul.menu li a:hover,
+header .header-top #block-topmenu ul.menu li a:focus {
+  background: transparent;
+}
+header .header-top #block-languageswitcher {
+  display: inline-block;
+}
+header .header-top #block-languageswitcher ul.links {
+  list-style: none;
+  padding: 0;
+}
+header .header-top #block-languageswitcher ul.links li a {
+  color: #FFF;
+  padding: 0 6px;
+}
+header .header-top #block-languageswitcher ul.links li.is-active {
+  display: none;
+}
+header .header-top #block-searchform {
+  display: inline-block;
+}
+header .header-top #block-searchform form {
+  max-width: 300px;
+  position: absolute;
+  right: 35px;
+  top: -6px;
+  display: none;
+}
+header .header-top #block-searchform form .form-item {
+  margin: 0;
+  position: relative;
+}
+header .header-top #block-searchform form .form-item input {
+  width: 100%;
+  box-shadow: none;
+  border: 0;
+}
+header .header-top #block-searchform form .form-item button {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+header .header-top #block-searchform form .form-item .input-group {
+  width: 300px;
+}
+header .header-top #block-searchform .help-block {
+  display: none;
+}
+header .header-top #block-searchform .trigger-search {
+  color: #FFFFFF;
+  cursor: pointer;
+}
+header .header-bottom .left a {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+header .header-bottom .left a img {
+  height: 40px;
+}
+header .header-bottom .right ul.menu {
+  text-align: right;
+  width: 100%;
+  padding-top: 22px;
+}
+header .header-bottom .right ul.menu li {
+  float: none;
+  display: inline-block;
+}
+header .header-bottom .right ul.menu li a {
+  font-size: 13px;
+  font-weight: bold;
+  color: #000;
+  text-transform: uppercase;
+  transition: color 0.5s ease;
+  background: transparent;
+}
+header .header-bottom .right ul.menu li a:hover,
+header .header-bottom .right ul.menu li a:focus {
+  color: #50A155;
+  background: transparent;
+}
+header .header-bottom .right ul.menu li:last-child a {
+  padding-right: 0;
+}
+body .hero_slider {
+  top: 0;
+}
+body .hero_slider .node--type-varbase-heroslider-media .hero-slide-content .row {
+  background: transparent !important;
+}
+body .hero_slider .node--type-varbase-heroslider-media .hero-slide-content .row .field--name-node-title {
+  color: #FFF;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: gothem;
+}
+body .hero_slider .node--type-varbase-heroslider-media .hero-slide-content .row .field--name-node-title h2 {
+  font-size: 50px;
+}
+body .hero_slider .node--type-varbase-heroslider-media .hero-slide-content .row .field--name-field-brief {
+  text-align: center;
+  font-size: 16px;
+}
+body .hero_slider .node--type-varbase-heroslider-media .hero-slide-content .row .field--name-field-link a {
+  display: block;
+  margin: 0 auto;
+  float: none;
+  width: 190px;
+  text-align: center;
+  background: #eb5f27d9;
+  padding: 13px;
+  font-size: 14px;
+}
+body .hero_slider .node--type-varbase-heroslider-media img {
+  width: 100%;
+}
+body .hero_slider #block-slidertextoverlay {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background: #464646bd;
+  padding: 10px;
+  text-align: right;
+  z-index: 9999;
+}
+body .hero_slider #block-slidertextoverlay p {
+  padding: 0 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+body .hero_slider #block-slidertextoverlay p::before {
+  content: "";
+  background: url(../../images/phone_white.png) no-repeat;
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+  background-size: contain;
+  margin-right: 5px;
+}
+/*# sourceMappingURL=header.theme.css.map */

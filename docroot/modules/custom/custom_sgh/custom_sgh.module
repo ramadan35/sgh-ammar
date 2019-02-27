@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * Perform alterations on language switcher links.
+ *
+ * A language switcher link may need to point to a different path or use a
+ * translated link text before going through the link generator, which will
+ * just handle the path aliases.
+ *
+ * @param array $links
+ *   Nested array of links keyed by language code.
+ * @param string $type
+ *   The language type the links will switch.
+ * @param \Drupal\Core\Url $url
+ *   The URL the switch links will be relative to.
+ */
+function custom_sgh_language_switch_links_alter(array &$links, $type, \Drupal\Core\Url $url) {
+  $language_interface = \Drupal::languageManager()->getCurrentLanguage();
+  $current_language_id = $language_interface->getId();
+  unset($links[$current_language_id]);
+}

@@ -1,0 +1,11 @@
+name: Change textfield to dropdown
+type: module
+description: 'changes the selected textfields to dropdowns'
+core: 8.x
+package: Custom
+
+# Information added by Drupal.org packaging script on 2018-09-05
+version: '8.x-1.0'
+core: '8.x'
+project: 'custom'
+datestamp: 1536168814

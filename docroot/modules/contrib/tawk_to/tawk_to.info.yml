@@ -1,0 +1,11 @@
+name: Tawk.to chat
+type: module
+description: 'Provides base intergraton with tawk.to service.'
+# core: 8.x
+configure: tawk_to.index
+
+# Information added by Drupal.org packaging script on 2018-08-06
+version: '8.x-1.7'
+core: '8.x'
+project: 'tawk_to'
+datestamp: 1533535384

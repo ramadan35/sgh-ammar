@@ -1,0 +1,31 @@
+name: 'Varbase Media'
+description: 'Manages type of media contents and entity browsers in the site.'
+type: module
+package: Varbase
+# version: 8.x-6.x-dev
+# core: 8.x
+# project: varbase_media
+dependencies:
+  - varbase_core:varbase_core
+  - drupal:file
+  - drupal:image
+  - drupal:media
+  - drupal:media_library
+  - drupal:responsive_image
+  - blazy:blazy
+  - crop:crop
+  - dropzonejs:dropzonejs_eb_widget
+  - embed:embed
+  - entity_browser:entity_browser
+  - entity_browser_enhanced:entity_browser_enhanced
+  - entity_browser:entity_browser_entity_form
+  - varbase_media:entity_browser_generic_embed
+  - entity_embed:entity_embed
+  - focal_point:focal_point
+  - views_infinite_scroll:views_infinite_scroll
+
+# Information added by Drupal.org packaging script on 2018-10-23
+version: '8.x-6.0'
+core: '8.x'
+project: 'varbase_media'
+datestamp: 1540296784

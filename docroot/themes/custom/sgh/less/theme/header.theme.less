@@ -1,0 +1,193 @@
+// sgh header styling.
+// -----------------------------------------------------------------------------
+@import "../../bootstrap/less/variables.less";  // Bootstrap variables.
+@import "../../bootstrap/less/mixins.less";     // Bootstrap mixins.
+@import "../variables.less";                    // sgh variables.
+@import "../mixins.less";                       // sgh mixins.
+// -----------------------------------------------------------------------------
+
+// Insert your sgh header custom LESS styling.
+header {
+    background: #FFF;
+    .header-top {
+        background: @green;
+        text-align: right;
+        padding-top: 10px;
+        #block-topmenu {
+            display: inline-block;
+            ul.menu {
+                text-align: right;
+                width: 100%;
+                li {
+                    display: inline-block;
+                    border-right: 1px solid #FFF;
+                    line-height: 0px;
+                    a{
+                        color: #FFF;
+                        font-size: 12px;
+                        padding: 0 8px;
+                        line-height: 14px;
+                        &:hover,
+                            &:focus {
+                            background: transparent;
+                        }
+                    }
+                }
+            }
+        }
+        #block-languageswitcher {
+            display: inline-block;
+            ul.links {
+                list-style: none;
+                padding: 0;
+                li {
+                    a {
+                        color: #FFF;
+                        padding: 0 6px;
+                    }
+                    &.is-active {
+                        display: none;
+                    }
+                }
+            }
+        }
+        #block-searchform {
+            display: inline-block;
+            form {
+                max-width: 300px;
+                position: absolute;
+                right: 35px;
+                top: -6px;
+                display: none;
+                .form-item {
+                    margin: 0;
+                    position: relative;
+                    input {
+                        width: 100%;
+                        box-shadow: none;
+                        border: 0;
+                    }
+                    button {
+                        position: absolute;
+                        right: 0;
+                        top: 0;
+                    }
+                    .input-group {
+                        width: 300px;
+                    }
+                }
+            }
+            .help-block {
+                display: none;
+            }
+            .trigger-search {
+                color: @white;
+                cursor: pointer;
+            }
+        }
+    }
+    .header-bottom {
+        .left {
+            a {
+                margin-top: 24px;
+                margin-bottom: 24px;
+                img {
+                    height: 40px;
+                }
+            }
+
+        }
+        .right {
+            ul.menu {
+                text-align: right;
+                width: 100%;
+                padding-top: 22px;
+                li{
+                    float:none;
+                    display: inline-block;
+                    a {
+                        font-size: 13px;
+                        font-weight: bold;
+                        color: #000;
+                        text-transform: uppercase;
+                        transition: color 0.5s ease;
+                        background: transparent;
+                        &:hover,
+                            &:focus {
+                            color: @green;
+                            background: transparent;
+                        }
+                    }
+                    &:last-child {
+                        a {
+                            padding-right: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+body .hero_slider {
+    top: 0;
+    .node--type-varbase-heroslider-media {
+        .hero-slide-content{
+            .row {
+                background: transparent !important;
+                .field--name-node-title {
+                    h2 {
+                        font-size: 50px;
+                    }
+                    color: #FFF;
+                    text-align: center;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    font-family: gothem;
+                }
+                .field--name-field-brief {
+                    text-align: center;
+                    font-size: 16px;
+                }
+                .field--name-field-link {
+                    a {
+                        display: block;
+                        margin: 0 auto;
+                        float: none;
+                        width: 190px;
+                        text-align: center;
+                        background: #eb5f27d9;
+                        padding: 13px;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+        img {
+            width: 100%;
+        }
+    }
+    #block-slidertextoverlay {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        background: #464646bd;
+        padding: 10px;
+        text-align: right;
+        z-index: 9999;
+        p {
+            padding:0 15px;
+            font-size: 20px;
+            font-weight: bold;
+            &::before {
+                content: "";
+                background: url(../../images/phone_white.png) no-repeat;
+                width: 17px;
+                height: 17px;
+                display: inline-block;
+                background-size: contain;
+                margin-right: 5px;
+            }
+        }
+    }
+}

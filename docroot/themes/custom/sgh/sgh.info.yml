@@ -1,0 +1,120 @@
+core: 8.x
+type: theme
+base theme: vartheme
+
+name: 'sgh'
+description: 'Uses the Bootstrap framework LESS source files and must be compiled (not for beginners).'
+package: 'Varbase'
+
+regions:
+  header_top: 'Header Top'
+  navigation: 'Navigation'
+  branding: 'Branding'
+  header: 'Top Bar'
+  hero_slider: 'Media Hero Slider'
+  highlighted: 'Highlighted'
+  help: 'Help'
+  content: 'Content'
+  front_content_1: 'Front Content 1'
+  front_content_2_left: 'Front Content 2 Left'
+  front_content_2_right: 'Front Content 2 Right'
+  front_content_3_left: 'Front Content 3 Left'
+  front_content_3_right: 'Front Content 3 Right'
+  sidebar_first: 'Primary'
+  sidebar_second: 'Secondary'
+  footer1: 'Footer 1'
+  footer2: 'Footer 2'
+  footer3: 'Footer 3'
+  footer4: 'Footer 4'
+  footer: 'Footer'
+  chat: 'Chat'
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+
+libraries:
+# Bootstrap styles and scripts libraries.
+  - sgh/bootstrap-styles
+  - sgh/bootstrap-scripts
+  
+# sgh custom Vartheme styles and scripts libraries.
+  - sgh/vartheme-styles
+
+# sgh global styles and scripts libraries.
+  - sgh/global-styles
+  - sgh/global-scripts
+  
+# sgh Varbase Bootstrap Paragraphs colors theme.
+  - sgh/vbp-colors
+  
+# sgh Better Login theme.
+#  - sgh/betterlogin
+
+# OPTIONALLY: You can choose to remove Vartheme base theme stylesheets and/or
+# Javascript files.
+libraries-override:
+# Comment lines to keep using libraries from vartheme.
+  bootstrap_library/bootstrap-cdn: false
+  bootstrap_library/bootstrap: false
+  bootstrap_library/bootstrap-dev: false
+  vartheme/bootstrap-styles: false
+  vartheme/bootstrap-scripts: false
+  vartheme/global-styles: false
+  vartheme/global-scripts: false
+
+# Comment lines to use (RTL) libraries from vartheme.
+  vartheme/bootstrap-styles-rtl: false
+  vartheme/global-styles-rtl: false
+# Comment lines to use (RTL) libraries from sgh.
+  sgh/bootstrap-styles-rtl: false
+  sgh/vartheme-styles-rtl: false
+  sgh/global-styles-rtl: false
+
+# sgh Varbase Bootstrap Paragraphs colors theme.
+  varbase_bootstrap_paragraphs/vbp-colors: sgh/vbp-colors
+  vartheme/vbp-colors: sgh/vbp-colors
+#  vartheme/betterlogin: sgh/betterlogin
+  
+# Uncomment lines to replace, exclude css and js files from vartheme.
+# You will need to copy less/css files from Vartheme to use theme for the
+# overriden library.
+# ------------------------------------------------------------------------------
+#  vartheme/bs-callouts: sgh/bs-callouts
+#  vartheme/card: sgh/card
+#  vartheme/outside-in: sgh/outside-in
+#  vartheme/edge2edge: sgh/edge2edge
+#  vartheme/equal-height: sgh/equal-height
+#  vartheme/navbar-admin: sgh/navbar-admin
+# ------------------------------------------------------------------------------
+#  vartheme/ajax: sgh/ajax
+#  vartheme/alert: sgh/alert
+#  vartheme/field: sgh/field
+#  vartheme/file: sgh/file
+#  vartheme/filter: sgh/filter
+#  vartheme/form: sgh/form
+#  vartheme/icon: sgh/icon
+#  vartheme/navbar: sgh/navbar
+#  vartheme/node: sgh/node
+#  vartheme/panel: sgh/panel
+#  vartheme/progress-bar: sgh/progress-bar
+#  vartheme/table-drag: sgh/table-drag
+#  vartheme/tabs: sgh/tabs
+#  vartheme/toolbar: sgh/toolbar
+#  vartheme/autocomplete: sgh/autocomplete
+
+#  Uncomment the following if you want to keep bootstrap/framework
+#    and you want to extend it.
+#libraries-extend:
+#  bootstrap/framework:
+#    - vartheme/framework
+#    - sgh/framework
+
+ckeditor_stylesheets:
+  - css/base/bootstrap.base.css
+  - css/base/vartheme.base.css
+  - css/base/sgh.base.css
+  - css/theme/content.theme.css
+  - css/component/alert.component.css
+  - css/component/icon.component.css
+  - css/component/node.component.css
+  - css/component/bs-callouts.component.css
+  - css/layout/edge2edge.layout.css

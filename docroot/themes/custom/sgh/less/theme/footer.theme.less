@@ -1,0 +1,144 @@
+// sgh footer styling.
+// -----------------------------------------------------------------------------
+@import "../../bootstrap/less/variables.less";  // Bootstrap variables.
+@import "../../bootstrap/less/mixins.less";     // Bootstrap mixins.
+@import "../variables.less";                    // sgh variables.
+@import "../mixins.less";                       // sgh mixins.
+// -----------------------------------------------------------------------------
+
+// Insert your sgh footer custom LESS styling.
+
+.footer-wrapper {
+    background-color: @footer-wrapper-bg;
+    float: left;
+    width: 100%;
+    .footer {
+        border: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-top: 45px;
+
+        .footer-top {
+            float: left;
+            width: 100%;
+            padding-top: 45px;
+            padding-bottom: 30px;
+            .block-title,
+            h2 {
+                font-size: 18px;
+                margin: 0;
+                margin-bottom: 20px;
+                text-transform: uppercase;
+                font-weight: bold;
+            }
+            ul.menu {
+                padding:0;
+                li {
+                    padding-bottom: 15px;
+                    a {
+                        padding:0;
+                        font-size: 13px;
+                        color: @DimGray;
+                        font-family: gothem;
+                        &::before {
+                            content: "";
+                            display: inline-block;
+                            background: url(../../images/arrow-right.svg) no-repeat;
+                            background-position: 100%;
+                            width: 30px;
+                            height: 10px;
+                            margin-right: 10px;
+                            
+                        }
+                        &:hover,
+                            &:focus {
+                            background: transparent;
+                        }
+                    }
+                }
+            }
+            .region-footer4 {
+                img {
+                    margin-bottom: 5px;
+                }
+            }
+            #block-subscribetoournewsletter {
+                margin-top: 22px;
+                .block-title {
+                    font-size: 16px;
+                    text-transform: uppercase;
+                }
+                form {
+                    position: relative;
+                    input {
+                        border: 1px solid #CCC;
+                        height: 35px;
+                        padding: 3px;
+                    }
+                    button {
+                        position: absolute;
+                        right: 0;
+                        top: 0;
+                        height: 35px;
+                        width: 40px;
+                        background: url(../../images/arrow-right.png) @green no-repeat;
+                        border:0;
+                        background-position: 50%;
+                    }
+                }
+
+            }
+            .region-footer1 {
+                img {
+                    margin-bottom: 15px;
+                }
+            }
+
+        }
+        .footer-bottom {
+            clear: both;
+            border-top: 1px solid #c2c2c2;
+            ul.nav {
+                float: right;
+                padding: 10px 0 10px 0;
+
+                li {
+                    display: inline-block;
+                    list-style: none;
+                    &:first-child {
+                        a {
+                            border-right: 1px solid #c2c2c2;
+                            line-height: 0px;
+                        }
+                    }
+
+                }
+
+            }
+            #block-socialicons {
+                float: right;
+                .menu.nav {
+                    li {
+                        a {
+                            padding: 7px;
+                            font-size: 0;
+                            &::before {
+                                font-family: FontAwesome !important;
+                                font-size: 18px;
+                            }
+                        }
+                        &:first-child {
+                            a {
+                                border-right:  none;
+                            }
+                        }
+                    }
+                }
+            }
+            #block-sgh-footer {
+                float: left;
+            }
+        }
+
+    }
+}

@@ -1,0 +1,755 @@
+// sgh content styling.
+// -----------------------------------------------------------------------------
+@import "../../bootstrap/less/variables.less";  // Bootstrap variables.
+@import "../../bootstrap/less/mixins.less";     // Bootstrap mixins.
+@import "../variables.less";                    // sgh variables.
+@import "../mixins.less";                       // sgh mixins.
+// -----------------------------------------------------------------------------
+
+// Insert your sgh content custom less styling.
+// sgh content styling.
+// -----------------------------------------------------------------------------
+@import "../../bootstrap/less/variables.less";  // Bootstrap variables.
+@import "../../bootstrap/less/mixins.less";     // Bootstrap mixins.
+@import "../variables.less";                    // sgh variables.
+@import "../mixins.less";                       // sgh mixins.
+// -----------------------------------------------------------------------------
+
+// Insert your sgh content custom less styling.
+@font-face {
+    font-family: gothem;
+    /*src: url(../../fonts/gothem/GothamBook.ttf);*/
+    src: url(../../fonts/gothem/GothamMedium.ttf);
+}  
+
+@font-face {
+    font-family: gothemlight;
+    src: url(../../fonts/gothem/GothamLight.ttf);
+}
+
+@font-face {
+    font-family: gothembook;
+    src: url(../../fonts/gothem/GothamBook.ttf);
+}
+
+body {
+    font-family: gothembook;
+}
+
+body:not(.path-frontpage) {
+    .main-container {
+        > .row {
+            > .col-sm-12:nth-child(2) {
+                background: #FFF;
+                padding: 15px;
+            }
+        }
+        .field--type-datetime {
+            color: @green;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+    }
+}
+.green-button {
+    a {
+        background: #50A155;
+        padding: 13px;
+        color: #FFF;
+        font-weight: bold;
+        text-transform: uppercase;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 12px;
+        &::after {
+            content: "";
+            background: url(../../images/arrow-right.png) no-repeat;
+            width: 38px;
+            height: 10px;
+            display: inline-block;
+            background-position: 50%;
+        }
+    }
+}
+
+.page-node-type-news {
+    .main-container {
+        .field--name-field-image {
+            img {
+                float: right;
+            }
+        }
+    }
+}
+
+.views-view-grid.horizontal {
+    margin-bottom: 10px;
+    > .row {
+        margin-bottom: 10px;
+        .node--view-mode-horizontal-media-teaser-xsmall {
+            background: @bg-grey;
+            padding: 10px;
+            margin: 0;
+            .left {
+
+            }
+            .right {
+                .field--name-node-title {
+                    a {
+                        text-transform: uppercase;
+                    }
+                }
+                .field--name-body {
+                    text-decoration: underline;
+                }
+                .green-button {
+                    float: right;
+                }
+            }
+        }
+    }
+}
+
+.page-node-type-landing-page {
+    .view-filters {
+        background: @brand-primary;
+        padding: 10px;
+        margin: 0;
+        input,
+        select,
+        textarea {
+            box-shadow: none;
+            border: 0;
+            font-weight: bold;
+        }
+        label {
+            display: none;
+        }
+    }
+}
+
+.pagination {
+    li {
+        width: 30px;
+        height: 30px;
+        a{
+            span {
+
+            }
+        }
+        &.is-active {
+            a {
+                border-radius: 50%;
+            }
+        }
+        &.pager__item--first,
+        &.pager__item--last{
+            display: none;
+        }
+        &.pager__item--next {
+            a {
+
+            }
+            &::after {
+                content: "";
+                background: url(../../images/arrow-right-blue.png) no-repeat;
+                display: inline-block;
+                width: 27px;
+                height: 21px;
+                background-size: 100%;
+                vertical-align: -webkit-baseline-middle;
+            }
+        }
+        &.pager__item--previous {
+            a {
+
+            }
+            &::before {
+                content: "";
+                background: url(../../images/arrow-left-blue.png) no-repeat;
+                display: inline-block;
+                width: 27px;
+                height: 21px;
+                background-size: 100%;
+                vertical-align: -webkit-baseline-middle;
+            }
+        }
+    }
+}
+
+.node--view-mode-horizontal-media-teaser-medium {
+    .left {
+    }
+    .right {
+        .field--name-node-post-date {
+            color: @green;
+            font-size: 12px;
+            /*font-weight: bold;*/
+            font-family: gothem;
+        }
+        .field--name-node-title {
+            a {
+                color: #000;
+                font-weight: bold;
+                font-size: 14px;
+            }
+        }
+        .field--name-body {
+            font-size: 13px;
+            color: #505150;
+            text-decoration: underline;
+        }
+    }
+}
+
+.path-frontpage {
+    #block-views-block-news-block-1,
+    #block-views-block-varbase-blog-homepage-blog-block,
+    #block-views-block-events-block-1 {
+        background: #FFF;
+        box-shadow: 1px 1px 6px #ecebeb;
+        padding: 20px 22px;
+        position: relative;
+        .block-title {
+            font-size: 30px;
+            font-weight: bold;
+            color: #000;
+            margin: 0;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+            &::after {
+                content: "";
+                width: 42px;
+                height: 6px;
+                background: @brand-primary;
+                display: block;
+                margin-top: 7px;
+            }
+        }
+    }
+    .more-link {
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 0;
+        a {
+            font-size: 0;
+            width: 60px;
+            height: 52px;
+            display:block;
+            background: url(../../images/arrow-right.png) @brand-primary no-repeat;
+            background-position: 50%;
+        }
+    }
+    #block-views-block-news-block-1 {
+        margin-bottom: 30px;
+    }
+    #block-views-block-events-block-1 {
+        padding-bottom: 50px;
+        .field--name-node-title {
+            a {
+                font-size: 16px;
+                color: #505150;
+                font-family: gothem;
+            }
+        }
+        .field--name-body {
+            font-size: 13px;
+            color: #505150;
+            margin-bottom: 15px;
+        }
+        .field--name-field-date {
+            float: left;
+            width: 50%;
+            .field--label {
+                color: @brand-primary;
+                text-transform: uppercase;
+                font-size: 12px;
+                font-family: gothem;
+            }
+            .field--item {
+                color: @green;
+                font-size: 12px;
+                font-family: gothem;
+                &:first-child {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+        .field--name-field-capacity {
+            float: left;
+            width: 50%;
+            .field--label {
+                color: @brand-primary;
+                text-transform: uppercase;
+                font-size: 12px;
+                font-family: gothem;
+            }
+            .field--item {
+                color: @green;
+                font-size: 12px;
+                font-family: gothem;
+            }
+        }
+        .more-link {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            margin: 0;
+            top: auto;
+            right: auto;
+            width: 100%;
+            a {
+                font-size: 13px;
+                text-align: center;
+                color: @white;
+                padding-top: 17px;
+                width: 60px;
+                height: 52px;
+                display:block;
+                background: url(../../images/arrow-right.png) @brand-primary no-repeat;
+                background-position: 92% 50%;
+                width: 100%;
+            }
+        }
+    }
+    .front_content_3 {
+        background: url(../../images/bluebg.jpg) no-repeat;
+        padding: 60px 0;
+        margin-top: 35px;
+        background-size: 100%;
+        #block-views-block-offers-promotions-block-1 {
+            .block-title {
+                font-size: 30px;
+                font-weight: bold;
+                color: @white;
+                text-align: center;
+                margin-bottom: 45px;
+                font-family: gothem;
+                text-transform: uppercase;
+                &::before {
+                    content: "";
+                    background: url(../../images/events.png) no-repeat;
+                    width: 60px;
+                    height: 60px;
+                    display: block;
+                    margin: 0 auto;
+                    margin-bottom: 20px;
+                    background-size: 100%;
+                }
+            }
+            .form-group {
+                .view-content {
+                    .views-row {
+                        .left {
+
+                        }
+                        .right {
+                            .field--name-node-title {
+                                h2 {
+                                    font-weight: 500;
+                                    font-size: 20px;
+                                    margin-bottom: 5px;
+                                    a {
+                                        color: @white;
+                                        text-transform: uppercase;
+                                    }
+                                }
+                            }
+                            .field--name-body {
+                                color: @white;
+                                margin-bottom: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        #block-views-block-visiting-doctors-block-1 {
+            .block-title {
+                font-size: 30px;
+                font-weight: bold;
+                color: @white;
+                text-align: center;
+                margin-bottom: 45px;
+                font-family: gothem;
+                text-transform: uppercase;
+                &::before {
+                    content: "";
+                    background: url(../../images/doctors.png) no-repeat;
+                    width: 60px;
+                    height: 60px;
+                    display: block;
+                    margin: 0 auto;
+                    margin-bottom: 20px;
+                    background-size: 100%;
+                }
+            }
+            .form-group {
+                .view-content {
+                    .slick__slide {
+                        text-align: center;
+                        padding: 0 30px;
+                        .views-field-title {
+                            font-weight: 500;
+                            font-size: 20px;
+                            margin-bottom: 5px;
+                            a {
+                                color: @white;
+                                font-size: 20px;
+                                text-transform: uppercase;
+                            }
+
+                        }
+                        .views-field-body {
+                            color: @white;
+                            margin-bottom: 20px;
+                            margin-top: 15px;
+                        }
+                    }
+                    .slick__arrow {
+                        .slick-prev {
+                            width: 13px;
+                            height: 25px;
+                            &::before {
+                                background: url(../../images/slider-arrow-left.png) no-repeat;
+                                content: "";
+                                width: 13px;
+                                height: 25px;
+                                display: block;
+                                background-size: 100%;
+                            }
+                        }
+                        .slick-next {
+                            width: 13px;
+                            height: 25px;
+                            &::before {
+                                background: url(../../images/slider-arrow-right.png) no-repeat;
+                                content: "";
+                                width: 13px;
+                                height: 25px;
+                                display: block;
+                                background-size: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .front_content_2 {
+        > .container {
+            padding: 0;
+        }
+    }
+    .front_content_1 {
+        position: relative;
+        top: -70px;
+        #block-quicktabsfronttabs {
+            ul.quicktabs-tabs {
+                text-align: center;
+                margin: 0;
+                margin-bottom: -24px;
+                li {
+                    display: inline-block;
+                    padding: 0;
+                    padding: 0 3px;
+                    a {
+                        background: @brand-primary;
+                        color: @white;
+                        display: block;
+                        padding: 18px 40px;
+                        border-radius: 8px;
+                        text-transform: uppercase;
+                        &::before {
+                            content: "";
+                            width: 20px;
+                            height: 20px;
+                            background: url(../../images/find-doctor.png) no-repeat;
+
+                            background-size: 100%;
+                            display: block;
+                            margin: 0 auto;
+                            margin-bottom: 8px;
+                        }
+                        &::after {
+                            content: "";
+                            background: url(../../images/arrow-small-down.png) no-repeat;
+                            background-size: 100%;
+                            display: inline-block;
+                            width: 10px;
+                            height: 7px;
+                            margin-left: 5px;
+                        }
+                    }
+                    &.active {
+                        a {
+                            border: 4px solid #50A155;
+                        }
+                    }
+                }
+                li:nth-child(2) {
+                    a {
+                        &::before {
+                            content: "";
+                            width: 20px;
+                            height: 20px;
+                            background: url(../../images/book-appointment.png) no-repeat;
+                            background-size: auto;
+                            display: block;
+                            margin: 0 auto;
+                            margin-bottom: 8px;
+                        }
+                    }
+                }
+                li:nth-child(3) {
+                    a {
+                        &::before {
+                            content: "";
+                            width: 20px;
+                            height: 20px;
+                            background: url(../../images/medical-services.png) no-repeat;
+                            background-size: auto;
+                            display: block;
+                            margin: 0 auto;
+                            margin-bottom: 8px;
+                        }
+                    }
+                }
+                li:nth-child(4) {
+                    a {
+                        &::before {
+                            content: "";
+                            width: 20px;
+                            height: 20px;
+                            background: url(../../images/e-services.png) no-repeat;
+                            background-size: auto;
+                            display: block;
+                            margin: 0 auto;
+                            margin-bottom: 8px;
+                        }
+                    }
+                }
+            }
+            .quicktabs-main {
+                background: @brand-primary;
+                border-top: 4px solid @green;
+                padding: 40px;
+                #views-exposed-form-find-a-doctor-find-doctor {
+                    .form-item {
+                        width: 100%;
+                        max-width: 335px;
+                        display: block;
+                        margin: 0 auto;
+                        margin-bottom: 15px;
+                        label {
+                            color: @white;
+                            width: 75px;
+                        }
+                        .select-wrapper {
+                            width: 100%;
+                            max-width: 255px;
+                        }
+                        select,
+                        input {
+                            width: 100%;
+                            max-width: 255px;
+                            box-shadow: none;
+                        }
+                    }
+                    .form-actions {
+                        width: 100%;
+                        max-width: 335px;
+                        display: block;
+                        margin: 0 auto;
+                        button {
+                            margin: 0;
+                            width: 100%;
+                            background: @green;
+                            border-color: @green;
+                        }
+                    }
+                }
+                .webform-submission-book-an-appointment-add-form {
+                    > .js-form-wrapper {
+                        max-width: 820px;
+                        margin: 0 auto;
+                    }
+                    .webform-progress {
+                        ul {
+                            max-width: 345px;
+                            li {
+                                .progress-marker{
+                                    height: 30px;
+                                    width: 30px;
+                                    line-height: 30px;
+                                    display: block;
+                                }
+                                .progress-text {
+                                    color:@white;
+                                }
+                                &.is-active {
+                                    .progress-marker{
+                                        background: @green;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .form-item {
+                        width: 49%;
+                        display: inline-block;
+                        margin-bottom: 15px;
+                        label,
+                        .fieldset-legend{
+                            color: @white;
+                            width: 120px;
+                        }
+                        .select-wrapper {
+                            width: 100%;
+                            max-width: 255px;
+                        }
+                        select,
+                        input {
+                            width: 100%;
+                            max-width: 255px;
+                            box-shadow: none;
+                            display: inline-block;
+                        }
+                        legend,
+                        .fieldset-wrapper {
+                            display: inline-block;
+                        }
+
+
+                    }
+                    .form-item-date-time  {
+                        label {
+                            vertical-align: top;
+                            padding-top: 10px;
+                        }
+                        .container-inline {
+                            display: inline-block;
+                            max-width: 255px;
+                        }
+                        .form-inline {
+                            margin: 0;
+                        }
+                    }
+                    fieldset {
+                        margin: 0;
+                        width: 49%;
+                        display: inline-block;
+                        legend {
+                            width: 120px;
+                            display: inline-block;
+                        }
+                        input {
+                            box-shadow: none;
+                        }
+                        .form-item{
+                            width: 100%;
+                            input {
+                                display: inline-block;
+                            }
+                        }
+                    }
+                    fieldset.form-item {
+                        margin: 0;
+                    }
+                    .webform-telephone--wrapper {
+                        legend {
+                            float: left;
+                            padding-top: 7px;
+                            width: 125px;
+                        }
+                    }
+                    .webform-button--next,
+                    webform-button--previous {
+                        color: #fff;
+                        background-color: @green;
+                        border-color: @green;
+                    }
+                    .webform-button--submit {
+                        color: #fff;
+                        background-color: @green;
+                        border-color: @green;
+                    }
+                    .js-webform-type-webform-name {
+                        width: 100%;
+                        .fieldset-wrapper {
+                            width: 100%;
+                        }
+                        .form-item {
+                            width:49%;
+                        }
+                        .form-item-name-last {
+                            
+                        }
+                    }
+                }
+                .field--name-body {
+                    color: @white;
+                    text-align: center;
+                    a {
+                        color: @green;
+                    }
+                }
+            }
+        }
+    }
+    .hero_slider {
+        margin: 0;
+        .counter {
+            position: absolute;
+            bottom: 30px;
+            left: 30px;
+            .total {
+                font-size: 30px;
+                font-weight: bold;
+                vertical-align: text-top;
+            }
+        }
+        .slick__arrow {
+            .slick-prev {
+                width: 13px;
+                height: 25px;
+                left: 30px;
+                &::before {
+                    background: url(../../images/slider-arrow-left.png) no-repeat;
+                    content: "";
+                    width: 13px;
+                    height: 25px;
+                    display: block;
+                    background-size: 100%;
+                }
+            }
+            .slick-next {
+                width: 13px;
+                height: 25px;
+                right: 30px;
+                &::before {
+                    background: url(../../images/slider-arrow-right.png) no-repeat;
+                    content: "";
+                    width: 13px;
+                    height: 25px;
+                    display: block;
+                    background-size: 100%;
+                }
+            }
+        }
+    }
+}
+
+.varbase-heroslider-media .node--type-varbase-heroslider-media .hero-slide-content {
+    bottom: auto; 
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#block-chat {
+    position: fixed;
+    right: 0;
+    top: 260px;
+}

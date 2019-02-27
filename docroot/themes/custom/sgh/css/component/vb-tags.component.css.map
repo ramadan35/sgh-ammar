@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../less/component/vb-tags.component.less"],"names":[],"mappings":"AAcA;EACE,eAAA;EACA,cAAA;EACA,gBAAA;;AAHF,QAKE;EACE,eAAA;;AANJ,QAKE,GAEE;AAPJ,QAKE,GAGE;EACE,qBAAA;EACA,iBAAA;EACA,sBAAA;EACA,6BAAA;EACA,mBAAA;;AAbN,QAKE,GAWE,IAAG;AAhBP,QAKE,GAYE,IAAG;EACD,qBAAA;EACA,6BAAA;;AAQN,WAAY;EACV,gBAAA;EACA,qBAAA","file":"vb-tags.component.css"}
