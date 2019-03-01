@@ -54,6 +54,9 @@
   text-align: center;
   padding: 7px 0px;
 }
+.view-offers-promotions .views-row .wrapper .top .bottom-of-top .field--name-node-link a:after {
+  content: url(../../images/arrow-right.png);
+}
 .view-offers-promotions .views-row .wrapper .bottom {
   clear: both;
   padding: 0px 30px;
