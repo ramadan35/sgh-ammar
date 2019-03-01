@@ -54,7 +54,7 @@ body:not(.path-frontpage) .main-container .field--type-datetime {
   background: #F7F7F7;
   padding: 10px;
   margin: 0;
-  marging-bottom: 15px;
+  margin-bottom: 15px;
 }
 .views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall .left img {
   width: 100%;
