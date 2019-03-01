@@ -14,6 +14,12 @@
 body {
   font-family: gothembook;
 }
+body:not(.path-frontpage) .hero_slider #block-entityviewcontent {
+  border-bottom: 4px solid #50A155;
+}
+body:not(.path-frontpage) .hero_slider #block-entityviewcontent img {
+  width: 100%;
+}
 body:not(.path-frontpage) .main-container > .row > .col-sm-12:first-child {
   padding-left: 0;
   padding-right: 0;
@@ -21,6 +27,7 @@ body:not(.path-frontpage) .main-container > .row > .col-sm-12:first-child {
 body:not(.path-frontpage) .main-container > .row > .col-sm-12:nth-child(2) {
   background: #FFF;
   padding: 15px;
+  margin-bottom: 40px;
 }
 body:not(.path-frontpage) .main-container .field--type-datetime {
   color: #50A155;
@@ -614,9 +621,6 @@ body:not(.path-frontpage) .main-container .field--type-datetime {
   height: 25px;
   display: block;
   background-size: 100%;
-}
-.path-frontpage .hero_slider #block-entityviewcontent {
-  border-bottom: 4px solid #50A155;
 }
 .varbase-heroslider-media .node--type-varbase-heroslider-media .hero-slide-content {
   bottom: auto;
