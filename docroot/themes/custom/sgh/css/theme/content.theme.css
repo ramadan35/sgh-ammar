@@ -618,6 +618,7 @@ body:not(.path-frontpage) .main-container .field--type-datetime {
   margin: 0;
   text-transform: uppercase;
   margin-bottom: 10px;
+  border: 0;
 }
 .page-header::after {
   content: "";
