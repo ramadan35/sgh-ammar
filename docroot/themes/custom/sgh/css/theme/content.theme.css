@@ -733,6 +733,7 @@ body:not(.path-frontpage) .main-container .field--type-datetime {
   border-top: 1px solid #CCC;
   padding-top: 20px;
   padding-bottom: 20px;
+  margin: 0;
 }
 .page-node-type-events .main-container .node--view-mode-full .bs-region--right .field--name-field-contact-information .field--label {
   color: #000;
@@ -764,5 +765,8 @@ body:not(.path-frontpage) .main-container .field--type-datetime {
 .page-node-type-events .main-container .field--name-node-title h1 {
   font-size: 20px;
   margin-bottom: 30px 0;
+}
+#views-bootstrap-varbase-blog-blog-listing-block > .row {
+  margin: 0;
 }
 /*# sourceMappingURL=content.theme.css.map */
