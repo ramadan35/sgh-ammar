@@ -693,17 +693,17 @@ body:not(.path-frontpage) .main-container .field--type-datetime {
   display: block;
   margin-top: 7px;
 }
-.page-node-type-event .main-container .node--view-mode-full {
+.page-node-type-events .main-container .node--view-mode-full {
   padding: 0 15px;
   display: table;
 }
-.page-node-type-event .main-container .node--view-mode-full .bs-region--left {
+.page-node-type-events .main-container .node--view-mode-full .bs-region--left {
   padding: 0;
   display: table-cell;
   float: none;
   vertical-align: top;
 }
-.page-node-type-event .main-container .node--view-mode-full .bs-region--right {
+.page-node-type-events .main-container .node--view-mode-full .bs-region--right {
   background: #F7F7F7;
   display: table-cell;
   float: none;
@@ -711,22 +711,22 @@ body:not(.path-frontpage) .main-container .field--type-datetime {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.page-node-type-event .main-container .node--view-mode-full .bs-region--right .field .field--label {
+.page-node-type-events .main-container .node--view-mode-full .bs-region--right .field .field--label {
   color: #2D3A88;
   text-transform: uppercase;
   font-size: 12px;
   font-family: gothem;
 }
-.page-node-type-event .main-container .node--view-mode-full .bs-region--right .field .field--item {
+.page-node-type-events .main-container .node--view-mode-full .bs-region--right .field .field--item {
   color: #50A155;
   text-transform: uppercase;
   font-size: 12px;
   font-family: gothem;
 }
-.page-node-type-event .main-container .field--name-field-date {
+.page-node-type-events .main-container .field--name-field-date {
   margin-top: 30px;
 }
-.page-node-type-event .main-container .field--name-node-title h1 {
+.page-node-type-events .main-container .field--name-node-title h1 {
   font-size: 20px;
   margin-bottom: 30px 0;
 }
