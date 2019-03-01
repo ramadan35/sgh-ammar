@@ -693,6 +693,22 @@ body:not(.path-frontpage) .main-container .field--type-datetime {
   display: block;
   margin-top: 7px;
 }
+.path-node page-node-type-event .main-container .node--type-events.node--view-mode-full {
+  padding: 0 15px;
+  display: table;
+}
+.path-node page-node-type-event .main-container .node--type-events.node--view-mode-full .bs-region--left {
+  padding: 0;
+  display: table-cell;
+  float: none;
+  vertical-align: top;
+}
+.path-node page-node-type-event .main-container .node--type-events.node--view-mode-full .bs-region--right {
+  background: #F7F7F7;
+  display: table-cell;
+  float: none;
+  vertical-align: top;
+}
 .path-node page-node-type-event .main-container .field--name-field-date {
   margin-top: 30px;
 }

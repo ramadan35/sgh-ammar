@@ -844,10 +844,27 @@ body:not(.path-frontpage) {
 
 .path-node page-node-type-event {
     .main-container {
+        .node--type-events.node--view-mode-full {
+            padding: 0 15px;
+            display: table;
+            .bs-region--left {
+                padding: 0;
+                display: table-cell;
+                float: none;
+                vertical-align: top;
+            }
+            .bs-region--right {
+                background: @bg-grey;
+                display: table-cell;
+                float: none;
+                vertical-align: top;
+            }
+        }
+
         .field--name-field-date {
             margin-top: 30px;
             h2 {
-                
+
             }
         }
         .field--name-node-title {
