@@ -43,6 +43,9 @@
   font-weight: 600;
   margin: 0;
 }
+.view-offers-promotions .views-row .wrapper .top .bottom-of-top .field--name-node-link {
+  position: relative;
+}
 .view-offers-promotions .views-row .wrapper .top .bottom-of-top .field--name-node-link a {
   display: block;
   min-width: 100%;
@@ -56,6 +59,8 @@
 }
 .view-offers-promotions .views-row .wrapper .top .bottom-of-top .field--name-node-link a:after {
   content: url(../../images/arrow-right.png);
+  position: absolute;
+  right: 10px;
 }
 .view-offers-promotions .views-row .wrapper .bottom {
   clear: both;
