@@ -23,6 +23,13 @@
   left: 66px;
   color: #50A155;
 }
+.view-offers-promotions .views-row .wrapper .top .field--name-field-image {
+  background: black;
+}
+.view-offers-promotions .views-row .wrapper .top .field--name-field-image img {
+  -webkit-mask-image: linear-gradient(to top, transparent -3%, black 28%);
+  mask-image: linear-gradient(to top, transparent -3%, black 28%);
+}
 .view-offers-promotions .views-row .wrapper .top .bottom-of-top {
   position: absolute;
   bottom: 15px;
