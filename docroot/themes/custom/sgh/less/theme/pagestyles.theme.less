@@ -67,18 +67,27 @@
             }
             .bottom {
                 clear: both;
+                padding: 0px 30px;
                 .field--name-field-date {
+                    padding-top: 15px;
+                    padding-bottom: 20px;
                     .field--item {
                         display: inline-block;
+                        display: inline-block;
+                        font-size: 14px;
+                        font-weight: bold;
                     }
                     .field--item:nth-child(1){
                         &:before{
                             content:"OFFER START";
+                            color: @brand-primary;
                         }
                     }
                     .field--item:nth-child(2){
+                        float: right;
                         &:before{
                             content:"OFFER END";
+                            color: @brand-primary;
                         }
                     }
                 }

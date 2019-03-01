@@ -48,14 +48,26 @@
 }
 .view-offers-promotions .views-row .wrapper .bottom {
   clear: both;
+  padding: 0px 30px;
+}
+.view-offers-promotions .views-row .wrapper .bottom .field--name-field-date {
+  padding-top: 15px;
+  padding-bottom: 20px;
 }
 .view-offers-promotions .views-row .wrapper .bottom .field--name-field-date .field--item {
   display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
 }
 .view-offers-promotions .views-row .wrapper .bottom .field--name-field-date .field--item:nth-child(1):before {
   content: "OFFER START";
+  color: #2D3A88;
+}
+.view-offers-promotions .views-row .wrapper .bottom .field--name-field-date .field--item:nth-child(2) {
+  float: right;
 }
 .view-offers-promotions .views-row .wrapper .bottom .field--name-field-date .field--item:nth-child(2):before {
   content: "OFFER END";
+  color: #2D3A88;
 }
 /*# sourceMappingURL=pagestyles.theme.css.map */
