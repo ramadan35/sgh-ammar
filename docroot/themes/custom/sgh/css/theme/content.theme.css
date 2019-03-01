@@ -738,7 +738,7 @@ body:not(.path-frontpage) .main-container .field--type-datetime {
   color: #000;
   margin-bottom: 20px;
 }
-.page-node-type-events .main-container .node--view-mode-full .bs-region--right .field--name-field-contact-information .field--items .field--item {
+.page-node-type-events .main-container .node--view-mode-full .bs-region--right .field--name-field-contact-information .field--items .field--item .field--item {
   margin: 0;
 }
 .page-node-type-events .main-container .node--view-mode-full .bs-region--right .field--name-field-contact-information .field--items .field--item .field--name-field-title {
