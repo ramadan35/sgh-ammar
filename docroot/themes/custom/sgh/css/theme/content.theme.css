@@ -55,6 +55,9 @@ body:not(.path-frontpage) .main-container .field--type-datetime {
   padding: 10px;
   margin: 0;
 }
+.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall .left img {
+  width: 100%;
+}
 .views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall .right .field--name-node-title a {
   text-transform: uppercase;
 }
@@ -607,5 +610,16 @@ body:not(.path-frontpage) .main-container .field--type-datetime {
   position: fixed;
   right: 0;
   top: 260px;
+}
+.page-header {
+  border: 0;
+  font-weight: bold;
+}
+.page-header::after {
+  content: "";
+  width: 15px;
+  height: 4px;
+  background: #2D3A88;
+  display: block;
 }
 /*# sourceMappingURL=content.theme.css.map */

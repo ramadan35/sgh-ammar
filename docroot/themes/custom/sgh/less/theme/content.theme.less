@@ -92,7 +92,9 @@ body:not(.path-frontpage) {
             padding: 10px;
             margin: 0;
             .left {
-
+                img {
+                    width: 100%;
+                }
             }
             .right {
                 .field--name-node-title {
@@ -685,7 +687,7 @@ body:not(.path-frontpage) {
                             width:49%;
                         }
                         .form-item-name-last {
-                            
+
                         }
                     }
                 }
@@ -752,4 +754,16 @@ body:not(.path-frontpage) {
     position: fixed;
     right: 0;
     top: 260px;
+}
+
+.page-header {
+    border: 0;
+    font-weight: bold;
+    &::after {
+        content: "";
+        width: 15px;
+        height: 4px;
+        background: @brand-primary;
+        display: block;
+    }
 }
