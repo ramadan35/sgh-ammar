@@ -612,14 +612,19 @@ body:not(.path-frontpage) .main-container .field--type-datetime {
   top: 260px;
 }
 .page-header {
-  border: 0;
+  font-size: 30px;
   font-weight: bold;
+  color: #000;
+  margin: 0;
+  text-transform: uppercase;
+  margin-bottom: 10px;
 }
 .page-header::after {
   content: "";
-  width: 15px;
-  height: 4px;
+  width: 42px;
+  height: 6px;
   background: #2D3A88;
   display: block;
+  margin-top: 7px;
 }
 /*# sourceMappingURL=content.theme.css.map */

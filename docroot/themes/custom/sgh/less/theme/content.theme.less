@@ -757,13 +757,18 @@ body:not(.path-frontpage) {
 }
 
 .page-header {
-    border: 0;
+    font-size: 30px;
     font-weight: bold;
+    color: #000;
+    margin: 0;
+    text-transform: uppercase;
+    margin-bottom: 10px;
     &::after {
         content: "";
-        width: 15px;
-        height: 4px;
+        width: 42px;
+        height: 6px;
         background: @brand-primary;
         display: block;
+        margin-top: 7px;
     }
 }
