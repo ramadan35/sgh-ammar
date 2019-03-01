@@ -55,6 +55,15 @@ body:not(.path-frontpage) .main-container .field--type-datetime {
 .page-node-type-news .main-container .field--name-field-image img {
   float: right;
 }
+.page-node-type-news .main-container .field--name-field-date {
+  margin-top: 30px;
+}
+.page-node-type-news .main-container .field--name-node-title {
+  margin-bottom: 30px;
+}
+.page-node-type-news .main-container .field--name-node-title h1 {
+  font-size: 20px;
+}
 .views-view-grid.horizontal {
   margin-bottom: 10px;
 }
@@ -74,6 +83,8 @@ body:not(.path-frontpage) .main-container .field--type-datetime {
   color: #50A155;
   font-size: 12px;
   font-family: gothem;
+  margin: 10px 0;
+  text-transform: uppercase;
 }
 .views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall .right .field--name-node-title a {
   color: #000;
