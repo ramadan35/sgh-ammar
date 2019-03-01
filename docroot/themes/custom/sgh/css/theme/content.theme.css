@@ -54,13 +54,14 @@ body:not(.path-frontpage) .main-container .field--type-datetime {
   background: #F7F7F7;
   padding: 10px;
   margin: 0;
+  marging-bottom: 15px;
 }
 .views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall .left img {
   width: 100%;
 }
 .views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall .right .field--name-node-post-date {
-  font-size: 16px;
-  color: #505150;
+  color: #50A155;
+  font-size: 12px;
   font-family: gothem;
 }
 .views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall .right .field--name-node-title a {
