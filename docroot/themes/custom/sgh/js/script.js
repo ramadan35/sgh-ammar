@@ -9,8 +9,8 @@
     Drupal.behaviors.sgh = {
         attach: function (context) {
             // Vartheme subtheme JavaScript behaviors goes here.
-            $('.path-frontpage #block-views-block-events-block-1 .field--name-field-date .field--item:last-child , #views-bootstrap-events-block-2 .field--name-field-date .field--item:last-child , .path-node page-node-type-events .field--name-field-date .field--item:last-child' , context).prepend('<div class="field--label">End date</div>');
-            $('.path-frontpage #block-views-block-events-block-1 .field--name-field-date .field--item:first-child , #views-bootstrap-events-block-2 .field--name-field-date .field--item:first-child , .path-node page-node-type-events .field--name-field-date .field--item:first-child', context).prepend('<div class="field--label">Start date</div>');
+            $('.path-frontpage #block-views-block-events-block-1 .field--name-field-date .field--item:last-child , #views-bootstrap-events-block-2 .field--name-field-date .field--item:last-child , .page-node-type-events .field--name-field-date .field--item:last-child' , context).prepend('<div class="field--label">End date</div>');
+            $('.path-frontpage #block-views-block-events-block-1 .field--name-field-date .field--item:first-child , #views-bootstrap-events-block-2 .field--name-field-date .field--item:first-child , .page-node-type-events .field--name-field-date .field--item:first-child', context).prepend('<div class="field--label">Start date</div>');
 
             var left_height = $('.region-front-content-2-left' , context).height();
             $('.path-frontpage #block-views-block-events-block-1' , context).css('height', left_height);
