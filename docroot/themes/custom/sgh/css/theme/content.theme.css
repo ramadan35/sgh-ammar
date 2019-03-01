@@ -711,6 +711,9 @@ body:not(.path-frontpage) .main-container .field--type-datetime {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+.page-node-type-events .main-container .node--view-mode-full .bs-region--right .field {
+  margin-bottom: 20px;
+}
 .page-node-type-events .main-container .node--view-mode-full .bs-region--right .field .field--label {
   color: #2D3A88;
   text-transform: uppercase;
@@ -723,8 +726,28 @@ body:not(.path-frontpage) .main-container .field--type-datetime {
   font-size: 12px;
   font-family: gothem;
 }
-.page-node-type-events .main-container .field--name-field-date {
-  margin-top: 30px;
+.page-node-type-events .main-container .node--view-mode-full .bs-region--right .field--type-datetime .field--item:first-child {
+  margin-bottom: 20px;
+}
+.page-node-type-events .main-container .node--view-mode-full .bs-region--right .field--name-field-contact-information {
+  border-top: 1px solid #CCC;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.page-node-type-events .main-container .node--view-mode-full .bs-region--right .field--name-field-contact-information .field--label {
+  color: #000;
+}
+.page-node-type-events .main-container .node--view-mode-full .bs-region--right .field--name-field-contact-information .field--items .field--item .field--name-field-title {
+  color: #2D3A88;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: gothem;
+}
+.page-node-type-events .main-container .node--view-mode-full .bs-region--right .field--name-field-contact-information .field--items .field--item .field--name-field-value {
+  color: #50A155;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: gothem;
 }
 .page-node-type-events .main-container .field--name-node-title h1 {
   font-size: 20px;

@@ -861,6 +861,7 @@ body:not(.path-frontpage) {
                 padding-top: 30px;
                 padding-bottom: 30px;
                 .field {
+                    margin-bottom: 20px;
                     .field--label {
                         color: @brand-primary;
                         text-transform: uppercase;
@@ -874,13 +875,35 @@ body:not(.path-frontpage) {
                         font-family: gothem;
                     }
                 }
-            }
-        }
-
-        .field--name-field-date {
-            margin-top: 30px;
-            h2 {
-
+                .field--type-datetime {
+                    .field--item:first-child {
+                        margin-bottom: 20px;
+                    }
+                }
+                .field--name-field-contact-information {
+                    border-top: 1px solid #CCC;
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+                    .field--label {
+                        color: #000;
+                    }
+                    .field--items {
+                        .field--item {
+                            .field--name-field-title {
+                                color: @brand-primary;
+                                text-transform: uppercase;
+                                font-size: 12px;
+                                font-family: gothem;
+                            }
+                            .field--name-field-value {
+                                color: @green;
+                                text-transform: uppercase;
+                                font-size: 12px;
+                                font-family: gothem;
+                            }
+                        }
+                    }
+                }
             }
         }
         .field--name-node-title {
