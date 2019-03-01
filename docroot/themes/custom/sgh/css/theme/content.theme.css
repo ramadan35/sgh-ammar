@@ -693,4 +693,11 @@ body:not(.path-frontpage) .main-container .field--type-datetime {
   display: block;
   margin-top: 7px;
 }
+.path-node page-node-type-event .main-container .field--name-field-date {
+  margin-top: 30px;
+}
+.path-node page-node-type-event .main-container .field--name-node-title h1 {
+  font-size: 20px;
+  margin-bottom: 30px 0;
+}
 /*# sourceMappingURL=content.theme.css.map */
