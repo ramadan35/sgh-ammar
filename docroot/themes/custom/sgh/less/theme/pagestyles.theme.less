@@ -53,6 +53,11 @@
                             color: #fff;
                             font-weight: 600;
                             margin: 0;
+                            @media (max-width: @screen-xs) {
+                                font-size: 18px;
+                                color: @brand-primary;
+                                margin-bottom:10px;
+                            } 
                         }
                     }
                     .field--name-node-link {
@@ -74,9 +79,14 @@
                             }
                         }
                         @media (max-width: @screen-xs) {
-                            max-width: 50%;
+                            max-width: 63%;
                         } 
                     }
+                    @media (max-width: @screen-xs) {
+                        position: relative;
+                        bottom: 0;
+                        padding: 12px 0px;
+                    } 
                 }
 
             }
@@ -106,8 +116,14 @@
                             color: @brand-primary;
                             display: block;
                         }
+                        @media (max-width: @screen-xs) {
+                            float: none;
+                        } 
                     }
                 }
+                @media (max-width: @screen-xs) {
+                    padding: 0px 15px;
+                } 
             }
         }
     }
