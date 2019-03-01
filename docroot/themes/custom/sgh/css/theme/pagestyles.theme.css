@@ -27,6 +27,7 @@
   position: absolute;
   bottom: 15px;
   z-index: 999;
+  padding: 0px 15px;
   width: 100%;
 }
 .view-offers-promotions .views-row .wrapper .top .bottom-of-top .field--name-node-title h2 {
@@ -62,6 +63,7 @@
 .view-offers-promotions .views-row .wrapper .bottom .field--name-field-date .field--item:nth-child(1):before {
   content: "OFFER START";
   color: #2D3A88;
+  display: block;
 }
 .view-offers-promotions .views-row .wrapper .bottom .field--name-field-date .field--item:nth-child(2) {
   float: right;
@@ -69,5 +71,6 @@
 .view-offers-promotions .views-row .wrapper .bottom .field--name-field-date .field--item:nth-child(2):before {
   content: "OFFER END";
   color: #2D3A88;
+  display: block;
 }
 /*# sourceMappingURL=pagestyles.theme.css.map */
