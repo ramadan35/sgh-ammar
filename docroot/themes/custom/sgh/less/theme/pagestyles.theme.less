@@ -38,6 +38,7 @@
                     img{
                         -webkit-mask-image: linear-gradient(to top, transparent -3%, black 28%);
                         mask-image: linear-gradient(to top, transparent -3%, black 28%);
+                        min-width: 100%;
                     }
                 }
                 .bottom-of-top {
@@ -72,6 +73,9 @@
                                 right: 10px;
                             }
                         }
+                        @media (max-width: @screen-xs) {
+                            max-width: 50%;
+                        } 
                     }
                 }
 
