@@ -738,6 +738,9 @@ body:not(.path-frontpage) .main-container .field--type-datetime {
   color: #000;
   margin-bottom: 20px;
 }
+.page-node-type-events .main-container .node--view-mode-full .bs-region--right .field--name-field-contact-information .field--items .field--item {
+  margin-bottom: 20px;
+}
 .page-node-type-events .main-container .node--view-mode-full .bs-region--right .field--name-field-contact-information .field--items .field--item .field--item {
   margin: 0;
 }
