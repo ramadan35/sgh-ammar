@@ -1,0 +1,49 @@
+// sgh header styling.
+// -----------------------------------------------------------------------------
+@import "../../bootstrap/less/variables.less";  // Bootstrap variables.
+@import "../../bootstrap/less/mixins.less";     // Bootstrap mixins.
+@import "../variables.less";                    // sgh variables.
+@import "../mixins.less";                       // sgh mixins.
+// -----------------------------------------------------------------------------
+
+// Insert your sgh header custom LESS styling.
+
+.view-offers-promotions {
+    .views-row {
+        .wrapper{
+            background: @bg-grey;    
+            .top {
+                position: relative;
+                .percentage {
+                    position: absolute;
+                    z-index: 999;
+                    font-size: 50px;
+                    top: 0;
+                    color: @brand-primary;
+                    font-weight: bold;
+                    span{
+                        font-size: 18px;
+                        text-transform: uppercase;
+                        display: block;
+                        position: absolute;
+                        top: 57px;
+                        left: 54px;
+                        color:@green;
+                    }
+                }  
+                .field--name-field-image {
+
+                }
+                .field--name-node-title {
+
+                }
+                .field--name-node-link {
+
+                }
+            }
+            .bottom {
+
+            }
+        }
+    }
+}
