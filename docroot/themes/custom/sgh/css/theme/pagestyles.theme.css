@@ -1,5 +1,6 @@
 .view-offers-promotions .views-row .wrapper {
   background: #F7F7F7;
+  padding: 20px;
 }
 .view-offers-promotions .views-row .wrapper .top {
   position: relative;
@@ -11,14 +12,15 @@
   top: 0;
   color: #2D3A88;
   font-weight: bold;
+  padding: 15px 25px;
 }
 .view-offers-promotions .views-row .wrapper .top .percentage span {
-  font-size: 18px;
+  font-size: 16px;
   text-transform: uppercase;
   display: block;
   position: absolute;
-  top: 57px;
-  left: 54px;
+  top: 70px;
+  left: 66px;
   color: #50A155;
 }
 /*# sourceMappingURL=pagestyles.theme.css.map */
