@@ -23,4 +23,13 @@
   left: 66px;
   color: #50A155;
 }
+.view-offers-promotions .views-row .wrapper .top .bottom-of-top {
+  position: absolute;
+  bottom: 0;
+  z-index: 999;
+  width: 100%;
+}
+.view-offers-promotions .views-row .wrapper .bottom {
+  clear: both;
+}
 /*# sourceMappingURL=pagestyles.theme.css.map */
