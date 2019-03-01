@@ -643,7 +643,8 @@ body:not(.path-frontpage) .main-container .field--type-datetime {
   right: 0;
   top: 260px;
 }
-.page-header {
+.page-header,
+.field--name-bundle-fieldnode {
   font-size: 30px;
   font-weight: bold;
   color: #000;
@@ -653,7 +654,8 @@ body:not(.path-frontpage) .main-container .field--type-datetime {
   margin-top: 20px !important;
   border: 0;
 }
-.page-header::after {
+.page-header::after,
+.field--name-bundle-fieldnode::after {
   content: "";
   width: 42px;
   height: 6px;
