@@ -736,6 +736,10 @@ body:not(.path-frontpage) .main-container .field--type-datetime {
 }
 .page-node-type-events .main-container .node--view-mode-full .bs-region--right .field--name-field-contact-information .field--label {
   color: #000;
+  margin-bottom: 20px;
+}
+.page-node-type-events .main-container .node--view-mode-full .bs-region--right .field--name-field-contact-information .field--items .field--item {
+  margin: 0;
 }
 .page-node-type-events .main-container .node--view-mode-full .bs-region--right .field--name-field-contact-information .field--items .field--item .field--name-field-title {
   color: #2D3A88;
