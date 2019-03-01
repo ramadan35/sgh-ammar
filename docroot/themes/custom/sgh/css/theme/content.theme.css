@@ -99,15 +99,15 @@ body:not(.path-frontpage) .main-container .field--type-datetime {
 .views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall .right .green-button {
   float: right;
 }
-.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall.node--type-events .right .field--name-node-post-date {
+.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall.node--type-events .right .field--name-field-date {
   margin-bottom: 10px;
   font-size: 12px;
 }
-.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall.node--type-events .right .field--name-node-post-date .field--item {
+.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall.node--type-events .right .field--name-field-date .field--item {
   display: inline-block;
   padding-right: 30px;
 }
-.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall.node--type-events .right .field--name-node-post-date .field--item .field--label {
+.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall.node--type-events .right .field--name-field-date .field--item .field--label {
   color: #2D3A88;
   text-transform: uppercase;
   font-size: 12px;
