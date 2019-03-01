@@ -49,4 +49,13 @@
 .view-offers-promotions .views-row .wrapper .bottom {
   clear: both;
 }
+.view-offers-promotions .views-row .wrapper .bottom .field--name-field-date .field--item {
+  display: inline-block;
+}
+.view-offers-promotions .views-row .wrapper .bottom .field--name-field-date .field--item:nth-child(1):before {
+  content: "OFFER START";
+}
+.view-offers-promotions .views-row .wrapper .bottom .field--name-field-date .field--item:nth-child(2):before {
+  content: "OFFER END";
+}
 /*# sourceMappingURL=pagestyles.theme.css.map */
