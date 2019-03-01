@@ -99,6 +99,36 @@ body:not(.path-frontpage) .main-container .field--type-datetime {
 .views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall .right .green-button {
   float: right;
 }
+.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall.node--type-events .right .field--name-node-post-date {
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall.node--type-events .right .field--name-node-post-date .field--item {
+  display: inline-block;
+  padding-right: 30px;
+}
+.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall.node--type-events .right .field--name-node-post-date .field--item .field--label {
+  color: #2D3A88;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: gothem;
+}
+.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall.node--type-events .right .field--name-node-title {
+  margin: 10px 0;
+}
+.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall.node--type-events .right .field--name-node-title a {
+  color: #000;
+  font-weight: bold;
+  font-size: 14px;
+}
+.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall.node--type-events .right .field--name-body {
+  font-size: 13px;
+  color: #505150;
+  text-decoration: underline;
+}
+.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall.node--type-events .right .green-button {
+  float: right;
+}
 .page-node-type-landing-page .view-filters {
   background: #2D3A88;
   padding: 10px;
