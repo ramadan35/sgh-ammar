@@ -615,6 +615,9 @@ body:not(.path-frontpage) .main-container .field--type-datetime {
   display: block;
   background-size: 100%;
 }
+.path-frontpage .hero_slider #block-entityviewcontent {
+  border-bottom: 4px solid #50A155;
+}
 .varbase-heroslider-media .node--type-varbase-heroslider-media .hero-slide-content {
   bottom: auto;
   top: 50%;
@@ -632,7 +635,7 @@ body:not(.path-frontpage) .main-container .field--type-datetime {
   margin: 0;
   text-transform: uppercase;
   margin-bottom: 10px;
-  margin-top: 20px;
+  margin-top: 20px !important;
   border: 0;
 }
 .page-header::after {
