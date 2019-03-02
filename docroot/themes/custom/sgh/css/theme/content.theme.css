@@ -70,63 +70,76 @@ body:not(.path-frontpage) .main-container .field--type-datetime {
 .views-view-grid.horizontal > .row {
   margin-bottom: 10px;
 }
-.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall {
+.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall,
+.views-view-grid.horizontal > .row taxonomy-term--view-mode-horizontal-media-teaser-xsmall {
   background: #F7F7F7;
   padding: 10px;
   margin: 0;
   margin-bottom: 15px;
 }
-.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall .left img {
+.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall .left img,
+.views-view-grid.horizontal > .row taxonomy-term--view-mode-horizontal-media-teaser-xsmall .left img {
   width: 100%;
 }
-.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall .right .field--name-node-post-date {
+.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall .right .field--name-node-post-date,
+.views-view-grid.horizontal > .row taxonomy-term--view-mode-horizontal-media-teaser-xsmall .right .field--name-node-post-date {
   color: #50A155;
   font-size: 12px;
   font-family: gothem;
   margin: 10px 0;
   text-transform: uppercase;
 }
-.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall .right .field--name-node-title a {
+.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall .right .field--name-node-title a,
+.views-view-grid.horizontal > .row taxonomy-term--view-mode-horizontal-media-teaser-xsmall .right .field--name-node-title a {
   color: #000;
   font-weight: bold;
   font-size: 14px;
 }
-.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall .right .field--name-body {
+.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall .right .field--name-body,
+.views-view-grid.horizontal > .row taxonomy-term--view-mode-horizontal-media-teaser-xsmall .right .field--name-body {
   font-size: 13px;
   color: #505150;
   text-decoration: underline;
 }
-.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall .right .green-button {
+.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall .right .green-button,
+.views-view-grid.horizontal > .row taxonomy-term--view-mode-horizontal-media-teaser-xsmall .right .green-button {
   float: right;
 }
-.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall.node--type-events .right .field--name-field-date {
+.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall.node--type-events .right .field--name-field-date,
+.views-view-grid.horizontal > .row taxonomy-term--view-mode-horizontal-media-teaser-xsmall.node--type-events .right .field--name-field-date {
   margin-bottom: 10px;
   font-size: 12px;
 }
-.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall.node--type-events .right .field--name-field-date .field--item {
+.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall.node--type-events .right .field--name-field-date .field--item,
+.views-view-grid.horizontal > .row taxonomy-term--view-mode-horizontal-media-teaser-xsmall.node--type-events .right .field--name-field-date .field--item {
   display: inline-block;
   padding-right: 30px;
 }
-.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall.node--type-events .right .field--name-field-date .field--item .field--label {
+.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall.node--type-events .right .field--name-field-date .field--item .field--label,
+.views-view-grid.horizontal > .row taxonomy-term--view-mode-horizontal-media-teaser-xsmall.node--type-events .right .field--name-field-date .field--item .field--label {
   color: #2D3A88;
   text-transform: uppercase;
   font-size: 12px;
   font-family: gothem;
 }
-.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall.node--type-events .right .field--name-node-title {
+.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall.node--type-events .right .field--name-node-title,
+.views-view-grid.horizontal > .row taxonomy-term--view-mode-horizontal-media-teaser-xsmall.node--type-events .right .field--name-node-title {
   margin: 10px 0;
 }
-.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall.node--type-events .right .field--name-node-title a {
+.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall.node--type-events .right .field--name-node-title a,
+.views-view-grid.horizontal > .row taxonomy-term--view-mode-horizontal-media-teaser-xsmall.node--type-events .right .field--name-node-title a {
   color: #000;
   font-weight: bold;
   font-size: 14px;
 }
-.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall.node--type-events .right .field--name-body {
+.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall.node--type-events .right .field--name-body,
+.views-view-grid.horizontal > .row taxonomy-term--view-mode-horizontal-media-teaser-xsmall.node--type-events .right .field--name-body {
   font-size: 13px;
   color: #505150;
   text-decoration: underline;
 }
-.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall.node--type-events .right .green-button {
+.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall.node--type-events .right .green-button,
+.views-view-grid.horizontal > .row taxonomy-term--view-mode-horizontal-media-teaser-xsmall.node--type-events .right .green-button {
   float: right;
 }
 .page-node-type-landing-page .view-filters {
