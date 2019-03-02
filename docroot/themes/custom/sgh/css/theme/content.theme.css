@@ -34,6 +34,12 @@ body:not(.path-frontpage) .main-container .field--type-datetime {
   font-weight: bold;
   text-transform: uppercase;
 }
+body:not(.path-frontpage) .taxonomy-term--view-mode-header-image {
+  border-bottom: 4px solid #50A155;
+}
+body:not(.path-frontpage) .taxonomy-term--view-mode-header-image img {
+  width: 100%;
+}
 .green-button a {
   background: #50A155;
   padding: 13px;
@@ -141,7 +147,7 @@ body:not(.path-frontpage) .main-container .field--type-datetime {
 .taxonomy-term--view-mode-horizontal-media-teaser-xsmall .field--name-taxonomy-term-title a {
   color: #000;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 30px;
 }
 .taxonomy-term--view-mode-horizontal-media-teaser-xsmall .field--name-description {
   font-size: 13px;
