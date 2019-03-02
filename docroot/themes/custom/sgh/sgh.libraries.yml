@@ -61,6 +61,7 @@ global-styles-rtl:
 global-scripts:
   js:
     js/script.js: {}
+    js/match_height/dist/jquery.matchHeight-min.js: {}
   dependencies:
     - core/jquery
     
