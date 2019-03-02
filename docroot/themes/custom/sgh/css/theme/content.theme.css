@@ -699,7 +699,8 @@ body:not(.path-frontpage) .taxonomy-term--view-mode-header-image img {
   top: 260px;
 }
 .page-header,
-.field--name-bundle-fieldnode {
+.field--name-bundle-fieldnode,
+#block-views-block-entity-view-taxonomy-block-2 {
   font-size: 30px;
   font-weight: bold;
   color: #000;
@@ -710,7 +711,8 @@ body:not(.path-frontpage) .taxonomy-term--view-mode-header-image img {
   border: 0;
 }
 .page-header::after,
-.field--name-bundle-fieldnode::after {
+.field--name-bundle-fieldnode::after,
+#block-views-block-entity-view-taxonomy-block-2::after {
   content: "";
   width: 42px;
   height: 6px;
@@ -779,7 +781,7 @@ body:not(.path-frontpage) .taxonomy-term--view-mode-header-image img {
 .page-node-type-events .main-container .node--view-mode-full .bs-region--right .field--name-field-contact-information .field--items .field--item .field--name-field-value {
   color: #50A155;
   text-transform: uppercase;
-  font-size: 12px;
+  bfont-size: 12px;
   font-family: gothem;
 }
 .page-node-type-events .main-container .node--view-mode-full .bs-region--right .field--name-field-call-to-action {
