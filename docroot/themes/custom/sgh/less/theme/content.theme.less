@@ -108,8 +108,7 @@ body:not(.path-frontpage) {
     margin-bottom: 10px;
     > .row {
         margin-bottom: 10px;
-        .node--view-mode-horizontal-media-teaser-xsmall,
-        taxonomy-term--view-mode-horizontal-media-teaser-xsmall {
+        .node--view-mode-horizontal-media-teaser-xsmall {
             background: @bg-grey;
             padding: 10px;
             margin: 0;
@@ -179,6 +178,25 @@ body:not(.path-frontpage) {
             }
         }
     }
+}
+
+.taxonomy-term--view-mode-horizontal-media-teaser-xsmall {
+    .green-button {
+        float: right;
+    }
+    .field--name-taxonomy-term-title {
+        a {
+            color: #000;
+            font-weight: bold;
+            font-size: 14px;
+        }
+    }
+    .field--name-description {
+        font-size: 13px;
+        color: #505150;
+        text-decoration: underline;
+    }
+
 }
 
 .page-node-type-landing-page {
