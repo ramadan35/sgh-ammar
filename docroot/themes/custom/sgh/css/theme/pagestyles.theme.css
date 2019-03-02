@@ -118,4 +118,96 @@
     padding: 0px 15px;
   }
 }
+.page-node-type-offers-promotions .wrapper .top {
+  position: relative;
+}
+.page-node-type-offers-promotions .wrapper .top .percentage {
+  position: absolute;
+  z-index: 999;
+  font-size: 70px;
+  top: 0;
+  color: #2D3A88;
+  font-weight: bold;
+  padding: 15px 25px;
+}
+.page-node-type-offers-promotions .wrapper .top .percentage span {
+  font-size: 24px;
+  text-transform: uppercase;
+  display: block;
+  position: absolute;
+  top: 70px;
+  left: 66px;
+  color: #50A155;
+}
+.page-node-type-offers-promotions .wrapper .top .field--name-field-image {
+  background: black;
+}
+.page-node-type-offers-promotions .wrapper .top .field--name-field-image img {
+  -webkit-mask-image: linear-gradient(to top, transparent -3%, black 28%);
+  mask-image: linear-gradient(to top, transparent -3%, black 28%);
+  min-width: 100%;
+}
+.page-node-type-offers-promotions .wrapper .top .bottom-of-top {
+  position: absolute;
+  bottom: 15px;
+  z-index: 999;
+  padding: 0px 15px;
+  width: 100%;
+}
+.page-node-type-offers-promotions .wrapper .top .bottom-of-top .field--name-node-title h2 {
+  font-size: 24px;
+  color: #fff;
+  font-weight: 600;
+  margin: 0;
+}
+@media (max-width: 480px) {
+  .page-node-type-offers-promotions .wrapper .top .bottom-of-top .field--name-node-title h2 {
+    font-size: 18px;
+    color: #2D3A88;
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 480px) {
+  .page-node-type-offers-promotions .wrapper .top .bottom-of-top {
+    position: relative;
+    bottom: 0;
+    padding: 12px 0px;
+  }
+}
+.page-node-type-offers-promotions .wrapper .bottom {
+  clear: both;
+  padding: 0px 30px;
+}
+.page-node-type-offers-promotions .wrapper .bottom .field--name-field-date {
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+.page-node-type-offers-promotions .wrapper .bottom .field--name-field-date .field--item {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+}
+.page-node-type-offers-promotions .wrapper .bottom .field--name-field-date .field--item:nth-child(1):before {
+  content: "OFFER START";
+  color: #2D3A88;
+  display: block;
+}
+.page-node-type-offers-promotions .wrapper .bottom .field--name-field-date .field--item:nth-child(2) {
+  float: right;
+}
+.page-node-type-offers-promotions .wrapper .bottom .field--name-field-date .field--item:nth-child(2):before {
+  content: "OFFER END";
+  color: #2D3A88;
+  display: block;
+}
+@media (max-width: 480px) {
+  .page-node-type-offers-promotions .wrapper .bottom .field--name-field-date .field--item:nth-child(2) {
+    float: none;
+  }
+}
+@media (max-width: 480px) {
+  .page-node-type-offers-promotions .wrapper .bottom {
+    padding: 0px 15px;
+  }
+}
 /*# sourceMappingURL=pagestyles.theme.css.map */
