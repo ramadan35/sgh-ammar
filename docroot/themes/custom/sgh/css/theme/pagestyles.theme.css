@@ -118,6 +118,9 @@
     padding: 0px 15px;
   }
 }
+.page-node-type-offers-promotions h1.page-header {
+  display: none;
+}
 .page-node-type-offers-promotions .wrapper .top {
   position: relative;
 }
