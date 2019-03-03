@@ -34,6 +34,9 @@
 
 body {
     font-family: gothembook;
+    lang-ar {
+        display: none;
+    }
 }
 
 body:not(.path-frontpage) {
@@ -956,6 +959,9 @@ body:not(.path-frontpage) {
 }
 
 .path-taxonomy {
+    .teaser {
+        display: none;
+    }
     .field--name-taxonomy-term-title {
         h1 {
             font-size: 20px;
@@ -965,6 +971,10 @@ body:not(.path-frontpage) {
     .field--name-dynamic-block-fieldtaxonomy-term-find-a-doctor {
         margin-top: 50px;
         position: relative;
+        .green-button {
+            position: absolute;
+            right: 20px;
+        }
         .field--label {
             font-family: gothem;
             text-transform: uppercase;
