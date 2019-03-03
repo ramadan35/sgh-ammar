@@ -86,6 +86,7 @@ header .header-top #block-socialicons-2 .menu.nav li a {
   padding: 7px;
   font-size: 0;
   color: #FFF;
+  padding-top: 0;
 }
 header .header-top #block-socialicons-2 .menu.nav li a::before {
   font-family: FontAwesome !important;
