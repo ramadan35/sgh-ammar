@@ -111,6 +111,8 @@ body:not(.path-frontpage) .taxonomy-term--view-mode-header-image img {
   font-family: gothem;
   margin: 10px 0;
   text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 0;
 }
 .views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall .right .field--name-field-phone-and-extention {
   color: #50A155;
@@ -118,6 +120,7 @@ body:not(.path-frontpage) .taxonomy-term--view-mode-header-image img {
   font-family: gothem;
   margin: 10px 0;
   text-transform: uppercase;
+  margin: 0;
 }
 .views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall .right .green-button {
   float: right;
