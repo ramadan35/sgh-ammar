@@ -77,7 +77,7 @@ header .header-top #block-searchform .trigger-search {
   cursor: pointer;
 }
 header .header-top #block-socialicons-2-menu {
-  float: right;
+  float: left;
 }
 header .header-top #block-socialicons-2-menu .menu.nav li a {
   padding: 7px;
