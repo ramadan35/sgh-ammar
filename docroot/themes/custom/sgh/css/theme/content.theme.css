@@ -797,6 +797,9 @@ body:not(.path-frontpage) .taxonomy-term--view-mode-header-image img {
   font-size: 20px;
   margin-bottom: 30px 0;
 }
+.path-taxonomy .field--name-dynamic-block-fieldtaxonomy-term-find-a-doctor {
+  margin-top: 50px;
+}
 .path-taxonomy .field--name-dynamic-block-fieldtaxonomy-term-find-a-doctor .field--label {
   font-family: gothem;
   text-transform: uppercase;
@@ -823,6 +826,10 @@ body:not(.path-frontpage) .taxonomy-term--view-mode-header-image img {
 }
 .path-taxonomy .views-exposed-form > .form--inline {
   text-align: right;
+}
+.path-taxonomy .views-exposed-form > .form--inline input {
+  box-shadow: none;
+  border: 1px solid #a9a9a9;
 }
 .view-varbase-blog .views-view-grid > .row {
   margin: 0;
