@@ -76,19 +76,19 @@ header .header-top #block-searchform .trigger-search {
   color: #FFFFFF;
   cursor: pointer;
 }
-header .header-top #block-socialicons {
+header .header-top #block-socialicons-2-menu {
   float: right;
 }
-header .header-top #block-socialicons .menu.nav li a {
+header .header-top #block-socialicons-2-menu .menu.nav li a {
   padding: 7px;
   font-size: 0;
   color: #FFF;
 }
-header .header-top #block-socialicons .menu.nav li a::before {
+header .header-top #block-socialicons-2-menu .menu.nav li a::before {
   font-family: FontAwesome !important;
   font-size: 18px;
 }
-header .header-top #block-socialicons .menu.nav li:first-child a {
+header .header-top #block-socialicons-2-menu .menu.nav li:first-child a {
   border-right: none;
 }
 header .header-bottom .left a {
