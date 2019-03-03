@@ -801,11 +801,18 @@ body:not(.path-frontpage) .taxonomy-term--view-mode-header-image img {
   font-family: gothem;
   text-transform: uppercase;
 }
+.path-taxonomy .field--name-dynamic-block-fieldtaxonomy-term-find-a-doctor .view-content table tbody tr {
+  border-bottom: 1px solid #E6E6E6;
+}
 .path-taxonomy .field--name-dynamic-block-fieldtaxonomy-term-find-a-doctor .view-content table tbody tr td {
   font-size: 16px;
+  color: #E6E6E6;
+  border: 0;
+  padding: 20px 0;
 }
-.path-taxonomy .field--name-dynamic-block-fieldtaxonomy-term-find-a-doctor .view-content table tbody tr td.views-field-title {
+.path-taxonomy .field--name-dynamic-block-fieldtaxonomy-term-find-a-doctor .view-content table tbody tr td.views-field-title a {
   font-weight: bold;
+  color: #000;
 }
 .path-taxonomy .field--name-dynamic-block-fieldtaxonomy-term-find-a-doctor .view-content table tbody tr td.views-field-field-specialty ul {
   list-style: none;
