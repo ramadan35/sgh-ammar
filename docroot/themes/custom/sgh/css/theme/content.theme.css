@@ -796,6 +796,13 @@ body:not(.path-frontpage) .taxonomy-term--view-mode-header-image img {
   font-size: 20px;
   margin-bottom: 30px 0;
 }
+.path-taxonomy .green-button {
+  position: absolute;
+  right: 20px;
+}
+.path-taxonomy .lang-ar {
+  display: none;
+}
 .path-taxonomy .teaser {
   display: none;
 }
@@ -806,10 +813,6 @@ body:not(.path-frontpage) .taxonomy-term--view-mode-header-image img {
 .path-taxonomy .field--name-dynamic-block-fieldtaxonomy-term-find-a-doctor {
   margin-top: 50px;
   position: relative;
-}
-.path-taxonomy .field--name-dynamic-block-fieldtaxonomy-term-find-a-doctor .green-button {
-  position: absolute;
-  right: 20px;
 }
 .path-taxonomy .field--name-dynamic-block-fieldtaxonomy-term-find-a-doctor .field--label {
   font-family: gothem;
