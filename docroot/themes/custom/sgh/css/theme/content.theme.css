@@ -105,6 +105,20 @@ body:not(.path-frontpage) .taxonomy-term--view-mode-header-image img {
   color: #505150;
   text-decoration: underline;
 }
+.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall .right .field--name-field-extra-information {
+  color: #2D3A88;
+  font-size: 12px;
+  font-family: gothem;
+  margin: 10px 0;
+  text-transform: uppercase;
+}
+.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall .right .field--name-field-phone-and-extention {
+  color: #50A155;
+  font-size: 12px;
+  font-family: gothem;
+  margin: 10px 0;
+  text-transform: uppercase;
+}
 .views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall .right .green-button {
   float: right;
 }
