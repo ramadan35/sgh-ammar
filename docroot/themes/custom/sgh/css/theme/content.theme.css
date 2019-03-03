@@ -807,9 +807,15 @@ body:not(.path-frontpage) .taxonomy-term--view-mode-header-image img {
 .path-taxonomy .field--name-dynamic-block-fieldtaxonomy-term-find-a-doctor .view-content table tbody tr td.views-field-title {
   font-weight: bold;
 }
+.path-taxonomy .field--name-dynamic-block-fieldtaxonomy-term-find-a-doctor .view-content table tbody tr td.views-field-field-specialty ul {
+  list-style: none;
+}
 .path-taxonomy .views-exposed-form {
   background: #E6E6E6;
   padding: 30px 15px;
+}
+.path-taxonomy .views-exposed-form > .form--inline {
+  text-align: right;
 }
 .view-varbase-blog .views-view-grid > .row {
   margin: 0;

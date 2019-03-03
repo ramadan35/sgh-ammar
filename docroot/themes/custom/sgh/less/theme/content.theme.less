@@ -976,6 +976,11 @@ body:not(.path-frontpage) {
                             &.views-field-title {
                                 font-weight: bold;
                             }
+                            &.views-field-field-specialty {
+                                ul {
+                                    list-style: none;
+                                }
+                            }
                         }
                     }
                 }
@@ -985,6 +990,9 @@ body:not(.path-frontpage) {
     .views-exposed-form {
         background: #E6E6E6;
         padding: 30px 15px;
+        > .form--inline {
+            text-align: right;
+        }
     }
 }
 
