@@ -105,7 +105,7 @@ body:not(.path-frontpage) .taxonomy-term--view-mode-header-image img {
   color: #505150;
   text-decoration: underline;
 }
-.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall .right .field--name-field-extra-information {
+.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall .right .field--name-field-visiting-date {
   color: #2D3A88;
   font-size: 12px;
   font-family: gothem;
