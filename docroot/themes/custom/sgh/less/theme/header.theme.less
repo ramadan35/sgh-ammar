@@ -85,6 +85,27 @@ header {
                 cursor: pointer;
             }
         }
+        #block-socialicons {
+            float: right;
+            .menu.nav {
+                li {
+                    a {
+                        padding: 7px;
+                        font-size: 0;
+                        color: #FFF;
+                        &::before {
+                            font-family: FontAwesome !important;
+                            font-size: 18px;
+                        }
+                    }
+                    &:first-child {
+                        a {
+                            border-right:  none;
+                        }
+                    }
+                }
+            }
+        } 
     }
     .header-bottom {
         .left {
