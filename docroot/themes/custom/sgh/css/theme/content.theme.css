@@ -801,6 +801,12 @@ body:not(.path-frontpage) .taxonomy-term--view-mode-header-image img {
   font-family: gothem;
   text-transform: uppercase;
 }
+.path-taxonomy .field--name-dynamic-block-fieldtaxonomy-term-find-a-doctor .view-content table tbody tr td {
+  font-size: 16px;
+}
+.path-taxonomy .field--name-dynamic-block-fieldtaxonomy-term-find-a-doctor .view-content table tbody tr td.views-field-title {
+  font-weight: bold;
+}
 .path-taxonomy .views-exposed-form {
   background: #E6E6E6;
   padding: 30px 15px;
