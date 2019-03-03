@@ -76,19 +76,22 @@ header .header-top #block-searchform .trigger-search {
   color: #FFFFFF;
   cursor: pointer;
 }
-header .header-top #block-socialicons-2-menu {
+header .header-top #block-socialicons-2 {
   float: left;
 }
-header .header-top #block-socialicons-2-menu .menu.nav li a {
+header .header-top #block-socialicons-2 .menu.nav li {
+  display: inline-block;
+}
+header .header-top #block-socialicons-2 .menu.nav li a {
   padding: 7px;
   font-size: 0;
   color: #FFF;
 }
-header .header-top #block-socialicons-2-menu .menu.nav li a::before {
+header .header-top #block-socialicons-2 .menu.nav li a::before {
   font-family: FontAwesome !important;
-  font-size: 18px;
+  font-size: 14px;
 }
-header .header-top #block-socialicons-2-menu .menu.nav li:first-child a {
+header .header-top #block-socialicons-2 .menu.nav li:first-child a {
   border-right: none;
 }
 header .header-bottom .left a {
