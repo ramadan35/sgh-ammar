@@ -799,17 +799,23 @@ body:not(.path-frontpage) .taxonomy-term--view-mode-header-image img {
 }
 .path-taxonomy .field--name-dynamic-block-fieldtaxonomy-term-find-a-doctor {
   margin-top: 50px;
+  position: relative;
 }
 .path-taxonomy .field--name-dynamic-block-fieldtaxonomy-term-find-a-doctor .field--label {
   font-family: gothem;
   text-transform: uppercase;
+  color: #000;
+  position: absolute;
+  z-index: 1;
+  top: 40px;
+  left: 15px;
 }
 .path-taxonomy .field--name-dynamic-block-fieldtaxonomy-term-find-a-doctor .view-content table tbody tr {
-  border-bottom: 1px solid #E6E6E6;
+  border-bottom: 1px solid #a2a2a2;
 }
 .path-taxonomy .field--name-dynamic-block-fieldtaxonomy-term-find-a-doctor .view-content table tbody tr td {
   font-size: 16px;
-  color: #E6E6E6;
+  color: #a2a2a2;
   border: 0;
   padding: 20px 0;
 }
