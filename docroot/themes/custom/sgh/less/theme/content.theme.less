@@ -1363,6 +1363,27 @@ body:not(.path-frontpage) {
                     max-width: 300px;
                 }
             }
+            .form-actions {
+                button {
+                    background: #50A155;
+                    padding: 13px;
+                    color: #FFF;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 12px;
+                    border: 0;
+                    &::after {
+                        content: "";
+                        background: url(../../images/arrow-right.png) no-repeat;
+                        width: 38px;
+                        height: 10px;
+                        display: inline-block;
+                        background-position: 50%;
+                    }
+                }
+            }
         }
     }
 }
