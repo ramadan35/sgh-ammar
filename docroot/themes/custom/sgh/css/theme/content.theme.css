@@ -801,7 +801,7 @@ body:not(.path-frontpage) .taxonomy-term--view-mode-header-image img {
 .page-node-type-events .main-container .node--view-mode-full .bs-region--right .field--name-field-contact-information .field--items .field--item .field--name-field-value {
   color: #50A155;
   text-transform: uppercase;
-  bfont-size: 12px;
+  font-size: 12px;
   font-family: gothem;
 }
 .page-node-type-events .main-container .node--view-mode-full .bs-region--right .field--name-field-call-to-action {
