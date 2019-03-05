@@ -69,6 +69,8 @@ body:not(.path-frontpage) #block-headerimageblock img {
   background-position: 50%;
 }
 .page-node-type-news .main-container .field--name-field-image img {
+  padding-left: 15px;
+  padding-bottom: 15px;
   float: right;
 }
 .page-node-type-news .main-container .field--name-node-post-date {
