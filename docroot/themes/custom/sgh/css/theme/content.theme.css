@@ -1206,4 +1206,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
   display: inline-block;
   background-position: 50%;
 }
+.breadcrumb {
+  padding: 10px 0;
+}
 /*# sourceMappingURL=content.theme.css.map */
