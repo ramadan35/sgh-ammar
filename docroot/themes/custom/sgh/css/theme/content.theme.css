@@ -32,7 +32,8 @@ body:not(.path-frontpage) .main-container > .row > .col-sm-12:nth-child(2) {
   padding: 15px;
   margin-bottom: 40px;
 }
-body:not(.path-frontpage) .main-container .field--type-datetime {
+body:not(.path-frontpage) .main-container .field--type-datetime,
+body:not(.path-frontpage) .main-container .field--name-node-post-date {
   color: #50A155;
   font-weight: bold;
   text-transform: uppercase;
@@ -70,7 +71,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
 .page-node-type-news .main-container .field--name-field-image img {
   float: right;
 }
-.page-node-type-news .main-container .field--name-field-date {
+.page-node-type-news .main-container .field--name-node-post-date {
   margin-top: 30px;
 }
 .page-node-type-news .main-container .field--name-node-title {
