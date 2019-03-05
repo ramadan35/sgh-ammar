@@ -696,6 +696,7 @@ body:not(.path-frontpage) .taxonomy-term--view-mode-header-image img {
 }
 .path-frontpage .front_content_1 #block-views-block-partners-block-1 .view-content .col .views-field-field-image img {
   margin: 0 auto;
+  max-width: 175px;
 }
 .path-frontpage .front_content_1 #block-views-block-partners-block-1 .view-content .col .views-field-title {
   padding-top: 10px;

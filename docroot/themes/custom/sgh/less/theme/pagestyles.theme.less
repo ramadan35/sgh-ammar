@@ -9,10 +9,10 @@
 // Insert your sgh header custom LESS styling.
 
 .view-offers-promotions {
-    .views-row {
+    .col {
         .wrapper{
             background: @bg-grey;  
-            padding: 20px;
+            padding: 15px;
             .top {
                 position: relative;
                 .percentage {
@@ -92,7 +92,7 @@
             }
             .bottom {
                 clear: both;
-                padding: 0px 30px;
+                padding: 0px 15px;
                 .field--name-field-date {
                     padding-top: 15px;
                     padding-bottom: 20px;
@@ -102,28 +102,10 @@
                         font-size: 14px;
                         font-weight: bold;
                     }
-                    .field--item:nth-child(1){
-                        &:before{
-                            content:"OFFER START";
-                            color: @brand-primary;
-                            display: block;
-                        }
-                    }
                     .field--item:nth-child(2){
                         float: right;
-                        &:before{
-                            content:"OFFER END";
-                            color: @brand-primary;
-                            display: block;
-                        }
-                        @media (max-width: @screen-xs) {
-                            float: none;
-                        } 
                     }
                 }
-                @media (max-width: @screen-xs) {
-                    padding: 0px 15px;
-                } 
             }
         }
     }
