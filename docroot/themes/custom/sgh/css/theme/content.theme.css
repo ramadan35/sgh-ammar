@@ -669,6 +669,9 @@ body:not(.path-frontpage) .taxonomy-term--view-mode-header-image img {
 .path-frontpage .front_content_1 #block-quicktabsfronttabs .quicktabs-main .field--name-body a {
   color: #50A155;
 }
+.path-frontpage .front_content_1 #block-views-block-partners-block-1 {
+  margin-top: 40px;
+}
 .path-frontpage .front_content_1 #block-views-block-partners-block-1 .block-title {
   font-size: 30px;
   font-weight: bold;
