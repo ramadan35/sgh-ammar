@@ -951,6 +951,13 @@ body:not(.path-frontpage) .taxonomy-term--view-mode-header-image img {
   padding: 0;
 }
 .page-node-type-varbase-blog .main-container #views-bootstrap-varbase-blog-related-blog-posts-block .row .col .card .card-body .green-button {
-  float: right;
+  margin-top: 15px;
+}
+.page-node-type-varbase-blog .main-container #views-bootstrap-varbase-blog-related-blog-posts-block .row .col .card .card-body .field--name-node-post-date {
+  font-size: 14px;
+}
+.page-node-type-varbase-blog .main-container #views-bootstrap-varbase-blog-related-blog-posts-block .row .col .card .card-body .field--name-node-title a {
+  color: #000;
+  font-size: 20px;
 }
 /*# sourceMappingURL=content.theme.css.map */
