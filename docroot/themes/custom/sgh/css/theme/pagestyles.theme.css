@@ -58,6 +58,12 @@
   clear: both;
   padding: 0px 15px;
 }
+.view-offers-promotions .col .bottom .field--name-field-date {
+  padding-top: 10px;
+  paddin-bottom: 10px;
+  float: left;
+  width: 100%;
+}
 .view-offers-promotions .col .bottom .field--name-field-date .field--label {
   color: #2D3A88;
   text-transform: uppercase;
@@ -71,6 +77,9 @@
 }
 .view-offers-promotions .col .bottom .field--name-field-date .field--item:last-child {
   float: right;
+}
+.view-offers-promotions .col .bottom .field--name-field-date .field--item:first-child {
+  float: left;
 }
 .page-node-type-offers-promotions h1.page-header {
   display: none;
