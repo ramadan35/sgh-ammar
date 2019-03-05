@@ -985,6 +985,9 @@ body:not(.path-frontpage) .taxonomy-term--view-mode-header-image img {
 .page-node-type-doctors .main-container .node--view-mode-full .field--name-node-title h1 {
   font-size: 20px;
 }
+.page-node-type-doctors .main-container .node--view-mode-full .field--name-field-specialty .field--label {
+  text-transform: uppercase;
+}
 .page-node-type-doctors .main-container .node--view-mode-full .bottom {
   float: left;
   width: 100%;
