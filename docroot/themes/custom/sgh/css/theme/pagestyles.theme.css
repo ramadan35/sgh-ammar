@@ -133,14 +133,23 @@
   clear: both;
   padding: 0px 0px;
 }
+.page-node-type-offers-promotions .wrapper .bottom .field--name-field-date .field--label {
+  color: #2D3A88;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: gothem;
+}
+.page-node-type-offers-promotions .wrapper .bottom .field--name-field-date .field--item {
+  color: #50A155;
+  font-size: 12px;
+  font-family: gothem;
+}
+.page-node-type-offers-promotions .wrapper .bottom .field--name-field-date .field--item:first-child {
+  margin-bottom: 20px;
+}
 .page-node-type-offers-promotions .wrapper .bottom .field--name-field-date {
   padding-top: 30px;
   padding-bottom: 20px;
-}
-.page-node-type-offers-promotions .wrapper .bottom .field--name-field-date .field--item {
-  display: inline-block;
-  font-size: 14px;
-  font-weight: bold;
 }
 .page-node-type-offers-promotions .wrapper .bottom .field--name-field-date .field--item:nth-child(1):before {
   content: "OFFER START";
@@ -154,15 +163,5 @@
   content: "OFFER END";
   color: #2D3A88;
   display: block;
-}
-@media (max-width: 480px) {
-  .page-node-type-offers-promotions .wrapper .bottom .field--name-field-date .field--item:nth-child(2) {
-    float: none;
-  }
-}
-@media (max-width: 480px) {
-  .page-node-type-offers-promotions .wrapper .bottom {
-    padding: 0px 15px;
-  }
 }
 /*# sourceMappingURL=pagestyles.theme.css.map */
