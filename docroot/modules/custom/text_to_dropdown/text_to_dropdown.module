@@ -2,7 +2,6 @@
 
 function text_to_dropdown_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
   $current_path = \Drupal::request()->getRequestUri();
-  dsm($form_id);
   if($form_id == 'views_exposed_form') {
     if($current_path != '/medical-blog') {
       $nids = \Drupal::entityQuery('node')->condition('type','branches')->execute();
