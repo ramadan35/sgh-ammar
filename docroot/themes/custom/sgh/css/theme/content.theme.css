@@ -999,10 +999,22 @@ body:not(.path-frontpage) .taxonomy-term--view-mode-header-image img {
 .page-node-type-doctors .main-container .node--view-mode-full .field--name-field-specialty .field--label {
   text-transform: uppercase;
   color: #2D3A88;
+  margin-bottom: 7px;
+  font-weight: normal;
 }
 .page-node-type-doctors .main-container .node--view-mode-full .field--name-field-specialty .field--items a {
   color: #50A155;
   font-family: gothem;
+  font-weight: bold;
+  line-height: 1;
+}
+.page-node-type-doctors .main-container .node--view-mode-full .social-links .fab {
+  display: inline-block;
+  font-size: 0;
+}
+.page-node-type-doctors .main-container .node--view-mode-full .social-links .fab::before {
+  font-family: FontAwesome !important;
+  font-size: 16px;
 }
 .page-node-type-doctors .main-container .node--view-mode-full .bottom {
   float: left;

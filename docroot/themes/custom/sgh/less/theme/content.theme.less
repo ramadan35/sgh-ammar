@@ -1198,12 +1198,26 @@ body:not(.path-frontpage) {
                 .field--label {
                     text-transform: uppercase;
                     color: @brand-primary;
+                    margin-bottom: 7px;
+                    font-weight: normal;
                 }
                 .field--items{
                     a {
                         color: @green;
                         font-family: gothem;
+                        font-weight: bold;
+                        line-height: 1;
                     }
+                }
+            }
+            .social-links {
+                .fab {
+                    display: inline-block;
+                    &::before {
+                        font-family: FontAwesome !important;
+                        font-size: 16px;
+                    }
+                    font-size: 0;
                 }
             }
             .bottom {
