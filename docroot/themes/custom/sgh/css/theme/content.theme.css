@@ -1121,4 +1121,12 @@ body:not(.path-frontpage) #block-headerimageblock img {
 #block-pagetitlenewsletter .lang-ar {
   display: none;
 }
+.path-newsletter .main-container form .form-item label {
+  min-width: 200px;
+}
+.path-newsletter .main-container form .form-item input {
+  display: inline-block;
+  box-shadow: none;
+  max-width: 300px;
+}
 /*# sourceMappingURL=content.theme.css.map */
