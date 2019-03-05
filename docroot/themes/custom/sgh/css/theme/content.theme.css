@@ -1052,16 +1052,14 @@ body:not(.path-frontpage) .taxonomy-term--view-mode-header-image img {
   margin-bottom: 20px;
   font-size: 16px;
 }
-.page-node-type-visiting-doctors .main-container .node--view-mode-full .field--name-field-specialty {
+.page-node-type-visiting-doctors .main-container .node--view-mode-full .field--name-field-visiting-date {
   font-family: gothem;
-}
-.page-node-type-visiting-doctors .main-container .node--view-mode-full .field--name-field-specialty .field--label {
   text-transform: uppercase;
   color: #2D3A88;
   margin-bottom: 7px;
   font-weight: normal;
 }
-.page-node-type-visiting-doctors .main-container .node--view-mode-full .field--name-field-specialty .field--items a {
+.page-node-type-visiting-doctors .main-container .node--view-mode-full .field--name-field-phone-and-extention {
   color: #50A155;
   font-family: gothem;
   font-weight: bold;
