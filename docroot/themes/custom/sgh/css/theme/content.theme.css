@@ -1015,7 +1015,8 @@ body:not(.path-frontpage) .taxonomy-term--view-mode-header-image img {
   display: inline-block;
   position: relative;
   width: 30px;
-  text-align: center;
+  height: 30px;
+  text-align: left;
 }
 .page-node-type-doctors .main-container .node--view-mode-full .social-links .fab::before {
   font-family: FontAwesome !important;
