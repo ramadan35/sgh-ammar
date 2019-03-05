@@ -383,16 +383,16 @@ body:not(.path-frontpage) #block-headerimageblock img {
   margin-bottom: 20px;
   background-size: 100%;
 }
-.path-frontpage .front_content_3 #block-views-block-offers-promotions-block-1 .form-group .view-content .views-row .right .field--name-node-title h2 {
+.path-frontpage .front_content_3 #block-views-block-offers-promotions-block-1 .form-group .view-content .slick__slide .right .field--name-node-title h2 {
   font-weight: 500;
   font-size: 20px;
   margin-bottom: 5px;
 }
-.path-frontpage .front_content_3 #block-views-block-offers-promotions-block-1 .form-group .view-content .views-row .right .field--name-node-title h2 a {
+.path-frontpage .front_content_3 #block-views-block-offers-promotions-block-1 .form-group .view-content .slick__slide .right .field--name-node-title h2 a {
   color: #FFFFFF;
   text-transform: uppercase;
 }
-.path-frontpage .front_content_3 #block-views-block-offers-promotions-block-1 .form-group .view-content .views-row .right .field--name-body {
+.path-frontpage .front_content_3 #block-views-block-offers-promotions-block-1 .form-group .view-content .slick__slide .right .field--name-body {
   color: #FFFFFF;
   margin-bottom: 20px;
 }

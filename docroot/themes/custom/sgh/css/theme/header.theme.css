@@ -92,6 +92,9 @@ header .header-top #block-socialicons-2 .menu.nav li a::before {
   font-family: FontAwesome !important;
   font-size: 14px;
 }
+header .header-top #block-socialicons-2 .menu.nav li a:hover {
+  background: transparent;
+}
 header .header-top #block-socialicons-2 .menu.nav li:first-child a {
   border-right: none;
 }
