@@ -934,6 +934,11 @@ body:not(.path-frontpage) .taxonomy-term--view-mode-header-image img {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+.page-node-type-varbase-blog .main-container .field--name-dynamic-token-fieldnode-addthis {
+  float: right;
+  margin-top: 12px;
+  padding-right: 10px;
+}
 .page-node-type-varbase-blog .main-container #views-bootstrap-varbase-blog-related-blog-posts-block .field--name-dynamic-block-fieldnode-related-blog-post .field--label {
   text-transform: uppercase;
   font-family: gothem;
