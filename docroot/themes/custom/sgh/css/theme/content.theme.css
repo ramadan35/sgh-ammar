@@ -765,6 +765,16 @@ body:not(.path-frontpage) #block-headerimageblock img {
   right: 0;
   top: 260px;
 }
+#block-booknow {
+  position: fixed;
+  right: 0;
+  top: 260px;
+  padding: 16px;
+  background: #50A155;
+}
+#block-booknow a {
+  color: #FFF;
+}
 .page-header,
 .field--name-bundle-fieldnode,
 #block-views-block-entity-view-taxonomy-block-2 {
