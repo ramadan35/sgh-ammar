@@ -1440,3 +1440,56 @@ body:not(.path-frontpage) {
     padding: 10px 0;
     margin: 0;
 }
+
+.path-webform {
+    .main-container {
+        form {
+            .form-item {
+                label {
+                    min-width: 200px;
+                }
+                input {
+                    display: inline-block;
+                    box-shadow: none;
+                    max-width: 300px;
+                    &:focus {
+                        border: 1px solid rgb(238, 238, 238);
+                    }
+                }
+            }
+            fieldset {
+                legend {
+                    float: left;
+                    width: 205px;
+                }
+                .fieldset-wrapper {
+                    display: inline-block;
+                    box-shadow: none;
+                    max-width: 300px;
+                }
+            }
+            .form-actions {
+                float: right;
+                button {
+                    background: #50A155;
+                    padding: 13px;
+                    color: #FFF;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 12px;
+                    border: 0;
+                    &::after {
+                        content: "";
+                        background: url(../../images/arrow-right.png) no-repeat;
+                        width: 38px;
+                        height: 10px;
+                        display: inline-block;
+                        background-position: 50%;
+                    }
+                }
+            }
+        }
+    }
+}

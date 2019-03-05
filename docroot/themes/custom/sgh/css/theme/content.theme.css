@@ -1210,4 +1210,46 @@ body:not(.path-frontpage) #block-headerimageblock img {
   padding: 10px 0;
   margin: 0;
 }
+.path-webform .main-container form .form-item label {
+  min-width: 200px;
+}
+.path-webform .main-container form .form-item input {
+  display: inline-block;
+  box-shadow: none;
+  max-width: 300px;
+}
+.path-webform .main-container form .form-item input:focus {
+  border: 1px solid #eeeeee;
+}
+.path-webform .main-container form fieldset legend {
+  float: left;
+  width: 205px;
+}
+.path-webform .main-container form fieldset .fieldset-wrapper {
+  display: inline-block;
+  box-shadow: none;
+  max-width: 300px;
+}
+.path-webform .main-container form .form-actions {
+  float: right;
+}
+.path-webform .main-container form .form-actions button {
+  background: #50A155;
+  padding: 13px;
+  color: #FFF;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  border: 0;
+}
+.path-webform .main-container form .form-actions button::after {
+  content: "";
+  background: url(../../images/arrow-right.png) no-repeat;
+  width: 38px;
+  height: 10px;
+  display: inline-block;
+  background-position: 50%;
+}
 /*# sourceMappingURL=content.theme.css.map */
