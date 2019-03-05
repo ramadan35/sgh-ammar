@@ -1037,4 +1037,39 @@ body:not(.path-frontpage) .taxonomy-term--view-mode-header-image img {
   width: 100%;
   padding-top: 30px;
 }
+.page-node-type-visiting-doctors .main-container .node--view-mode-full .field--name-field-media-image {
+  float: left;
+  padding-right: 30px;
+}
+.page-node-type-visiting-doctors .main-container .node--view-mode-full .field--name-node-title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.page-node-type-visiting-doctors .main-container .node--view-mode-full .field--name-node-title h1 {
+  font-size: 20px;
+}
+.page-node-type-visiting-doctors .main-container .node--view-mode-full .field--name-field-extra-information {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+.page-node-type-visiting-doctors .main-container .node--view-mode-full .field--name-field-specialty {
+  font-family: gothem;
+}
+.page-node-type-visiting-doctors .main-container .node--view-mode-full .field--name-field-specialty .field--label {
+  text-transform: uppercase;
+  color: #2D3A88;
+  margin-bottom: 7px;
+  font-weight: normal;
+}
+.page-node-type-visiting-doctors .main-container .node--view-mode-full .field--name-field-specialty .field--items a {
+  color: #50A155;
+  font-family: gothem;
+  font-weight: bold;
+  line-height: 1;
+}
+.page-node-type-visiting-doctors .main-container .node--view-mode-full .bottom {
+  float: left;
+  width: 100%;
+  padding-top: 30px;
+}
 /*# sourceMappingURL=content.theme.css.map */
