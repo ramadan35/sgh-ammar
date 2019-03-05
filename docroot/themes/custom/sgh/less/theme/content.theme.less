@@ -1467,10 +1467,19 @@ body:not(.path-frontpage) {
                     box-shadow: none;
                     max-width: 300px;
                 }
-            }
-            fieldset.webform-name--wrapper {
-                .fieldset-wrapper {
-                    max-width: 100%;
+                &.webform-name--wrapper {
+                    .fieldset-wrapper {
+                        max-width: 100%;
+                    }
+                }
+                &.webform-telephone--wrapper {
+                    .fieldset-wrapper {
+                        max-width: 100%;
+                        width: 300px;
+                        input {
+                            width: 100%;
+                        }
+                    }
                 }
             }
             .form-actions {

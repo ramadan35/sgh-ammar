@@ -1233,6 +1233,13 @@ body:not(.path-frontpage) #block-headerimageblock img {
 .path-webform .main-container form fieldset.webform-name--wrapper .fieldset-wrapper {
   max-width: 100%;
 }
+.path-webform .main-container form fieldset.webform-telephone--wrapper .fieldset-wrapper {
+  max-width: 100%;
+  width: 300px;
+}
+.path-webform .main-container form fieldset.webform-telephone--wrapper .fieldset-wrapper input {
+  width: 100%;
+}
 .path-webform .main-container form .form-actions {
   float: right;
 }
