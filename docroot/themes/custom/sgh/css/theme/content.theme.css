@@ -927,4 +927,22 @@ body:not(.path-frontpage) .taxonomy-term--view-mode-header-image img {
   font-size: 20px;
   margin-bottom: 30px 0;
 }
+.page-node-type-varbase-blog .main-container .field--name-field-date {
+  float: left;
+  width: 50%;
+}
+.page-node-type-varbase-blog .main-container .field--name-field-date .field--label {
+  color: #2D3A88;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: gothem;
+}
+.page-node-type-varbase-blog .main-container .field--name-field-date .field--item {
+  color: #50A155;
+  font-size: 12px;
+  font-family: gothem;
+}
+.page-node-type-varbase-blog .main-container .field--name-field-date .field--item:first-child {
+  margin-bottom: 20px;
+}
 /*# sourceMappingURL=content.theme.css.map */
