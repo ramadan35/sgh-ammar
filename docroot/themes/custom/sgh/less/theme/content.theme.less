@@ -1211,13 +1211,27 @@ body:not(.path-frontpage) {
                 }
             }
             .social-links {
+                margin-top: 30px;
                 .fab {
                     display: inline-block;
+                    position: relative;
+                    width: 30px;
+                    text-align: center;
                     &::before {
                         font-family: FontAwesome !important;
-                        font-size: 16px;
+                        font-size: 18px;
+                        position: absolute;
+                        color: @brand-primary;
                     }
-                    font-size: 0;
+                    a {
+                        font-size: 0;
+                        height: 100%;
+                        left: 0;
+                        top: 0;
+                        position: absolute;
+                        width: 100%;
+                    }
+
                 }
             }
             .bottom {
