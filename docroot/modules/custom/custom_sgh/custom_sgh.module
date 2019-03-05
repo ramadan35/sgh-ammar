@@ -19,3 +19,8 @@ function custom_sgh_language_switch_links_alter(array &$links, $type, \Drupal\Co
   $current_language_id = $language_interface->getId();
   unset($links[$current_language_id]);
 }
+
+function custom_sgh_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+  dsm(kint);
+  dsm($_GET['email']);
+}
