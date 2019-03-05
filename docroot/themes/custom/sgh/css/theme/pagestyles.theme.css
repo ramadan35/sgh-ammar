@@ -51,51 +51,23 @@
     margin-bottom: 10px;
   }
 }
-.view-offers-promotions .col .wrapper .top .bottom-of-top .field--name-node-link {
-  position: relative;
+.view-offers-promotions .col .wrapper .top .bottom-of-top .green-button {
+  float: right;
 }
-.view-offers-promotions .col .wrapper .top .bottom-of-top .field--name-node-link a {
-  display: block;
-  min-width: 100%;
-  background: #50A155;
-  color: #fff;
-  text-transform: uppercase;
-  font-weight: bold;
-  height: 30px;
-  text-align: center;
-  padding: 7px 0px;
-}
-.view-offers-promotions .col .wrapper .top .bottom-of-top .field--name-node-link a:after {
-  content: url(../../images/arrow-right.png);
-  position: absolute;
-  right: 10px;
-}
-@media (max-width: 480px) {
-  .view-offers-promotions .col .wrapper .top .bottom-of-top .field--name-node-link {
-    max-width: 63%;
-  }
-}
-@media (max-width: 480px) {
-  .view-offers-promotions .col .wrapper .top .bottom-of-top {
-    position: relative;
-    bottom: 0;
-    padding: 12px 0px;
-  }
-}
-.view-offers-promotions .col .wrapper .bottom {
+.view-offers-promotions .col .bottom {
   clear: both;
   padding: 0px 15px;
 }
-.view-offers-promotions .col .wrapper .bottom .field--name-field-date {
+.view-offers-promotions .col .bottom .field--name-field-date {
   padding-top: 15px;
   padding-bottom: 20px;
 }
-.view-offers-promotions .col .wrapper .bottom .field--name-field-date .field--item {
+.view-offers-promotions .col .bottom .field--name-field-date .field--item {
   display: inline-block;
   font-size: 14px;
   font-weight: bold;
 }
-.view-offers-promotions .col .wrapper .bottom .field--name-field-date .field--item:nth-child(2) {
+.view-offers-promotions .col .bottom .field--name-field-date .field--item:nth-child(2) {
   float: right;
 }
 .page-node-type-offers-promotions h1.page-header {

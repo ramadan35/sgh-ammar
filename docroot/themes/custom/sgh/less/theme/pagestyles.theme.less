@@ -60,56 +60,33 @@
                             } 
                         }
                     }
-                    .field--name-node-link {
-                        position: relative;
-                        a{
-                            display: block;
-                            min-width: 100%;
-                            background: @green;
-                            color: #fff;
-                            text-transform: uppercase;
-                            font-weight: bold;
-                            height: 30px;
-                            text-align: center;
-                            padding: 7px 0px;
-                            &:after{
-                                content:url(../../images/arrow-right.png);
-                                position: absolute;
-                                right: 10px;
-                            }
-                        }
-                        @media (max-width: @screen-xs) {
-                            max-width: 63%;
-                        } 
-                    }
-                    @media (max-width: @screen-xs) {
-                        position: relative;
-                        bottom: 0;
-                        padding: 12px 0px;
-                    } 
-                }
-
-            }
-            .bottom {
-                clear: both;
-                padding: 0px 15px;
-                .field--name-field-date {
-                    padding-top: 15px;
-                    padding-bottom: 20px;
-                    .field--item {
-                        display: inline-block;
-                        display: inline-block;
-                        font-size: 14px;
-                        font-weight: bold;
-                    }
-                    .field--item:nth-child(2){
+                    .green-button {
                         float: right;
                     }
+                }
+            }
+
+        }
+        .bottom {
+            clear: both;
+            padding: 0px 15px;
+            .field--name-field-date {
+                padding-top: 15px;
+                padding-bottom: 20px;
+                .field--item {
+                    display: inline-block;
+                    display: inline-block;
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+                .field--item:nth-child(2){
+                    float: right;
                 }
             }
         }
     }
 }
+
 .page-node-type-offers-promotions {
     h1.page-header{
         display:none;
