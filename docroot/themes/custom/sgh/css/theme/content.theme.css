@@ -1129,4 +1129,13 @@ body:not(.path-frontpage) #block-headerimageblock img {
   box-shadow: none;
   max-width: 300px;
 }
+.path-newsletter .main-container form fieldset legend {
+  min-width: 200px;
+  display: inline-block;
+}
+.path-newsletter .main-container form fieldset .fieldset-wrapper {
+  display: inline-block;
+  box-shadow: none;
+  max-width: 300px;
+}
 /*# sourceMappingURL=content.theme.css.map */
