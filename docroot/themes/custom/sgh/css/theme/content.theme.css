@@ -1130,13 +1130,16 @@ body:not(.path-frontpage) #block-headerimageblock img {
   max-width: 300px;
 }
 .path-newsletter .main-container form fieldset legend {
-  min-width: 200px;
-  display: inline-block;
+  float: left;
+  width: 205px;
 }
 .path-newsletter .main-container form fieldset .fieldset-wrapper {
   display: inline-block;
   box-shadow: none;
   max-width: 300px;
+}
+.path-newsletter .main-container form .form-actions {
+  float: right;
 }
 .path-newsletter .main-container form .form-actions button {
   background: #50A155;
