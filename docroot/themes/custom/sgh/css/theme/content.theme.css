@@ -1145,6 +1145,9 @@ body:not(.path-frontpage) #block-headerimageblock img {
   box-shadow: none;
   max-width: 300px;
 }
+.path-newsletter .main-container form .form-item input:focus {
+  border: 1px solid #eeeeee;
+}
 .path-newsletter .main-container form fieldset legend {
   float: left;
   width: 205px;
