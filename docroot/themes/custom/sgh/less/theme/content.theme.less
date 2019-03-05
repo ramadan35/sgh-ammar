@@ -493,6 +493,32 @@ body:not(.path-frontpage) {
                         }
                     }
                 }
+                .slick__arrow {
+                    .slick-prev {
+                        width: 13px;
+                        height: 25px;
+                        &::before {
+                            background: url(../../images/slider-arrow-left.png) no-repeat;
+                            content: "";
+                            width: 13px;
+                            height: 25px;
+                            display: block;
+                            background-size: 100%;
+                        }
+                    }
+                    .slick-next {
+                        width: 13px;
+                        height: 25px;
+                        &::before {
+                            background: url(../../images/slider-arrow-right.png) no-repeat;
+                            content: "";
+                            width: 13px;
+                            height: 25px;
+                            display: block;
+                            background-size: 100%;
+                        }
+                    }
+                }
             }
         }
         #block-views-block-visiting-doctors-block-1 {

@@ -396,6 +396,30 @@ body:not(.path-frontpage) #block-headerimageblock img {
   color: #FFFFFF;
   margin-bottom: 20px;
 }
+.path-frontpage .front_content_3 #block-views-block-offers-promotions-block-1 .form-group .slick__arrow .slick-prev {
+  width: 13px;
+  height: 25px;
+}
+.path-frontpage .front_content_3 #block-views-block-offers-promotions-block-1 .form-group .slick__arrow .slick-prev::before {
+  background: url(../../images/slider-arrow-left.png) no-repeat;
+  content: "";
+  width: 13px;
+  height: 25px;
+  display: block;
+  background-size: 100%;
+}
+.path-frontpage .front_content_3 #block-views-block-offers-promotions-block-1 .form-group .slick__arrow .slick-next {
+  width: 13px;
+  height: 25px;
+}
+.path-frontpage .front_content_3 #block-views-block-offers-promotions-block-1 .form-group .slick__arrow .slick-next::before {
+  background: url(../../images/slider-arrow-right.png) no-repeat;
+  content: "";
+  width: 13px;
+  height: 25px;
+  display: block;
+  background-size: 100%;
+}
 .path-frontpage .front_content_3 #block-views-block-visiting-doctors-block-1 .block-title {
   font-size: 30px;
   font-weight: bold;
