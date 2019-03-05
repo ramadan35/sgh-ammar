@@ -669,6 +669,25 @@ body:not(.path-frontpage) .taxonomy-term--view-mode-header-image img {
 .path-frontpage .front_content_1 #block-quicktabsfronttabs .quicktabs-main .field--name-body a {
   color: #50A155;
 }
+.path-frontpage .front_content_1 #block-views-block-partners-block-1 .block-title h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #000;
+  margin: 0;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.path-frontpage .front_content_1 #block-views-block-partners-block-1 .block-title h2::after {
+  content: "";
+  width: 42px;
+  height: 6px;
+  background: #2D3A88;
+  display: block;
+  margin-top: 7px;
+}
+.path-frontpage .front_content_1 #block-views-block-partners-block-1 .view-content {
+  padding: 0 50px;
+}
 .path-frontpage .hero_slider {
   margin: 0;
 }
