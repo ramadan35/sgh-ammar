@@ -50,7 +50,8 @@
     "drupal/mailchimp": "^1.7",
     "drupal/field_collection": "^1.0@alpha",
     "drupal/tawk_to": "^1.7",
-    "drupal/quicktabs": "^3.0@alpha"
+    "drupal/quicktabs": "^3.0@alpha",
+    "drupal/custom_header_image": "^1.0@alpha"
   },
   "config": {
     "bin-dir": "bin/",
