@@ -21,6 +21,6 @@ function custom_sgh_language_switch_links_alter(array &$links, $type, \Drupal\Co
 }
 
 function custom_sgh_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
-  dsm(kint);
+  dsm($form_id);
   dsm($_GET['email']);
 }
