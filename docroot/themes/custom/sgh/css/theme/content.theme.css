@@ -1118,4 +1118,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
   display: block;
   margin-top: 7px;
 }
+#block-pagetitlenewsletter .lang-ar {
+  display: none;
+}
 /*# sourceMappingURL=content.theme.css.map */
