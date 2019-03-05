@@ -929,7 +929,7 @@ body:not(.path-frontpage) .taxonomy-term--view-mode-header-image img {
 }
 .page-node-type-varbase-blog .main-container .field--name-node-post-date {
   color: #50A155;
-  font-size: 12px;
+  font-size: 14px;
   font-family: gothem;
   margin-top: 20px;
   margin-bottom: 20px;
