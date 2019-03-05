@@ -170,6 +170,9 @@
 .page-node-type-offers-promotions .wrapper .bottom .field--name-field-date .field--item:first-child {
   float: left;
 }
+.page-node-type-offers-promotions .main-container form {
+  margin-top: 15px;
+}
 .page-node-type-offers-promotions .main-container form .form-item label {
   min-width: 200px;
 }
