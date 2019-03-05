@@ -9,18 +9,19 @@
   position: absolute;
   z-index: 999;
   font-size: 50px;
-  top: 0;
+  top: 15px;
+  left: 15px;
   color: #2D3A88;
   font-weight: bold;
-  padding: 15px 25px;
+  line-height: 1;
+  font-family: gothem;
 }
 .view-offers-promotions .col .wrapper .top .percentage span {
+  font-family: gothem;
   font-size: 16px;
   text-transform: uppercase;
   display: block;
-  position: absolute;
-  top: 70px;
-  left: 66px;
+  text-align: left;
   color: #50A155;
 }
 .view-offers-promotions .col .wrapper .top .field--name-field-image {
@@ -60,7 +61,7 @@
 }
 .view-offers-promotions .col .bottom .field--name-field-date {
   padding-top: 10px;
-  paddin-bottom: 10px;
+  padding-bottom: 10px;
   float: left;
   width: 100%;
 }
