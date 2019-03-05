@@ -942,6 +942,16 @@ body:not(.path-frontpage) .taxonomy-term--view-mode-header-image img {
 .page-node-type-varbase-blog .main-container .field--name-body {
   padding-right: 15px;
 }
+.page-node-type-varbase-blog .main-container .field--name-field-post-author {
+  color: #50A155;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  font-family: gothem;
+  margin-bottom: 10px;
+}
+.page-node-type-varbase-blog .main-container .field--name-field-post-author .field--label {
+  font-weight: normal;
+}
 .page-node-type-varbase-blog .main-container .field--name-dynamic-block-fieldnode-related-blog-post .field--label {
   text-transform: uppercase;
   font-family: gothem;
