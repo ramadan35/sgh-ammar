@@ -1237,7 +1237,10 @@ body:not(.path-frontpage) #block-headerimageblock img {
   max-width: 100%;
   width: 300px;
 }
-.path-webform .main-container form fieldset.webform-telephone--wrapper .fieldset-wrapper input {
+.path-webform .main-container form fieldset.webform-telephone--wrapper .fieldset-wrapper .intl-tel-input {
+  width: 100%;
+}
+.path-webform .main-container form fieldset.webform-telephone--wrapper .fieldset-wrapper .intl-tel-input input {
   width: 100%;
 }
 .path-webform .main-container form .form-actions {
