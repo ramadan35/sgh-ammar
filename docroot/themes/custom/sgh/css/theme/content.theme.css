@@ -978,4 +978,16 @@ body:not(.path-frontpage) .taxonomy-term--view-mode-header-image img {
   color: #000;
   font-size: 20px;
 }
+.page-node-type-doctors .main-container .node--view-mode-full .field--name-field-media-image {
+  float: left;
+  padding-right: 30px;
+}
+.page-node-type-doctors .main-container .node--view-mode-full .field--name-node-title h1 {
+  font-size: 20px;
+}
+.page-node-type-doctors .main-container .node--view-mode-full .bottom {
+  float: left;
+  width: 100%;
+  padding-top: 30px;
+}
 /*# sourceMappingURL=content.theme.css.map */
