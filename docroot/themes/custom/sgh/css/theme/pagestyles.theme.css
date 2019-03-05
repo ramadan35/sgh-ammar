@@ -170,55 +170,55 @@
 .page-node-type-offers-promotions .wrapper .bottom .field--name-field-date .field--item:first-child {
   float: left;
 }
-.page-node-type-offers-promotions .wrapper form .form-item label {
+.page-node-type-offers-promotions .main-container form .form-item label {
   min-width: 200px;
 }
-.page-node-type-offers-promotions .wrapper form .form-item input {
+.page-node-type-offers-promotions .main-container form .form-item input {
   display: inline-block;
   box-shadow: none;
   max-width: 300px;
 }
-.page-node-type-offers-promotions .wrapper form .form-item input:focus {
+.page-node-type-offers-promotions .main-container form .form-item input:focus {
   border: 1px solid #eeeeee;
 }
-.page-node-type-offers-promotions .wrapper form fieldset legend {
+.page-node-type-offers-promotions .main-container form fieldset legend {
   float: left;
   width: 205px;
 }
-.page-node-type-offers-promotions .wrapper form fieldset .fieldset-wrapper {
+.page-node-type-offers-promotions .main-container form fieldset .fieldset-wrapper {
   display: inline-block;
   box-shadow: none;
   max-width: 300px;
 }
-.page-node-type-offers-promotions .wrapper form fieldset.webform-name--wrapper .fieldset-wrapper {
+.page-node-type-offers-promotions .main-container form fieldset.webform-name--wrapper .fieldset-wrapper {
   max-width: 100%;
 }
-.page-node-type-offers-promotions .wrapper form fieldset.webform-telephone--wrapper .fieldset-wrapper {
+.page-node-type-offers-promotions .main-container form fieldset.webform-telephone--wrapper .fieldset-wrapper {
   max-width: 100%;
   width: 300px;
 }
-.page-node-type-offers-promotions .wrapper form fieldset.webform-telephone--wrapper .fieldset-wrapper .intl-tel-input {
+.page-node-type-offers-promotions .main-container form fieldset.webform-telephone--wrapper .fieldset-wrapper .intl-tel-input {
   width: 100%;
 }
-.page-node-type-offers-promotions .wrapper form fieldset.webform-telephone--wrapper .fieldset-wrapper .intl-tel-input input {
+.page-node-type-offers-promotions .main-container form fieldset.webform-telephone--wrapper .fieldset-wrapper .intl-tel-input input {
   width: 100%;
 }
-.page-node-type-offers-promotions .wrapper form fieldset.webform-address--wrapper .fieldset-wrapper {
+.page-node-type-offers-promotions .main-container form fieldset.webform-address--wrapper .fieldset-wrapper {
   max-width: 100%;
 }
-.page-node-type-offers-promotions .wrapper form fieldset.webform-address--wrapper .fieldset-wrapper .form-type-select .select-wrapper {
+.page-node-type-offers-promotions .main-container form fieldset.webform-address--wrapper .fieldset-wrapper .form-type-select .select-wrapper {
   max-width: 300px;
 }
-.page-node-type-offers-promotions .wrapper form .form-item-phone-number .intl-tel-input {
+.page-node-type-offers-promotions .main-container form .form-item-phone-number .intl-tel-input {
   width: 100%;
 }
-.page-node-type-offers-promotions .wrapper form .form-item-phone-number .intl-tel-input input {
+.page-node-type-offers-promotions .main-container form .form-item-phone-number .intl-tel-input input {
   width: 100%;
 }
-.page-node-type-offers-promotions .wrapper form .form-actions {
+.page-node-type-offers-promotions .main-container form .form-actions {
   float: right;
 }
-.page-node-type-offers-promotions .wrapper form .form-actions button {
+.page-node-type-offers-promotions .main-container form .form-actions button {
   background: #50A155;
   padding: 13px;
   color: #FFF;
@@ -229,7 +229,7 @@
   font-size: 12px;
   border: 0;
 }
-.page-node-type-offers-promotions .wrapper form .form-actions button::after {
+.page-node-type-offers-promotions .main-container form .form-actions button::after {
   content: "";
   background: url(../../images/arrow-right.png) no-repeat;
   width: 38px;
