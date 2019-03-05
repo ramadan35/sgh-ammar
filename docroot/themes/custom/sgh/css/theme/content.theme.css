@@ -1065,6 +1065,30 @@ body:not(.path-frontpage) .taxonomy-term--view-mode-header-image img {
   font-weight: bold;
   line-height: 1;
 }
+.page-node-type-visiting-doctors .main-container .node--view-mode-full .social-links {
+  margin-top: 30px;
+}
+.page-node-type-visiting-doctors .main-container .node--view-mode-full .social-links .fab {
+  display: inline-block;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  text-align: left;
+}
+.page-node-type-visiting-doctors .main-container .node--view-mode-full .social-links .fab::before {
+  font-family: FontAwesome !important;
+  font-size: 18px;
+  position: absolute;
+  color: #2D3A88;
+}
+.page-node-type-visiting-doctors .main-container .node--view-mode-full .social-links .fab a {
+  font-size: 0;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+}
 .page-node-type-visiting-doctors .main-container .node--view-mode-full .bottom {
   float: left;
   width: 100%;

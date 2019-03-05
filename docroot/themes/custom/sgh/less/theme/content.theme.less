@@ -1275,6 +1275,31 @@ body:not(.path-frontpage) {
                 font-weight: bold;
                 line-height: 1;
             }
+            .social-links {
+                margin-top: 30px;
+                .fab {
+                    display: inline-block;
+                    position: relative;
+                    width: 30px;
+                    height: 30px;
+                    text-align: left;
+                    &::before {
+                        font-family: FontAwesome !important;
+                        font-size: 18px;
+                        position: absolute;
+                        color: @brand-primary;
+                    }
+                    a {
+                        font-size: 0;
+                        height: 100%;
+                        left: 0;
+                        top: 0;
+                        position: absolute;
+                        width: 100%;
+                    }
+
+                }
+            }
             .bottom {
                 float: left;
                 width: 100%;
