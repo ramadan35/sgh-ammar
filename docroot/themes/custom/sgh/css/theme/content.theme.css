@@ -43,6 +43,12 @@ body:not(.path-frontpage) .taxonomy-term--view-mode-header-image {
 body:not(.path-frontpage) .taxonomy-term--view-mode-header-image img {
   width: 100%;
 }
+body:not(.path-frontpage) #block-headerimageblock {
+  border-bottom: 4px solid #50A155;
+}
+body:not(.path-frontpage) #block-headerimageblock img {
+  width: 100%;
+}
 .green-button a {
   background: #50A155;
   padding: 13px;
