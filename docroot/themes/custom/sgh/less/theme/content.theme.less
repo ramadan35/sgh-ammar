@@ -818,25 +818,36 @@ body:not(.path-frontpage) {
         }
         #block-views-block-partners-block-1 {
             .block-title {
-                h2 {
-                    font-size: 30px;
-                    font-weight: bold;
-                    color: #000;
-                    margin: 0;
-                    text-transform: uppercase;
-                    margin-bottom: 10px;
-                    &::after {
-                        content: "";
-                        width: 42px;
-                        height: 6px;
-                        background: #2D3A88;
-                        display: block;
-                        margin-top: 7px;
-                    }
+                font-size: 30px;
+                font-weight: bold;
+                color: #000;
+                margin: 0;
+                text-transform: uppercase;
+                margin-bottom: 10px;
+                &::after {
+                    content: "";
+                    width: 42px;
+                    height: 6px;
+                    background: #2D3A88;
+                    display: block;
+                    margin-top: 7px;
                 }
             }
             .view-content {
                 padding: 0 50px;
+                .col {
+                    text-align: center;
+                    .views-field-field-image {
+                        img {
+                            margin: 0 auto;
+                        }
+                    }
+                    .views-field-title {
+                        color: #000;
+                        font-weight: bold;
+                        font-size: 14px;
+                    }
+                }
             }
         }
     }
