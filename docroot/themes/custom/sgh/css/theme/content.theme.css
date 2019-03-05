@@ -73,6 +73,9 @@ body:not(.path-frontpage) #block-headerimageblock img {
 }
 .page-node-type-news .main-container .field--name-node-post-date {
   margin-top: 30px;
+  color: #50A155;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 .page-node-type-news .main-container .field--name-node-title {
   margin-bottom: 30px;
