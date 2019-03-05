@@ -396,6 +396,9 @@ body:not(.path-frontpage) #block-headerimageblock img {
   color: #FFFFFF;
   margin-bottom: 20px;
 }
+.path-frontpage .front_content_3 #block-views-block-offers-promotions-block-1 .form-group .view-content slick-views-offers-promotions-block-1-2 {
+  padding: 0 25px;
+}
 .path-frontpage .front_content_3 #block-views-block-offers-promotions-block-1 .form-group .slick__arrow .slick-prev {
   width: 13px;
   height: 25px;
