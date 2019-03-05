@@ -147,21 +147,7 @@
 .page-node-type-offers-promotions .wrapper .bottom .field--name-field-date .field--item:first-child {
   margin-bottom: 20px;
 }
-.page-node-type-offers-promotions .wrapper .bottom .field--name-field-date {
-  padding-top: 30px;
-  padding-bottom: 20px;
-}
-.page-node-type-offers-promotions .wrapper .bottom .field--name-field-date .field--item:nth-child(1):before {
-  content: "OFFER START";
-  color: #2D3A88;
-  display: block;
-}
-.page-node-type-offers-promotions .wrapper .bottom .field--name-field-date .field--item:nth-child(2) {
+.page-node-type-offers-promotions .wrapper .bottom .field--name-field-date .field--item:last-child {
   float: right;
-}
-.page-node-type-offers-promotions .wrapper .bottom .field--name-field-date .field--item:nth-child(2):before {
-  content: "OFFER END";
-  color: #2D3A88;
-  display: block;
 }
 /*# sourceMappingURL=pagestyles.theme.css.map */
