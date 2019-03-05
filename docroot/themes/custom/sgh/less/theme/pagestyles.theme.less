@@ -187,5 +187,89 @@
                 }
             }
         }
+        form {
+            .form-item {
+                label {
+                    min-width: 200px;
+                }
+                input {
+                    display: inline-block;
+                    box-shadow: none;
+                    max-width: 300px;
+                    &:focus {
+                        border: 1px solid rgb(238, 238, 238);
+                    }
+                }
+            }
+            fieldset {
+                legend {
+                    float: left;
+                    width: 205px;
+                }
+                .fieldset-wrapper {
+                    display: inline-block;
+                    box-shadow: none;
+                    max-width: 300px;
+                }
+                &.webform-name--wrapper {
+                    .fieldset-wrapper {
+                        max-width: 100%;
+                    }
+                }
+                &.webform-telephone--wrapper {
+                    .fieldset-wrapper {
+                        max-width: 100%;
+                        width: 300px;
+                        .intl-tel-input {
+                            width: 100%;
+                            input {
+                                width: 100%;
+                            }
+                        }
+
+                    }
+                }
+                &.webform-address--wrapper {
+                    .fieldset-wrapper {
+                        max-width: 100%;
+                        .form-type-select {
+                            .select-wrapper {
+                                max-width: 300px;
+                            }
+                        }
+                    }
+                }
+            }
+            .form-item-phone-number {
+                .intl-tel-input {
+                    width: 100%;
+                    input {
+                        width: 100%;
+                    }
+                }
+            }
+            .form-actions {
+                float: right;
+                button {
+                    background: #50A155;
+                    padding: 13px;
+                    color: #FFF;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 12px;
+                    border: 0;
+                    &::after {
+                        content: "";
+                        background: url(../../images/arrow-right.png) no-repeat;
+                        width: 38px;
+                        height: 10px;
+                        display: inline-block;
+                        background-position: 50%;
+                    }
+                }
+            }
+        }
     }
 }

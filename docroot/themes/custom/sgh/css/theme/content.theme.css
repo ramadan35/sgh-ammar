@@ -1243,6 +1243,18 @@ body:not(.path-frontpage) #block-headerimageblock img {
 .path-webform .main-container form fieldset.webform-telephone--wrapper .fieldset-wrapper .intl-tel-input input {
   width: 100%;
 }
+.path-webform .main-container form fieldset.webform-address--wrapper .fieldset-wrapper {
+  max-width: 100%;
+}
+.path-webform .main-container form fieldset.webform-address--wrapper .fieldset-wrapper .form-type-select .select-wrapper {
+  max-width: 300px;
+}
+.path-webform .main-container form .form-item-phone-number .intl-tel-input {
+  width: 100%;
+}
+.path-webform .main-container form .form-item-phone-number .intl-tel-input input {
+  width: 100%;
+}
 .path-webform .main-container form .form-actions {
   float: right;
 }
