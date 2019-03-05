@@ -56,6 +56,7 @@
                 });
             }
             $('.path-frontpage .front_content_1 #block-views-block-partners-block-1 .view-content .col .views-field-field-image').matchHeight();
+            $('.view-offers-promotions .col .wrapper').matchHeight();
         }
     };
 
