@@ -1100,4 +1100,22 @@ body:not(.path-frontpage) #block-headerimageblock img {
   width: 100%;
   padding-top: 30px;
 }
+#block-pagetitlenewsletter h1 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #000;
+  margin: 0;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  margin-top: 20px !important;
+  border: 0;
+}
+#block-pagetitlenewsletter h1::after {
+  content: "";
+  width: 42px;
+  height: 6px;
+  background: #2D3A88;
+  display: block;
+  margin-top: 7px;
+}
 /*# sourceMappingURL=content.theme.css.map */
