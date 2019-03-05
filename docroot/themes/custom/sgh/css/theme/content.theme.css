@@ -768,7 +768,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
 #block-booknow {
   position: fixed;
   right: 0;
-  top: 260px;
+  top: 330px;
   padding: 16px;
   background: #50A155;
 }
