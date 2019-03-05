@@ -14,7 +14,7 @@
 body {
   font-family: gothembook;
 }
-body lang-ar {
+body .lang-ar {
   display: none;
 }
 body:not(.path-frontpage) .hero_slider #block-entityviewcontent {
