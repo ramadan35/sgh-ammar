@@ -943,8 +943,12 @@ body:not(.path-frontpage) .taxonomy-term--view-mode-header-image img {
   padding: 0;
   background: transparent;
   border: 0;
+  margin-bottom: 30px;
 }
 .page-node-type-varbase-blog .main-container #views-bootstrap-varbase-blog-related-blog-posts-block .row .col .card .card-body {
   padding: 0;
+}
+.page-node-type-varbase-blog .main-container #views-bootstrap-varbase-blog-related-blog-posts-block .row .col .card .card-body .green-button {
+  float: right;
 }
 /*# sourceMappingURL=content.theme.css.map */
