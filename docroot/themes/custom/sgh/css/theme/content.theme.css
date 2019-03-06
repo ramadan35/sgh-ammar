@@ -1277,4 +1277,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
   display: inline-block;
   background-position: 50%;
 }
+.bef-exposed-form .form--inline > .form-item {
+  margin-right: 5px;
+}
 /*# sourceMappingURL=content.theme.css.map */
