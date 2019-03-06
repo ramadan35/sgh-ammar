@@ -44,6 +44,7 @@ header .header-top #block-languageswitcher ul.links li.is-active {
 }
 header .header-top #block-searchform {
   display: inline-block;
+  padding-left: 7px;
 }
 header .header-top #block-searchform form {
   max-width: 300px;

@@ -212,7 +212,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
 .pagination li.pager__item--last {
   display: none;
 }
-.pagination li.pager__item--next::after {
+.pagination li.pager__item--next a::after {
   content: "";
   background: url(../../images/arrow-right-blue.png) no-repeat;
   display: inline-block;
@@ -221,7 +221,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
   background-size: 100%;
   vertical-align: -webkit-baseline-middle;
 }
-.pagination li.pager__item--previous::before {
+.pagination li.pager__item--previous a::before {
   content: "";
   background: url(../../images/arrow-left-blue.png) no-repeat;
   display: inline-block;

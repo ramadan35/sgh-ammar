@@ -278,31 +278,31 @@ body:not(.path-frontpage) {
         }
         &.pager__item--next {
             a {
+                &::after {
+                    content: "";
+                    background: url(../../images/arrow-right-blue.png) no-repeat;
+                    display: inline-block;
+                    width: 27px;
+                    height: 21px;
+                    background-size: 100%;
+                    vertical-align: -webkit-baseline-middle;
+                }
+            }
 
-            }
-            &::after {
-                content: "";
-                background: url(../../images/arrow-right-blue.png) no-repeat;
-                display: inline-block;
-                width: 27px;
-                height: 21px;
-                background-size: 100%;
-                vertical-align: -webkit-baseline-middle;
-            }
         }
         &.pager__item--previous {
             a {
+                &::before {
+                    content: "";
+                    background: url(../../images/arrow-left-blue.png) no-repeat;
+                    display: inline-block;
+                    width: 27px;
+                    height: 21px;
+                    background-size: 100%;
+                    vertical-align: -webkit-baseline-middle;
+                }
+            }
 
-            }
-            &::before {
-                content: "";
-                background: url(../../images/arrow-left-blue.png) no-repeat;
-                display: inline-block;
-                width: 27px;
-                height: 21px;
-                background-size: 100%;
-                vertical-align: -webkit-baseline-middle;
-            }
         }
     }
 }
