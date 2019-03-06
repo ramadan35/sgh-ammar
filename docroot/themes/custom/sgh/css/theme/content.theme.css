@@ -943,6 +943,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
 .path-taxonomy .views-exposed-form {
   background: #E6E6E6;
   padding: 30px 15px;
+  font-family: gothembook;
 }
 .path-taxonomy .views-exposed-form > .form--inline {
   text-align: right;
@@ -1221,6 +1222,9 @@ body:not(.path-frontpage) #block-headerimageblock img {
 .path-webform .main-container form .form-item input:focus {
   border: 1px solid #eeeeee;
 }
+.path-webform .main-container form fieldset {
+  margin-bottom: 15px;
+}
 .path-webform .main-container form fieldset legend {
   float: left;
   width: 205px;
@@ -1254,6 +1258,9 @@ body:not(.path-frontpage) #block-headerimageblock img {
 }
 .path-webform .main-container form .form-item-phone-number .intl-tel-input input {
   width: 100%;
+}
+.path-webform .main-container form .form-type-select .select-wrapper {
+  max-width: 300px;
 }
 .path-webform .main-container form .form-actions {
   float: right;
