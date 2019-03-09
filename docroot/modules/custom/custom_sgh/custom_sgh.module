@@ -25,7 +25,7 @@ function custom_sgh_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $for
   if($form_id == 'mailchimp_signup_subscribe_page_subscribe_to_our_news_letter_form') {
     if(!empty($_GET['email'])) {
       $email = $_GET['email'];
-      $from['mergevars']['EMAIL']['#default_value'] = $email;
+      $form['mergevars']['EMAIL']['#default_value'] = $email;
     }
   }
 }
