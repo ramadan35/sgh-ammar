@@ -1310,4 +1310,36 @@ body:not(.path-frontpage) #block-headerimageblock img {
 .bef-exposed-form .form--inline > .form-item {
   margin-right: 5px;
 }
+.path-doctors .main-container .views-view-grid horizontal .row col article {
+  background: #F7F7F7;
+}
+.path-doctors .main-container .views-view-grid horizontal .row col article .field--name-node-title a {
+  color: #000;
+  font-weight: bold;
+  font-size: 14px;
+}
+.path-doctors .social-links {
+  margin-top: 30px;
+}
+.path-doctors .social-links .fab {
+  display: inline-block;
+  position: relative;
+  width: 30px;
+  height: 30px;
+  text-align: left;
+}
+.path-doctors .social-links .fab::before {
+  font-family: FontAwesome !important;
+  font-size: 18px;
+  position: absolute;
+  color: #2D3A88;
+}
+.path-doctors .social-links .fab a {
+  font-size: 0;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  width: 100%;
+}
 /*# sourceMappingURL=content.theme.css.map */

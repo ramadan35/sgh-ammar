@@ -1565,3 +1565,49 @@ body:not(.path-frontpage) {
 .bef-exposed-form .form--inline > .form-item {
     margin-right: 5px;
 }
+
+.path-doctors {
+    .main-container {
+        .views-view-grid horizontal {
+            .row {
+                col {
+                    article {
+                        background: @bg-grey;
+                        .field--name-node-title {
+                            a {
+                                color: #000;
+                                font-weight: bold;
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .social-links {
+        margin-top: 30px;
+        .fab {
+            display: inline-block;
+            position: relative;
+            width: 30px;
+            height: 30px;
+            text-align: left;
+            &::before {
+                font-family: FontAwesome !important;
+                font-size: 18px;
+                position: absolute;
+                color: @brand-primary;
+            }
+            a {
+                font-size: 0;
+                height: 100%;
+                left: 0;
+                top: 0;
+                position: absolute;
+                width: 100%;
+            }
+
+        }
+    }
+}
