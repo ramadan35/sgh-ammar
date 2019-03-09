@@ -1268,6 +1268,23 @@ body:not(.path-frontpage) #block-headerimageblock img {
 .path-webform .main-container form .form-type-select .select-wrapper {
   max-width: 300px;
 }
+.path-webform .main-container form .form-type-datetime label {
+  vertical-align: top;
+}
+.path-webform .main-container form .form-type-datetime .container-inline {
+  width: 300px;
+  display: inline-block;
+}
+.path-webform .main-container form .form-type-datetime .container-inline .form-item {
+  width: 100%;
+  display: block;
+}
+.path-webform .main-container form .form-type-datetime .container-inline .form-item input {
+  width: 100%;
+}
+.path-webform .main-container form .form-type-datetime .container-inline .form-item .form-date {
+  margin-bottom: 15px;
+}
 .path-webform .main-container form .form-actions {
   float: right;
 }
