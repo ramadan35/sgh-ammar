@@ -1568,6 +1568,21 @@ body:not(.path-frontpage) {
 
 .path-doctors {
     .main-container {
+        .views-exposed-form {
+            background: @brand-primary;
+            padding: 10px;
+            margin: 0;
+            input,
+            select,
+            textarea {
+                box-shadow: none;
+                border: 0;
+                font-weight: bold;
+            }
+            label {
+                display: none;
+            }
+        }
         .views-view-grid.horizontal {
             .row {
                 .col {

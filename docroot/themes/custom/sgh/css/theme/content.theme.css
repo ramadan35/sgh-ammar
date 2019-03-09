@@ -1310,6 +1310,21 @@ body:not(.path-frontpage) #block-headerimageblock img {
 .bef-exposed-form .form--inline > .form-item {
   margin-right: 5px;
 }
+.path-doctors .main-container .views-exposed-form {
+  background: #2D3A88;
+  padding: 10px;
+  margin: 0;
+}
+.path-doctors .main-container .views-exposed-form input,
+.path-doctors .main-container .views-exposed-form select,
+.path-doctors .main-container .views-exposed-form textarea {
+  box-shadow: none;
+  border: 0;
+  font-weight: bold;
+}
+.path-doctors .main-container .views-exposed-form label {
+  display: none;
+}
 .path-doctors .main-container .views-view-grid.horizontal .row .col article {
   background: #F7F7F7;
   padding: 10px;
