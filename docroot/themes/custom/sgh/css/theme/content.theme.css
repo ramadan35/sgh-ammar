@@ -1319,9 +1319,14 @@ body:not(.path-frontpage) #block-headerimageblock img {
   font-weight: bold;
   font-size: 14px;
 }
+.path-doctors .main-container .views-view-grid.horizontal .row .col article .field--name-node-title a::before {
+  position: initial;
+}
 .path-doctors .main-container .views-view-grid.horizontal .row .col article .field--name-field-extra-information {
   margin-bottom: 10px;
-  font-size: 16px;
+  font-size: 13px;
+  color: #505150;
+  text-decoration: underline;
 }
 .path-doctors .main-container .views-view-grid.horizontal .row .col article .field--name-field-specialty {
   font-family: gothem;
