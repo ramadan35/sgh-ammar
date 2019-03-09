@@ -579,6 +579,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
   display: block;
   margin: 0 auto;
   margin-bottom: 15px;
+  float: none;
 }
 .path-frontpage .front_content_1 #block-quicktabsfronttabs .quicktabs-main #views-exposed-form-find-a-doctor-find-doctor .form-item label {
   color: #FFFFFF;
