@@ -220,6 +220,9 @@ body:not(.path-frontpage) #block-headerimageblock img {
   height: 21px;
   background-size: 100%;
   vertical-align: -webkit-baseline-middle;
+  position: absolute;
+  top: 0px;
+  right: -21px;
 }
 .pagination li.pager__item--previous a::before {
   content: "";
@@ -229,6 +232,9 @@ body:not(.path-frontpage) #block-headerimageblock img {
   height: 21px;
   background-size: 100%;
   vertical-align: -webkit-baseline-middle;
+  position: absolute;
+  left: -20px;
+  top: 0;
 }
 .node--view-mode-horizontal-media-teaser-medium .right .field--name-node-post-date {
   color: #50A155;
