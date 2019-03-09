@@ -1570,14 +1570,36 @@ body:not(.path-frontpage) {
     .main-container {
         .views-view-grid horizontal {
             .row {
-                col {
+                .col {
                     article {
                         background: @bg-grey;
+                        padding: 10px;
                         .field--name-node-title {
                             a {
                                 color: #000;
                                 font-weight: bold;
                                 font-size: 14px;
+                            }
+                        }
+                        .field--name-field-extra-information {
+                            margin-bottom: 10px;
+                            font-size: 16px;            
+                        }
+                        .field--name-field-specialty {
+                            font-family: gothem;
+                            .field--label {
+                                text-transform: uppercase;
+                                color: @brand-primary;
+                                margin-bottom: 7px;
+                                font-weight: normal;
+                            }
+                            .field--items{
+                                a {
+                                    color: @green;
+                                    font-family: gothem;
+                                    font-weight: bold;
+                                    line-height: 1;
+                                }
                             }
                         }
                     }

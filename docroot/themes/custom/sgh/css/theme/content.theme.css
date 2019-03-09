@@ -1310,13 +1310,33 @@ body:not(.path-frontpage) #block-headerimageblock img {
 .bef-exposed-form .form--inline > .form-item {
   margin-right: 5px;
 }
-.path-doctors .main-container .views-view-grid horizontal .row col article {
+.path-doctors .main-container .views-view-grid horizontal .row .col article {
   background: #F7F7F7;
+  padding: 10px;
 }
-.path-doctors .main-container .views-view-grid horizontal .row col article .field--name-node-title a {
+.path-doctors .main-container .views-view-grid horizontal .row .col article .field--name-node-title a {
   color: #000;
   font-weight: bold;
   font-size: 14px;
+}
+.path-doctors .main-container .views-view-grid horizontal .row .col article .field--name-field-extra-information {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.path-doctors .main-container .views-view-grid horizontal .row .col article .field--name-field-specialty {
+  font-family: gothem;
+}
+.path-doctors .main-container .views-view-grid horizontal .row .col article .field--name-field-specialty .field--label {
+  text-transform: uppercase;
+  color: #2D3A88;
+  margin-bottom: 7px;
+  font-weight: normal;
+}
+.path-doctors .main-container .views-view-grid horizontal .row .col article .field--name-field-specialty .field--items a {
+  color: #50A155;
+  font-family: gothem;
+  font-weight: bold;
+  line-height: 1;
 }
 .path-doctors .social-links {
   margin-top: 30px;
