@@ -26,6 +26,7 @@ function custom_sgh_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $for
     if(!empty($_GET['email'])) {
       $email = $_GET['email'];
       $form['mergevars']['EMAIL']['#default_value'] = $email;
+      $form['mergevars']['FNAME']['#title'] = t('Full name');
     }
   }
 }
