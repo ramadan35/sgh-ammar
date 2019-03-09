@@ -21,6 +21,7 @@ function custom_sgh_language_switch_links_alter(array &$links, $type, \Drupal\Co
 }
 
 function custom_sgh_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+  kint($form);
   if($form_id == 'mailchimp_signup_subscribe_page_subscribe_to_our_news_letter_form') {
     if(!empty($_GET['email'])) {
       $email = $_GET['email'];
