@@ -908,6 +908,9 @@ body:not(.path-frontpage) #block-headerimageblock img {
   font-size: 20px;
   margin-bottom: 30px 0;
 }
+.page-node-type-events .main-container .field--name-body {
+  padding-right: 15px;
+}
 .path-taxonomy .green-button {
   position: absolute;
   right: 20px;
