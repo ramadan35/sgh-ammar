@@ -55,7 +55,7 @@
                     $('.counter').html('<span class="selected">' + current_slide + '</span> / <span class="total">' + total_slides + '</span>');
                 });
             }
-            $('.path-frontpage .front_content_1 #block-views-block-partners-block-1 .view-content .col .views-field-field-image').matchHeight();
+            $('.path-frontpage .front_content_1 #block-views-block-partners-block-1 .view-content .slick__slide .field--name-field-media-image ').matchHeight();
             $('.path-doctors .views-view-grid.horizontal article').matchHeight();
             $('.view-offers-promotions .col .wrapper').matchHeight();
         }
