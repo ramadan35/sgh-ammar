@@ -751,7 +751,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
 .path-frontpage .front_content_1 #block-views-block-partners-block-1 .view-content .slick-dots li button::before {
   color: #CCC;
 }
-.path-frontpage .front_content_1 #block-views-block-partners-block-1 .view-content .slick-dots li.slick-dots button::before {
+.path-frontpage .front_content_1 #block-views-block-partners-block-1 .view-content .slick-dots li.slick-active button::before {
   color: #50A155;
 }
 .path-frontpage .hero_slider {
