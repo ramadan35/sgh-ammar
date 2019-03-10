@@ -746,7 +746,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
 .path-frontpage .front_content_1 #block-views-block-partners-block-1 .view-content .slick__slide .field--name-field-media-image img {
   margin: 0 auto;
   max-width: 175px;
-  margin-bottom: 15px;
+  padding-bottom: 15px;
 }
 .path-frontpage .front_content_1 #block-views-block-partners-block-1 .view-content .slick-dots li button::before {
   color: #CCC;
