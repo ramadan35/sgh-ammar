@@ -737,18 +737,25 @@ body:not(.path-frontpage) #block-headerimageblock img {
 .path-frontpage .front_content_1 #block-views-block-partners-block-1 .view-content {
   padding: 0 50px;
 }
-.path-frontpage .front_content_1 #block-views-block-partners-block-1 .view-content .col {
+.path-frontpage .front_content_1 #block-views-block-partners-block-1 .view-content .slick__slide {
   text-align: center;
 }
-.path-frontpage .front_content_1 #block-views-block-partners-block-1 .view-content .col .views-field-field-image img {
+.path-frontpage .front_content_1 #block-views-block-partners-block-1 .view-content .slick__slide .field--name-field-media-image img {
   margin: 0 auto;
   max-width: 175px;
+  margin-bottom: 15px;
 }
-.path-frontpage .front_content_1 #block-views-block-partners-block-1 .view-content .col .views-field-title {
+.path-frontpage .front_content_1 #block-views-block-partners-block-1 .view-content .slick__slide .views-field-title {
   padding-top: 10px;
   color: #000;
   font-weight: bold;
   font-size: 14px;
+}
+.path-frontpage .front_content_1 #block-views-block-partners-block-1 .view-content .slick-dots li button::before {
+  color: #CCC;
+}
+.path-frontpage .front_content_1 #block-views-block-partners-block-1 .view-content .slick-dots li.slick-dots button::before {
+  color: #50A155;
 }
 .path-frontpage .hero_slider {
   margin: 0;

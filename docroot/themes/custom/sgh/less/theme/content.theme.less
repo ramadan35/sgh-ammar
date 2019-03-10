@@ -883,12 +883,13 @@ body:not(.path-frontpage) {
             }
             .view-content {
                 padding: 0 50px;
-                .col {
+                .slick__slide {
                     text-align: center;
-                    .views-field-field-image {
+                    .field--name-field-media-image {
                         img {
                             margin: 0 auto;
                             max-width: 175px;
+                            margin-bottom: 15px;
                         }
                     }
                     .views-field-title {
@@ -896,6 +897,22 @@ body:not(.path-frontpage) {
                         color: #000;
                         font-weight: bold;
                         font-size: 14px;
+                    }
+                }
+                .slick-dots {
+                    li {
+                        button {
+                            &::before {
+                                color: #CCC;
+                            }
+                        }
+                        &.slick-dots {
+                            button {
+                                &::before {
+                                    color: @green;
+                                }
+                            }
+                        }
                     }
                 }
             }
