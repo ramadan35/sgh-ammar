@@ -136,24 +136,29 @@ body .hero_slider {
   top: 0;
   position: relative;
 }
-body .hero_slider .node--type-varbase-heroslider-media .hero-slide-content .row {
+body .hero_slider .node--type-varbase-heroslider-media .hero-slide-content .row,
+body .hero_slider .node--type-branch-slider .hero-slide-content .row {
   background: transparent !important;
 }
-body .hero_slider .node--type-varbase-heroslider-media .hero-slide-content .row .field--name-node-title {
+body .hero_slider .node--type-varbase-heroslider-media .hero-slide-content .row .field--name-node-title,
+body .hero_slider .node--type-branch-slider .hero-slide-content .row .field--name-node-title {
   color: #FFF;
   text-align: center;
   font-weight: bold;
   text-transform: uppercase;
   font-family: gothem;
 }
-body .hero_slider .node--type-varbase-heroslider-media .hero-slide-content .row .field--name-node-title h2 {
+body .hero_slider .node--type-varbase-heroslider-media .hero-slide-content .row .field--name-node-title h2,
+body .hero_slider .node--type-branch-slider .hero-slide-content .row .field--name-node-title h2 {
   font-size: 50px;
 }
-body .hero_slider .node--type-varbase-heroslider-media .hero-slide-content .row .field--name-field-brief {
+body .hero_slider .node--type-varbase-heroslider-media .hero-slide-content .row .field--name-field-brief,
+body .hero_slider .node--type-branch-slider .hero-slide-content .row .field--name-field-brief {
   text-align: center;
   font-size: 16px;
 }
-body .hero_slider .node--type-varbase-heroslider-media .hero-slide-content .row .field--name-field-link a {
+body .hero_slider .node--type-varbase-heroslider-media .hero-slide-content .row .field--name-field-link a,
+body .hero_slider .node--type-branch-slider .hero-slide-content .row .field--name-field-link a {
   display: block;
   margin: 0 auto;
   float: none;
@@ -163,7 +168,8 @@ body .hero_slider .node--type-varbase-heroslider-media .hero-slide-content .row 
   padding: 13px;
   font-size: 14px;
 }
-body .hero_slider .node--type-varbase-heroslider-media img {
+body .hero_slider .node--type-varbase-heroslider-media img,
+body .hero_slider .node--type-branch-slider img {
   width: 100%;
 }
 body .hero_slider #block-slidertextoverlay {

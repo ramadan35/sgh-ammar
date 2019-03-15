@@ -101,7 +101,7 @@ header {
                             font-size: 14px;
                         }
                         &:hover,
-                        &:focus {
+                            &:focus {
                             background: transparent;
                         }
                     }
@@ -157,67 +157,71 @@ header {
     }
 }
 
-body .hero_slider {
-    top: 0;
-    position: relative;
-    .node--type-varbase-heroslider-media {
-        .hero-slide-content{
-            .row {
-                background: transparent !important;
-                .field--name-node-title {
-                    h2 {
-                        font-size: 50px;
-                    }
-                    color: #FFF;
-                    text-align: center;
-                    font-weight: bold;
-                    text-transform: uppercase;
-                    font-family: gothem;
-                }
-                .field--name-field-brief {
-                    text-align: center;
-                    font-size: 16px;
-                }
-                .field--name-field-link {
-                    a {
-                        display: block;
-                        margin: 0 auto;
-                        float: none;
-                        width: 190px;
-                        text-align: center;
-                        background: #eb5f27d9;
-                        padding: 13px;
-                        font-size: 14px;
-                    }
-                }
-            }
-        }
-        img {
-            width: 100%;
-        }
-    }
-    #block-slidertextoverlay {
-        position: absolute;
+body {
+    .hero_slider {
         top: 0;
-        width: 100%;
-        background: #464646e8;
-        padding: 10px;
-        text-align: right;
-        z-index: 9999;
-        p {
-            padding:0 15px;
-            font-size: 20px;
-            font-weight: bold;
-            color: #FFF;
-            &::before {
-                content: "";
-                background: url(../../images/phone_white.png) no-repeat;
-                width: 17px;
-                height: 17px;
-                display: inline-block;
-                background-size: contain;
-                margin-right: 5px;
+        position: relative;
+        .node--type-varbase-heroslider-media,
+        .node--type-branch-slider {
+            .hero-slide-content{
+                .row {
+                    background: transparent !important;
+                    .field--name-node-title {
+                        h2 {
+                            font-size: 50px;
+                        }
+                        color: #FFF;
+                        text-align: center;
+                        font-weight: bold;
+                        text-transform: uppercase;
+                        font-family: gothem;
+                    }
+                    .field--name-field-brief {
+                        text-align: center;
+                        font-size: 16px;
+                    }
+                    .field--name-field-link {
+                        a {
+                            display: block;
+                            margin: 0 auto;
+                            float: none;
+                            width: 190px;
+                            text-align: center;
+                            background: #eb5f27d9;
+                            padding: 13px;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+            img {
+                width: 100%;
+            }
+        }
+        #block-slidertextoverlay {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            background: #464646e8;
+            padding: 10px;
+            text-align: right;
+            z-index: 9999;
+            p {
+                padding:0 15px;
+                font-size: 20px;
+                font-weight: bold;
+                color: #FFF;
+                &::before {
+                    content: "";
+                    background: url(../../images/phone_white.png) no-repeat;
+                    width: 17px;
+                    height: 17px;
+                    display: inline-block;
+                    background-size: contain;
+                    margin-right: 5px;
+                }
             }
         }
     }
+
 }
