@@ -139,6 +139,12 @@ body .hero_slider {
 body .hero_slider .node--type-varbase-heroslider-media .hero-slide-content,
 body .hero_slider .node--type-branch-slider .hero-slide-content {
   padding: 1.2em;
+  z-index: 999;
+  width: 100%;
+  position: absolute;
+  bottom: auto;
+  top: 50%;
+  transform: translateY(-50%);
 }
 body .hero_slider .node--type-varbase-heroslider-media .hero-slide-content .row,
 body .hero_slider .node--type-branch-slider .hero-slide-content .row {
@@ -168,8 +174,8 @@ body .hero_slider .node--type-branch-slider .hero-slide-content .row .field--nam
 }
 body .hero_slider .node--type-varbase-heroslider-media .hero-slide-content .row .field--name-field-link a,
 body .hero_slider .node--type-branch-slider .hero-slide-content .row .field--name-field-link a,
-body .hero_slider .node--type-varbase-heroslider-media .hero-slide-content .row field--name-field-call-to-action a,
-body .hero_slider .node--type-branch-slider .hero-slide-content .row field--name-field-call-to-action a {
+body .hero_slider .node--type-varbase-heroslider-media .hero-slide-content .row .field--name-field-call-to-action a,
+body .hero_slider .node--type-branch-slider .hero-slide-content .row .field--name-field-call-to-action a {
   display: block;
   margin: 0 auto;
   float: none;
