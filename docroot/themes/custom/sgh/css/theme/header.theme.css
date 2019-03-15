@@ -186,6 +186,10 @@ body .hero_slider .node--type-branch-slider .hero-slide-content .row .field--nam
   font-size: 14px;
   color: #FFF;
 }
+body .hero_slider .node--type-varbase-heroslider-media .hero-slide-content .row .field--name-field-call-to-action a,
+body .hero_slider .node--type-branch-slider .hero-slide-content .row .field--name-field-call-to-action a {
+  background: #50A155;
+}
 body .hero_slider .node--type-varbase-heroslider-media img,
 body .hero_slider .node--type-branch-slider img {
   width: 100%;
