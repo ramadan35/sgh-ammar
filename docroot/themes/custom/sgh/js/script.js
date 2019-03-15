@@ -41,7 +41,7 @@
             //slickslider pager (numbers) in surveys node
             if ($('body').hasClass('path-frontpage')) {
                 var total_slides = $(".total-slides").html();
-                $('.node--type-varbase-heroslider-media' , context).append('<div class="counter"><span class="selected">1</span> / <span class="total">' + total_slides + '</span></div>');
+                $('.node--type-varbase-heroslider-media , .node--type-branch-slider' , context).append('<div class="counter"><span class="selected">1</span> / <span class="total">' + total_slides + '</span></div>');
                 var slider = $('.hero_slider .slick__slider');
                 slider.on('afterChange', function (event, slick, currentSlide) {
                     if (!$('.slick-active').hasClass('slick-cloned')) {
