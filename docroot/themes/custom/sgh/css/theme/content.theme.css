@@ -1390,6 +1390,9 @@ body:not(.path-frontpage) #block-headerimageblock img {
   position: absolute;
   width: 100%;
 }
+.page-node-type-branches .breadcrumb {
+  display: none;
+}
 .page-node-type-branches #block-views-block-news-block-1,
 .page-node-type-branches #block-views-block-varbase-blog-homepage-blog-block,
 .page-node-type-branches #block-views-block-events-block-1 {
