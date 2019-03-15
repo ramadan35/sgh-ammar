@@ -214,4 +214,7 @@ body .hero_slider #block-slidertextoverlay p::before {
   background-size: contain;
   margin-right: 5px;
 }
+.page-node-type-branches #block-slidertextoverlay {
+  display: none;
+}
 /*# sourceMappingURL=header.theme.css.map */
