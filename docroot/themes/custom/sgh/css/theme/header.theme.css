@@ -217,4 +217,7 @@ body .hero_slider #block-slidertextoverlay p::before {
 .page-node-type-branches #block-slidertextoverlay {
   display: none;
 }
+.page-node-type-branches #block-entityviewcontent {
+  display: none;
+}
 /*# sourceMappingURL=header.theme.css.map */
