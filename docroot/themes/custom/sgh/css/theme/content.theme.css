@@ -1403,6 +1403,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
   margin: 0;
   text-transform: uppercase;
   margin-bottom: 10px;
+  text-align: center;
 }
 .page-node-type-branches .block-views-blockmedical-specialties-block-2 .block-title::after {
   content: "";
