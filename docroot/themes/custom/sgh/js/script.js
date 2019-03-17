@@ -9,15 +9,15 @@
     Drupal.behaviors.sgh = {
         attach: function (context) {
             // Vartheme subtheme JavaScript behaviors goes here.
-            $('.path-frontpage #block-views-block-events-block-1 .field--name-field-date .field--item:last-child , #views-bootstrap-events-block-2 .field--name-field-date .field--item:last-child , .page-node-type-events .field--name-field-date .field--item:last-child , .view-offers-promotions .field--name-field-date .field--item:last-child , .page-node-type-offers-promotions .field--name-field-date .field--item:last-child' , context).prepend('<div class="field--label">End date</div>');
+            $('.path-frontpage #block-views-block-events-block-1 .field--name-field-date .field--item:last-child , #views-bootstrap-events-block-2 .field--name-field-date .field--item:last-child , .page-node-type-events .field--name-field-date .field--item:last-child , .view-offers-promotions .field--name-field-date .field--item:last-child , .page-node-type-offers-promotions .field--name-field-date .field--item:last-child', context).prepend('<div class="field--label">End date</div>');
             $('.path-frontpage #block-views-block-events-block-1 .field--name-field-date .field--item:first-child , #views-bootstrap-events-block-2 .field--name-field-date .field--item:first-child , .page-node-type-events .field--name-field-date .field--item:first-child , .view-offers-promotions .field--name-field-date .field--item:first-child , .page-node-type-offers-promotions .field--name-field-date .field--item:first-child', context).prepend('<div class="field--label">Start date</div>');
 
-            var left_height = $('.region-front-content-2-left' , context).height();
-            $('.path-frontpage #block-views-block-events-block-1' , context).css('height', left_height);
+            var left_height = $('.region-front-content-2-left', context).height();
+            $('.path-frontpage #block-views-block-events-block-1', context).css('height', left_height);
 
-            $('#block-searchform' , context).append('<i class="trigger-search fa fa-search"></i>');
-            $('#block-searchform .trigger-search' , context).addClass('closed');
-            $('#block-searchform .trigger-search' , context).click(function () {
+            $('#block-searchform', context).append('<i class="trigger-search fa fa-search"></i>');
+            $('#block-searchform .trigger-search', context).addClass('closed');
+            $('#block-searchform .trigger-search', context).click(function () {
                 if ($(this).hasClass('closed')) {
                     //open search
                     $('#block-searchform .trigger-search').removeClass('closed');
@@ -41,7 +41,7 @@
             //slickslider pager (numbers) in surveys node
             if ($('body').hasClass('path-frontpage')) {
                 var total_slides = $(".total-slides").html();
-                $('.node--type-varbase-heroslider-media , .node--type-branch-slider' , context).append('<div class="counter"><span class="selected">1</span> / <span class="total">' + total_slides + '</span></div>');
+                $('.node--type-varbase-heroslider-media , .node--type-branch-slider', context).append('<div class="counter"><span class="selected">1</span> / <span class="total">' + total_slides + '</span></div>');
                 var slider = $('.hero_slider .slick__slider');
                 slider.on('afterChange', function (event, slick, currentSlide) {
                     if (!$('.slick-active').hasClass('slick-cloned')) {
@@ -58,6 +58,19 @@
             $('.path-frontpage .front_content_1 #block-views-block-partners-block-1 .view-content .slick__slide .field--name-field-media-image ').matchHeight();
             $('.path-doctors .views-view-grid.horizontal article').matchHeight();
             $('.view-offers-promotions .col .wrapper').matchHeight();
+
+            $('#block-views-blockmedical-specialties-block-2 .view-content').bxSlider({
+                slideWidth: 285,
+                minSlides: 1,
+                maxSlides: 4,
+                responsive: true,
+                infiniteLoop: true,
+                controls: false,
+                pager: false,
+                speed: 500,
+                auto: true,
+                autoStart: true
+            });
         }
     };
 
