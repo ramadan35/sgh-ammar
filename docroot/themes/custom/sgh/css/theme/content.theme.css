@@ -1410,6 +1410,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
   height: 6px;
   background: #2D3A88;
   display: block;
+  margin: 0 auto;
   margin-top: 7px;
 }
 .page-node-type-branches .more-link {
