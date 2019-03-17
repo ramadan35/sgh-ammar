@@ -1701,19 +1701,9 @@ body:not(.path-frontpage) {
             }
         }
     }
+
     .more-link {
-        position: absolute;
-        top: 0;
-        right: 0;
-        margin: 0;
-        a {
-            font-size: 0;
-            width: 60px;
-            height: 52px;
-            display:block;
-            background: url(../../images/arrow-right.png) @brand-primary no-repeat;
-            background-position: 50%;
-        }
+        display: none;
     }
     .front_content_3 {
         background: url(../../images/bluebg.jpg) no-repeat;
@@ -1871,6 +1861,24 @@ body:not(.path-frontpage) {
     .front_content_2 {
         > .container {
             padding: 0;
+            #block-views-block-events-block-3 {
+                .block-title {
+                    font-size: 30px;
+                    font-weight: bold;
+                    color: #000;
+                    margin: 0;
+                    text-transform: uppercase;
+                    margin-bottom: 10px;
+                    &::after {
+                        content: "";
+                        width: 42px;
+                        height: 6px;
+                        background: @brand-primary;
+                        display: block;
+                        margin-top: 7px;
+                    }
+                }
+            }
         }
     }
     .front_content_1 {
