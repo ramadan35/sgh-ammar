@@ -69,7 +69,8 @@
                 pager: false,
                 speed: 500,
                 auto: true,
-                autoStart: true
+                autoStart: true,
+                margin: 15px
             });
         }
     };
