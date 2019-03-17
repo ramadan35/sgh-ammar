@@ -1396,17 +1396,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
 .page-node-type-branches #block-entityviewcontent {
   display: none;
 }
-.page-node-type-branches #block-views-block-news-block-1,
-.page-node-type-branches #block-views-block-varbase-blog-homepage-blog-block,
-.page-node-type-branches #block-views-block-events-block-1 {
-  background: #FFF;
-  box-shadow: 1px 1px 6px #ecebeb;
-  padding: 20px 22px;
-  position: relative;
-}
-.page-node-type-branches #block-views-block-news-block-1 .block-title,
-.page-node-type-branches #block-views-block-varbase-blog-homepage-blog-block .block-title,
-.page-node-type-branches #block-views-block-events-block-1 .block-title {
+.page-node-type-branches .block-views-blockmedical-specialties-block-2 .block-title {
   font-size: 30px;
   font-weight: bold;
   color: #000;
@@ -1414,9 +1404,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-.page-node-type-branches #block-views-block-news-block-1 .block-title::after,
-.page-node-type-branches #block-views-block-varbase-blog-homepage-blog-block .block-title::after,
-.page-node-type-branches #block-views-block-events-block-1 .block-title::after {
+.page-node-type-branches .block-views-blockmedical-specialties-block-2 .block-title::after {
   content: "";
   width: 42px;
   height: 6px;
@@ -1437,76 +1425,6 @@ body:not(.path-frontpage) #block-headerimageblock img {
   display: block;
   background: url(../../images/arrow-right.png) #2D3A88 no-repeat;
   background-position: 50%;
-}
-.page-node-type-branches #block-views-block-news-block-1 {
-  margin-bottom: 30px;
-}
-.page-node-type-branches #block-views-block-events-block-1 {
-  padding-bottom: 50px;
-}
-.page-node-type-branches #block-views-block-events-block-1 .field--name-node-title a {
-  font-size: 16px;
-  color: #505150;
-  font-family: gothem;
-}
-.page-node-type-branches #block-views-block-events-block-1 .field--name-body {
-  font-size: 13px;
-  color: #505150;
-  margin-bottom: 15px;
-}
-.page-node-type-branches #block-views-block-events-block-1 .field--name-field-date {
-  float: left;
-  width: 50%;
-}
-.page-node-type-branches #block-views-block-events-block-1 .field--name-field-date .field--label {
-  color: #2D3A88;
-  text-transform: uppercase;
-  font-size: 12px;
-  font-family: gothem;
-}
-.page-node-type-branches #block-views-block-events-block-1 .field--name-field-date .field--item {
-  color: #50A155;
-  font-size: 12px;
-  font-family: gothem;
-}
-.page-node-type-branches #block-views-block-events-block-1 .field--name-field-date .field--item:first-child {
-  margin-bottom: 20px;
-}
-.page-node-type-branches #block-views-block-events-block-1 .field--name-field-capacity {
-  float: left;
-  width: 50%;
-}
-.page-node-type-branches #block-views-block-events-block-1 .field--name-field-capacity .field--label {
-  color: #2D3A88;
-  text-transform: uppercase;
-  font-size: 12px;
-  font-family: gothem;
-}
-.page-node-type-branches #block-views-block-events-block-1 .field--name-field-capacity .field--item {
-  color: #50A155;
-  font-size: 12px;
-  font-family: gothem;
-}
-.page-node-type-branches #block-views-block-events-block-1 .more-link {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  margin: 0;
-  top: auto;
-  right: auto;
-  width: 100%;
-}
-.page-node-type-branches #block-views-block-events-block-1 .more-link a {
-  font-size: 13px;
-  text-align: center;
-  color: #FFFFFF;
-  padding-top: 17px;
-  width: 60px;
-  height: 52px;
-  display: block;
-  background: url(../../images/arrow-right.png) #2D3A88 no-repeat;
-  background-position: 92% 50%;
-  width: 100%;
 }
 .page-node-type-branches .front_content_3 {
   background: url(../../images/bluebg.jpg) no-repeat;
