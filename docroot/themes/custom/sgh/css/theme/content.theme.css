@@ -1567,6 +1567,70 @@ body:not(.path-frontpage) #block-headerimageblock img {
   display: block;
   margin-top: 7px;
 }
+.page-node-type-branches .front_content_2 > .container #block-views-block-events-block-3 .field--name-node-title a {
+  font-size: 16px;
+  color: #505150;
+  font-family: gothem;
+}
+.page-node-type-branches .front_content_2 > .container #block-views-block-events-block-3 .field--name-body {
+  font-size: 13px;
+  color: #505150;
+  margin-bottom: 15px;
+}
+.page-node-type-branches .front_content_2 > .container #block-views-block-events-block-3 .field--name-field-date {
+  float: left;
+  width: 50%;
+}
+.page-node-type-branches .front_content_2 > .container #block-views-block-events-block-3 .field--name-field-date .field--label {
+  color: #2D3A88;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: gothem;
+}
+.page-node-type-branches .front_content_2 > .container #block-views-block-events-block-3 .field--name-field-date .field--item {
+  color: #50A155;
+  font-size: 12px;
+  font-family: gothem;
+}
+.page-node-type-branches .front_content_2 > .container #block-views-block-events-block-3 .field--name-field-date .field--item:first-child {
+  margin-bottom: 20px;
+}
+.page-node-type-branches .front_content_2 > .container #block-views-block-events-block-3 .field--name-field-capacity {
+  float: left;
+  width: 50%;
+}
+.page-node-type-branches .front_content_2 > .container #block-views-block-events-block-3 .field--name-field-capacity .field--label {
+  color: #2D3A88;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: gothem;
+}
+.page-node-type-branches .front_content_2 > .container #block-views-block-events-block-3 .field--name-field-capacity .field--item {
+  color: #50A155;
+  font-size: 12px;
+  font-family: gothem;
+}
+.page-node-type-branches .front_content_2 > .container #block-views-block-events-block-3 .more-link {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0;
+  top: auto;
+  right: auto;
+  width: 100%;
+}
+.page-node-type-branches .front_content_2 > .container #block-views-block-events-block-3 .more-link a {
+  font-size: 13px;
+  text-align: center;
+  color: #FFFFFF;
+  padding-top: 17px;
+  width: 60px;
+  height: 52px;
+  display: block;
+  background: url(../../images/arrow-right.png) #2D3A88 no-repeat;
+  background-position: 92% 50%;
+  width: 100%;
+}
 .page-node-type-branches .front_content_1 {
   position: relative;
   top: -85px;
