@@ -70,7 +70,7 @@
                 speed: 500,
                 auto: true,
                 autoStart: true,
-                margin: 15px
+                margin: 15
             });
         }
     };
