@@ -1605,6 +1605,9 @@ body:not(.path-frontpage) #block-headerimageblock img {
   color: #505150;
   margin-bottom: 15px;
 }
+.page-node-type-branches .front_content_2 > .container #block-views-block-news-block-3 .field--name-field-date {
+  margin-top: 15px;
+}
 .page-node-type-branches .front_content_2 > .container #block-views-block-news-block-3 .field--name-field-date .field--label {
   color: #2D3A88;
   text-transform: uppercase;
