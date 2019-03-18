@@ -1579,7 +1579,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
 .page-node-type-branches .front_content_2 > .container {
   padding: 0;
 }
-.page-node-type-branches .front_content_2 > .container #views-bootstrap-news-block-3 .block-title {
+.page-node-type-branches .front_content_2 > .container #block-views-block-news-block-3 .block-title {
   font-size: 30px;
   font-weight: bold;
   color: #000;
@@ -1587,7 +1587,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-.page-node-type-branches .front_content_2 > .container #views-bootstrap-news-block-3 .block-title::after {
+.page-node-type-branches .front_content_2 > .container #block-views-block-news-block-3 .block-title::after {
   content: "";
   width: 42px;
   height: 6px;
@@ -1595,31 +1595,31 @@ body:not(.path-frontpage) #block-headerimageblock img {
   display: block;
   margin-top: 7px;
 }
-.page-node-type-branches .front_content_2 > .container #views-bootstrap-news-block-3 .field--name-node-title a {
+.page-node-type-branches .front_content_2 > .container #block-views-block-news-block-3 .field--name-node-title a {
   font-size: 16px;
   color: #505150;
   font-family: gothem;
 }
-.page-node-type-branches .front_content_2 > .container #views-bootstrap-news-block-3 .field--name-body {
+.page-node-type-branches .front_content_2 > .container #block-views-block-news-block-3 .field--name-body {
   font-size: 13px;
   color: #505150;
   margin-bottom: 15px;
 }
-.page-node-type-branches .front_content_2 > .container #views-bootstrap-news-block-3 .field--name-field-date .field--label {
+.page-node-type-branches .front_content_2 > .container #block-views-block-news-block-3 .field--name-field-date .field--label {
   color: #2D3A88;
   text-transform: uppercase;
   font-size: 12px;
   font-family: gothem;
 }
-.page-node-type-branches .front_content_2 > .container #views-bootstrap-news-block-3 .field--name-field-date .field--item {
+.page-node-type-branches .front_content_2 > .container #block-views-block-news-block-3 .field--name-field-date .field--item {
   color: #50A155;
   font-size: 12px;
   font-family: gothem;
 }
-.page-node-type-branches .front_content_2 > .container #views-bootstrap-news-block-3 .field--name-field-date .field--item:first-child {
+.page-node-type-branches .front_content_2 > .container #block-views-block-news-block-3 .field--name-field-date .field--item:first-child {
   margin-bottom: 20px;
 }
-.page-node-type-branches .front_content_2 > .container #views-bootstrap-events-block-3 .block-title {
+.page-node-type-branches .front_content_2 > .container #block-views-block-events-block-3 .block-title {
   font-size: 30px;
   font-weight: bold;
   color: #000;
@@ -1627,7 +1627,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-.page-node-type-branches .front_content_2 > .container #views-bootstrap-events-block-3 .block-title::after {
+.page-node-type-branches .front_content_2 > .container #block-views-block-events-block-3 .block-title::after {
   content: "";
   width: 42px;
   height: 6px;
@@ -1635,18 +1635,18 @@ body:not(.path-frontpage) #block-headerimageblock img {
   display: block;
   margin-top: 7px;
 }
-.page-node-type-branches .front_content_2 > .container #views-bootstrap-events-block-3 .field--name-field-date .field--label {
+.page-node-type-branches .front_content_2 > .container #block-views-block-events-block-3 .field--name-field-date .field--label {
   color: #2D3A88;
   text-transform: uppercase;
   font-size: 12px;
   font-family: gothem;
 }
-.page-node-type-branches .front_content_2 > .container #views-bootstrap-events-block-3 .field--name-field-date .field--item {
+.page-node-type-branches .front_content_2 > .container #block-views-block-events-block-3 .field--name-field-date .field--item {
   color: #50A155;
   font-size: 12px;
   font-family: gothem;
 }
-.page-node-type-branches .front_content_2 > .container #views-bootstrap-events-block-3 .field--name-field-date .field--item:first-child {
+.page-node-type-branches .front_content_2 > .container #block-views-block-events-block-3 .field--name-field-date .field--item:first-child {
   margin-bottom: 20px;
 }
 .page-node-type-branches .front_content_1 {
