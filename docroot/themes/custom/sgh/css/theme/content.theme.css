@@ -1902,8 +1902,8 @@ body:not(.path-frontpage) #block-headerimageblock img {
   background-size: 100%;
 }
 .bx-wrapper .bx-viewport {
-  border: 0;
-  background: transparent;
-  box-shadow: none;
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
 }
 /*# sourceMappingURL=content.theme.css.map */
