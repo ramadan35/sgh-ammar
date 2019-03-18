@@ -1425,7 +1425,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
 }
 .page-node-type-branches #block-views-block-medical-specialties-block-2 .bx-wrapper .bx-viewport .views-row {
   background: #FFF;
-  box-shadow: 0px 2px 5px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 11px 1px rgba(0, 0, 0, 0.1);
   padding: 15px 10px;
 }
 .page-node-type-branches #block-views-block-medical-specialties-block-2 .bx-wrapper .bx-viewport .views-row .views-field-name {
