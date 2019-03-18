@@ -1908,6 +1908,40 @@ body:not(.path-frontpage) {
                     }
                 }
             }
+            #views-bootstrap-events-block-3 {
+                .block-title {
+                    font-size: 30px;
+                    font-weight: bold;
+                    color: #000;
+                    margin: 0;
+                    text-transform: uppercase;
+                    margin-bottom: 10px;
+                    &::after {
+                        content: "";
+                        width: 42px;
+                        height: 6px;
+                        background: @brand-primary;
+                        display: block;
+                        margin-top: 7px;
+                    }
+                }
+                .field--name-field-date {
+                    .field--label {
+                        color: @brand-primary;
+                        text-transform: uppercase;
+                        font-size: 12px;
+                        font-family: gothem;
+                    }
+                    .field--item {
+                        color: @green;
+                        font-size: 12px;
+                        font-family: gothem;
+                        &:first-child {
+                            margin-bottom: 20px;
+                        }
+                    }
+                }
+            }
         }
     }
     .front_content_1 {
