@@ -70,7 +70,7 @@
 
 jQuery(document).ready(function ($) {
     $('.block-views-blockmedical-specialties-block-2 .view-content').bxSlider({
-        slideWidth: 285,
+        slideWidth: 275,
         minSlides: 1,
         maxSlides: 4,
         responsive: true,
