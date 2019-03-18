@@ -1423,6 +1423,11 @@ body:not(.path-frontpage) #block-headerimageblock img {
   margin-bottom: 40px;
   margin-top: 15px;
 }
+.page-node-type-branches #block-views-block-medical-specialties-block-2 .bx-wrapper .bx-viewport .views-row {
+  background: #FFF;
+  box-shadow: 0px 2px 5px 0 rgba(0, 0, 0, 0.1);
+  padding: 15px 10px;
+}
 .page-node-type-branches #block-views-block-medical-specialties-block-2 .bx-wrapper .bx-viewport .views-row .views-field-name {
   margin-top: 15px;
   margin-bottom: 15px;
