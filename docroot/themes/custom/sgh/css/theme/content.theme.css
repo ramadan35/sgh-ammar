@@ -1921,4 +1921,9 @@ body:not(.path-frontpage) #block-headerimageblock img {
   display: block;
   background-size: 100%;
 }
+.bx-wrapper .bx-viewport {
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+}
 /*# sourceMappingURL=content.theme.css.map */
