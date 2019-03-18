@@ -77,6 +77,5 @@ jQuery(document).ready(function ($) {
         speed: 500,
         auto: true,
         autoStart: true,
-        margin: 15
     });
 });
