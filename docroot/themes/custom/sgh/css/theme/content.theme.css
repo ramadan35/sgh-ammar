@@ -1396,11 +1396,11 @@ body:not(.path-frontpage) #block-headerimageblock img {
 .page-node-type-branches #block-entityviewcontent {
   display: none;
 }
-.page-node-type-branches .block-views-blockmedical-specialties-block-2 {
+.page-node-type-branches #block-views-block-medical-specialties-block-2 {
   padding-top: 40px;
   padding-bottom: 40px;
 }
-.page-node-type-branches .block-views-blockmedical-specialties-block-2 .block-title {
+.page-node-type-branches #block-views-block-medical-specialties-block-2 .block-title {
   font-size: 30px;
   font-weight: bold;
   color: #000;
@@ -1409,7 +1409,26 @@ body:not(.path-frontpage) #block-headerimageblock img {
   margin-bottom: 10px;
   text-align: center;
 }
-.page-node-type-branches .block-views-blockmedical-specialties-block-2 .block-title::after {
+.page-node-type-branches #block-views-block-medical-specialties-block-2 .block-title::after {
+  content: "";
+  width: 42px;
+  height: 6px;
+  background: #2D3A88;
+  display: block;
+  margin: 0 auto;
+  margin-top: 7px;
+}
+.page-node-type-branches #block-views-block-medical-specialties-block-2 .bx-wrapper .bx-viewport .views-row .views-field-name {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+.page-node-type-branches #block-views-block-medical-specialties-block-2 .bx-wrapper .bx-viewport .views-row .views-field-name a {
+  font-weight: gothem;
+  font-weight: bold;
+  color: #424242;
+}
+.page-node-type-branches #block-views-block-medical-specialties-block-2 .bx-wrapper .bx-viewport .views-row .views-field-name::after {
   content: "";
   width: 42px;
   height: 6px;
@@ -1841,45 +1860,6 @@ body:not(.path-frontpage) #block-headerimageblock img {
   text-align: center;
 }
 .page-node-type-branches .front_content_1 #block-quicktabsbranchestabs .quicktabs-main .field--name-body a {
-  color: #50A155;
-}
-.page-node-type-branches .front_content_1 #block-views-block-partners-block-1 {
-  margin-top: 40px;
-}
-.page-node-type-branches .front_content_1 #block-views-block-partners-block-1 .block-title {
-  font-size: 30px;
-  font-weight: bold;
-  color: #000;
-  margin: 0;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-}
-.page-node-type-branches .front_content_1 #block-views-block-partners-block-1 .block-title::after {
-  content: "";
-  width: 42px;
-  height: 6px;
-  background: #2D3A88;
-  display: block;
-  margin-top: 7px;
-}
-.page-node-type-branches .front_content_1 #block-views-block-partners-block-1 .view-content {
-  padding: 0 50px;
-}
-.page-node-type-branches .front_content_1 #block-views-block-partners-block-1 .view-content .slick__slide {
-  text-align: center;
-  color: #000;
-  font-weight: bold;
-  font-size: 14px;
-}
-.page-node-type-branches .front_content_1 #block-views-block-partners-block-1 .view-content .slick__slide .field--name-field-media-image img {
-  margin: 0 auto;
-  max-width: 175px;
-  padding-bottom: 15px;
-}
-.page-node-type-branches .front_content_1 #block-views-block-partners-block-1 .view-content .slick-dots li button::before {
-  color: #CCC;
-}
-.page-node-type-branches .front_content_1 #block-views-block-partners-block-1 .view-content .slick-dots li.slick-active button::before {
   color: #50A155;
 }
 .page-node-type-branches .hero_slider {

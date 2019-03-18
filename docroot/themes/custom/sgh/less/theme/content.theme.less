@@ -1679,7 +1679,7 @@ body:not(.path-frontpage) {
     #block-entityviewcontent {
         display: none;
     }
-    .block-views-blockmedical-specialties-block-2 {
+    #block-views-block-medical-specialties-block-2 {
         padding-top: 40px;
         padding-bottom: 40px;
         .block-title {
@@ -1698,6 +1698,43 @@ body:not(.path-frontpage) {
                 display: block;
                 margin: 0 auto;
                 margin-top: 7px;
+            }
+        }
+        .bx-wrapper {
+            .bx-viewport {
+                .views-row {
+                    .views-field-name {
+                        margin-top: 15px;
+                        margin-bottom: 15px;
+                        text-align: center;
+                        a {
+                            font-weight: gothem;
+                            font-weight: bold;
+                            color: #424242;
+                        }
+                        &::after {
+                            content: "";
+                            width: 42px;
+                            height: 6px;
+                            background: #2D3A88;
+                            display: block;
+                            margin: 0 auto;
+                            margin-top: 7px;
+                        }
+                    }
+                    .views-field-field-image {
+
+                    }
+                    .views-field-description__value {
+
+                    }
+                    .views-field-view-taxonomy-term {
+
+                    }
+                }
+            }
+            .bx-controls {
+
             }
         }
     }
@@ -2197,57 +2234,6 @@ body:not(.path-frontpage) {
                     text-align: center;
                     a {
                         color: @green;
-                    }
-                }
-            }
-        }
-        #block-views-block-partners-block-1 {
-            margin-top: 40px;
-            .block-title {
-                font-size: 30px;
-                font-weight: bold;
-                color: #000;
-                margin: 0;
-                text-transform: uppercase;
-                margin-bottom: 10px;
-                &::after {
-                    content: "";
-                    width: 42px;
-                    height: 6px;
-                    background: #2D3A88;
-                    display: block;
-                    margin-top: 7px;
-                }
-            }
-            .view-content {
-                padding: 0 50px;
-                .slick__slide {
-                    text-align: center;
-                    color: #000;
-                    font-weight: bold;
-                    font-size: 14px;
-                    .field--name-field-media-image {
-                        img {
-                            margin: 0 auto;
-                            max-width: 175px;
-                            padding-bottom: 15px;
-                        }
-                    }
-                }
-                .slick-dots {
-                    li {
-                        button {
-                            &::before {
-                                color: #CCC;
-                            }
-                        }
-                        &.slick-active {
-                            button {
-                                &::before {
-                                    color: @green;
-                                }
-                            }
-                        }
                     }
                 }
             }
