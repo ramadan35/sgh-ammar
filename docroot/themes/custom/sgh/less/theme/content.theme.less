@@ -1753,6 +1753,14 @@ body:not(.path-frontpage) {
                             text-decoration: none;
                             display: inline-block;
                             font-size: 12px;
+                            &::after {
+                                content: "";
+                                background: url(../../images/arrow-right.png) no-repeat;
+                                width: 38px;
+                                height: 10px;
+                                display: inline-block;
+                                background-position: 50%;
+                            }
                         }
                     }
                 }
