@@ -1771,10 +1771,15 @@ body:not(.path-frontpage) {
             .bx-controls {
                 .bx-controls-direction {
                     a {
-                        background: url(../../images/arrow-right.png) @brand-primary no-repeat;
+                        background-position: 50%;
                         width: 40px;
                         height: 40px;
-                        background-position: 50%;
+                        &.bx-prev {
+                            background: url(../../images/arrow-left.png) @brand-primary no-repeat;
+                        }
+                        &.bx-next {
+                            background: url(../../images/arrow-right.png) @brand-primary no-repeat;
+                        }
                     }
                 }
             }

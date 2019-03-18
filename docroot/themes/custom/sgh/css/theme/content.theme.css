@@ -1482,10 +1482,15 @@ body:not(.path-frontpage) #block-headerimageblock img {
   background-position: 50%;
 }
 .page-node-type-branches #block-views-block-medical-specialties-block-2 .bx-wrapper .bx-controls .bx-controls-direction a {
-  background: url(../../images/arrow-right.png) #2D3A88 no-repeat;
+  background-position: 50%;
   width: 40px;
   height: 40px;
-  background-position: 50%;
+}
+.page-node-type-branches #block-views-block-medical-specialties-block-2 .bx-wrapper .bx-controls .bx-controls-direction a.bx-prev {
+  background: url(../../images/arrow-left.png) #2D3A88 no-repeat;
+}
+.page-node-type-branches #block-views-block-medical-specialties-block-2 .bx-wrapper .bx-controls .bx-controls-direction a.bx-next {
+  background: url(../../images/arrow-right.png) #2D3A88 no-repeat;
 }
 .page-node-type-branches .more-link {
   display: none;
