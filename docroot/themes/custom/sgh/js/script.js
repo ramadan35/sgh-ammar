@@ -59,7 +59,7 @@
             $('.path-doctors .views-view-grid.horizontal article').matchHeight();
             $('.view-offers-promotions .col .wrapper').matchHeight();
 
-            $('#block-views-blockmedical-specialties-block-2 .view-content').bxSlider({
+            $('.block-views-blockmedical-specialties-block-2 .view-content').bxSlider({
                 slideWidth: 285,
                 minSlides: 1,
                 maxSlides: 4,
