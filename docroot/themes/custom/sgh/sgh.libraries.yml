@@ -42,7 +42,7 @@ global-styles:
       css/theme/content.theme.css: {}
       css/theme/footer.theme.css: {}
       css/theme/pagestyles.theme.css: {}
-      js/bxslider/jquery.bxslider.css: {}
+      js/bxslider/src/css/jquery.bxslider.css: {}
   dependencies:
     - core/jquery
 
@@ -63,7 +63,7 @@ global-scripts:
   js:
     js/script.js: {}
     js/match_height/dist/jquery.matchHeight-min.js: {}
-    js/bxslider/jquery.bxslider.min.js: {}
+    js/bxslider/src/js/jquery.bxslider.js: {}
   dependencies:
     - core/jquery
     

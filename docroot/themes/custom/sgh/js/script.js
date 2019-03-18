@@ -67,6 +67,12 @@
 
 jQuery(document).ready(function ($) {
     $('.block-views-blockmedical-specialties-block-2 .view-content').bxSlider({
+        onSliderLoad: function (currentIndex) {
+            $('#slide-counter .current-index').text(currentIndex + 1);
+        },
+        onSlideBefore: function ($slideElement, oldIndex, newIndex) {
+            $('#slide-counter .current-index').text(newIndex + 1);
+        },
         slideWidth: 285,
         minSlides: 1,
         maxSlides: 4,
