@@ -66,7 +66,7 @@
                 responsive: true,
                 infiniteLoop: true,
                 controls: false,
-                pager: false,
+                pager: true,
                 speed: 500,
                 auto: true,
                 autoStart: true,
