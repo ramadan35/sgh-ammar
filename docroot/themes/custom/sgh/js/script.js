@@ -58,6 +58,9 @@
             $('.path-frontpage .front_content_1 #block-views-block-partners-block-1 .view-content .slick__slide .field--name-field-media-image ').matchHeight();
             $('.path-doctors .views-view-grid.horizontal article').matchHeight();
             $('.view-offers-promotions .col .wrapper').matchHeight();
+            $('.page-node-type-branches #block-views-block-medical-specialties-block-2 .bx-wrapper .bx-viewport .views-row .views-field-name').matchHeight();
+            $('.page-node-type-branches #block-views-block-medical-specialties-block-2 .bx-wrapper .bx-viewport .views-row .views-field-field-image').matchHeight();
+            $('.page-node-type-branches #block-views-block-medical-specialties-block-2 .bx-wrapper .bx-viewport .views-row .views-field-description__value').matchHeight();
 
 
         }
