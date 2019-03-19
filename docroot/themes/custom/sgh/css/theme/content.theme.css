@@ -925,8 +925,9 @@ body:not(.path-frontpage) #block-headerimageblock img {
   font-weight: 500;
   font-size: 20px;
   margin-bottom: 5px;
+  text-align: left;
 }
-.page-node-type-branches .front_content_3 #block-views-block-varbase-blog-block-1 .field--name-node-title h3 a {
+.page-node-type-branches .front_content_3 #block-views-block-varbase-blog-block-1 .field--name-node-title a {
   color: #FFFFFF;
   font-size: 14px;
   text-transform: uppercase;
@@ -936,6 +937,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
   margin-bottom: 20px;
   margin-top: 15px;
   text-decoration: none;
+  text-align: left;
 }
 .varbase-heroslider-media .node--type-varbase-heroslider-media .hero-slide-content {
   bottom: auto;
