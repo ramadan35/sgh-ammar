@@ -959,7 +959,7 @@ body:not(.path-frontpage) {
 }
 
 .page-node-type-branches{
-        .front_content_3 {
+    .front_content_3 {
         background: url(../../images/bluebg.jpg) no-repeat;
         padding: 60px 0;
         margin-top: 35px;
@@ -1005,7 +1005,7 @@ body:not(.path-frontpage) {
                             .field--name-body {
                                 color: @white;
                                 margin-bottom: 20px;
-                                    text-decoration: none;
+                                text-decoration: none;
                             }
                         }
                     }
@@ -1082,7 +1082,7 @@ body:not(.path-frontpage) {
                             margin-bottom: 20px;
                             margin-top: 15px;
                             text-decoration: none;
-                            
+
                         }
                     }
                     .slick__arrow {
@@ -1117,16 +1117,16 @@ body:not(.path-frontpage) {
                 font-weight: 500;
                 font-size: 20px;
                 margin-bottom: 5px;
-                    text-align: left;
-                    h3 {
-                        font-weight: 500;
-    font-size: 20px;
-    margin-bottom: 5px;
-    margin-top: 20px;
-                    }
+                text-align: left;
+                h3 {
+                    font-weight: 500;
+                    font-size: 20px;
+                    margin-bottom: 5px;
+                    margin-top: 20px;
+                }
                 a {
                     color: @white;
-                   font-size: 14px;
+                    font-size: 14px;
                     text-transform: uppercase;                
                 }
 
@@ -1136,10 +1136,10 @@ body:not(.path-frontpage) {
                 margin-bottom: 20px;
                 margin-top: 15px;
                 text-decoration: none;
-                    text-align: left;
+                text-align: left;
             }
         }
-        }
+    }
 }
 
 .varbase-heroslider-media .node--type-varbase-heroslider-media .hero-slide-content {
@@ -1931,38 +1931,44 @@ body:not(.path-frontpage) {
                         margin-bottom: 15px;
                     }
                     .views-field-view-taxonomy-term {
-                        a {
-                            background: @green;
-                            padding: 13px;
-                            color: #FFF;
-                            font-weight: bold;
-                            text-transform: uppercase;
-                            text-decoration: none;
-                            display: inline-block;
-                            font-size: 12px;
-                            &::after {
-                                content: "";
-                                background: url(../../images/arrow-right.png) no-repeat;
-                                width: 38px;
-                                height: 10px;
+                        .field-content {
+                            display: block;
+                            text-align: center;
+                            a {
+                                background: @green;
+                                padding: 13px;
+                                color: #FFF;
+                                font-weight: bold;
+                                text-transform: uppercase;
+                                text-decoration: none;
                                 display: inline-block;
-                                background-position: 50%;
+                                font-size: 12px;
+                                &::after {
+                                    content: "";
+                                    background: url(../../images/arrow-right.png) no-repeat;
+                                    width: 38px;
+                                    height: 10px;
+                                    display: inline-block;
+                                    background-position: 50%;
+                                }
                             }
                         }
+
                     }
                 }
             }
             .bx-controls {
                 .bx-controls-direction {
                     a {
-                        background-position: 50%;
                         width: 40px;
                         height: 40px;
                         &.bx-prev {
                             background: url(../../images/arrow-left.png) @brand-primary no-repeat;
+                            background-position: 50%;
                         }
                         &.bx-next {
                             background: url(../../images/arrow-right.png) @brand-primary no-repeat;
+                            background-position: 50%;
                         }
                     }
                 }
@@ -2522,5 +2528,7 @@ body:not(.path-frontpage) {
         border: 0 !important;
         background: transparent !important;
         box-shadow: none !important;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }

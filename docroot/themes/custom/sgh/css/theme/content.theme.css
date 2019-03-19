@@ -1616,7 +1616,11 @@ body:not(.path-frontpage) #block-headerimageblock img {
   color: #505150;
   margin-bottom: 15px;
 }
-.page-node-type-branches #block-views-block-medical-specialties-block-2 .bx-wrapper .bx-viewport .views-row .views-field-view-taxonomy-term a {
+.page-node-type-branches #block-views-block-medical-specialties-block-2 .bx-wrapper .bx-viewport .views-row .views-field-view-taxonomy-term .field-content {
+  display: block;
+  text-align: center;
+}
+.page-node-type-branches #block-views-block-medical-specialties-block-2 .bx-wrapper .bx-viewport .views-row .views-field-view-taxonomy-term .field-content a {
   background: #50A155;
   padding: 13px;
   color: #FFF;
@@ -1626,7 +1630,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
   display: inline-block;
   font-size: 12px;
 }
-.page-node-type-branches #block-views-block-medical-specialties-block-2 .bx-wrapper .bx-viewport .views-row .views-field-view-taxonomy-term a::after {
+.page-node-type-branches #block-views-block-medical-specialties-block-2 .bx-wrapper .bx-viewport .views-row .views-field-view-taxonomy-term .field-content a::after {
   content: "";
   background: url(../../images/arrow-right.png) no-repeat;
   width: 38px;
@@ -1635,15 +1639,16 @@ body:not(.path-frontpage) #block-headerimageblock img {
   background-position: 50%;
 }
 .page-node-type-branches #block-views-block-medical-specialties-block-2 .bx-wrapper .bx-controls .bx-controls-direction a {
-  background-position: 50%;
   width: 40px;
   height: 40px;
 }
 .page-node-type-branches #block-views-block-medical-specialties-block-2 .bx-wrapper .bx-controls .bx-controls-direction a.bx-prev {
   background: url(../../images/arrow-left.png) #2D3A88 no-repeat;
+  background-position: 50%;
 }
 .page-node-type-branches #block-views-block-medical-specialties-block-2 .bx-wrapper .bx-controls .bx-controls-direction a.bx-next {
   background: url(../../images/arrow-right.png) #2D3A88 no-repeat;
+  background-position: 50%;
 }
 .page-node-type-branches .more-link {
   display: none;
@@ -2121,5 +2126,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
   border: 0 !important;
   background: transparent !important;
   box-shadow: none !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 /*# sourceMappingURL=content.theme.css.map */
