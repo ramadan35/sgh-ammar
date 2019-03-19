@@ -895,6 +895,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
   color: #FFFFFF;
   margin-bottom: 20px;
   margin-top: 15px;
+  text-decoration: none;
 }
 .page-node-type-branches .front_content_3 #block-views-block-varbase-blog-block-1 .form-group .view-content .slick__arrow .slick-prev {
   width: 13px;
@@ -925,15 +926,16 @@ body:not(.path-frontpage) #block-headerimageblock img {
   font-size: 20px;
   margin-bottom: 5px;
 }
-.page-node-type-branches .front_content_3 #block-views-block-varbase-blog-block-1 .field--name-node-title a {
+.page-node-type-branches .front_content_3 #block-views-block-varbase-blog-block-1 .field--name-node-title h3 a {
   color: #FFFFFF;
-  font-size: 20px;
+  font-size: 14px;
   text-transform: uppercase;
 }
 .page-node-type-branches .front_content_3 #block-views-block-varbase-blog-block-1 .field--name-body {
   color: #FFFFFF;
   margin-bottom: 20px;
   margin-top: 15px;
+  text-decoration: none;
 }
 .varbase-heroslider-media .node--type-varbase-heroslider-media .hero-slide-content {
   bottom: auto;
