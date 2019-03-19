@@ -2032,5 +2032,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
   box-shadow: none !important;
   padding-top: 10px;
   padding-bottom: 10px;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 /*# sourceMappingURL=content.theme.css.map */
