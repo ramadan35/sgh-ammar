@@ -799,6 +799,9 @@ body:not(.path-frontpage) #block-headerimageblock img {
   margin-top: 35px;
   background-size: 100%;
 }
+.page-node-type-branches .front_content_3 #block-views-block-offers-promotions-block-3 {
+  border-right: 1px solid #FFF;
+}
 .page-node-type-branches .front_content_3 #block-views-block-offers-promotions-block-3 .block-title {
   font-size: 30px;
   font-weight: bold;
