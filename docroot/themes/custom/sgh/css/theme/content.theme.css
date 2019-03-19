@@ -922,6 +922,9 @@ body:not(.path-frontpage) #block-headerimageblock img {
   display: block;
   background-size: 100%;
 }
+.page-node-type-branches .front_content_3 #block-views-block-varbase-blog-block-1 article {
+  margin: 0;
+}
 .page-node-type-branches .front_content_3 #block-views-block-varbase-blog-block-1 .field--name-node-title {
   font-weight: 500;
   font-size: 20px;
