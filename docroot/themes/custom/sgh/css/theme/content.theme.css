@@ -800,7 +800,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
   background-size: 100%;
 }
 .page-node-type-branches .front_content_3 #block-views-block-offers-promotions-block-3 {
-  border-right: 1px solid #FFF;
+  border-right: 1px solid #9c9c9c63;
 }
 .page-node-type-branches .front_content_3 #block-views-block-offers-promotions-block-3 .block-title {
   font-size: 30px;
@@ -2024,6 +2024,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
   border: 0 !important;
   background: transparent !important;
   box-shadow: none !important;
+  max-width: 100% !important;
 }
 .bx-wrapper .bx-viewport {
   border: 0 !important;
