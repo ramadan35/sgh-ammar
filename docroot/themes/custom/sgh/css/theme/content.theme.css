@@ -934,16 +934,16 @@ body:not(.path-frontpage) #block-headerimageblock img {
   margin-bottom: 5px;
   text-align: left;
 }
-.page-node-type-branches .front_content_3 #block-views-block-varbase-blog-block-1 .field--name-node-title h3 {
+.page-node-type-branches .front_content_3 #block-views-block-varbase-blog-block-1 .field--name-node-title h2 {
   font-weight: 500;
   font-size: 20px;
   margin-bottom: 5px;
-  margin-top: 20px;
 }
 .page-node-type-branches .front_content_3 #block-views-block-varbase-blog-block-1 .field--name-node-title a {
   color: #FFFFFF;
   font-size: 14px;
   text-transform: uppercase;
+  font-weight: 500;
 }
 .page-node-type-branches .front_content_3 #block-views-block-varbase-blog-block-1 .field--name-body {
   color: #FFFFFF;
