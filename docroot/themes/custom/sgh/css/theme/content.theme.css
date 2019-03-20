@@ -943,7 +943,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
   color: #FFFFFF;
   font-size: 14px;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: bold;
 }
 .page-node-type-branches .front_content_3 #block-views-block-varbase-blog-block-1 .field--name-body {
   color: #FFFFFF;
