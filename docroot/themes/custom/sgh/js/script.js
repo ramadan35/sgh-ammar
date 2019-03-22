@@ -61,7 +61,7 @@
             $('.page-node-type-branches #block-views-block-medical-specialties-block-2 .bx-wrapper .bx-viewport .views-row .views-field-name').matchHeight();
             $('.page-node-type-branches #block-views-block-medical-specialties-block-2 .bx-wrapper .bx-viewport .views-row .views-field-field-image').matchHeight();
             $('.page-node-type-branches #block-views-block-medical-specialties-block-2 .bx-wrapper .bx-viewport .views-row .views-field-description__value').matchHeight();
-
+            $('.page-node-type-branches .node--view-mode-header-information').addClass('container');
 
         }
     };
