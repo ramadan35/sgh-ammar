@@ -255,14 +255,8 @@ body .hero_slider #block-slidertextoverlay p::before {
   background-size: contain;
   margin-right: 5px;
 }
-.page-node-type-branches #block-entityviewcontent-3 p::before {
-  content: "";
-  background: url(../../images/phone_white.png) no-repeat;
-  width: 17px;
-  height: 17px;
-  display: inline-block;
-  background-size: contain;
-  margin-right: 5px;
+.page-node-type-branches #block-entityviewcontent-3 .node--view-mode-header-information .bs-region--right .field.field--name-field-phone-number-1 {
+  margin-right: 15px;
 }
 .page-node-type-branches #block-slidertextoverlay {
   display: none;
