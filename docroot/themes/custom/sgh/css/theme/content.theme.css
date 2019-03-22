@@ -954,6 +954,10 @@ body:not(.path-frontpage) #block-headerimageblock img {
   text-decoration: none;
   text-align: left;
 }
+.page-node-type-branches .main-container > .row > .col-sm-12:nth-child(2) {
+  margin: 0;
+  padding: 0 15px;
+}
 .varbase-heroslider-media .node--type-varbase-heroslider-media .hero-slide-content {
   bottom: auto;
   top: 50%;
