@@ -28,4 +28,5 @@ function custom_sgh_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $for
       $form['mergevars']['FNAME']['#title'] = t('Full name');
     }
   }
+  kint($form_id);
 }
