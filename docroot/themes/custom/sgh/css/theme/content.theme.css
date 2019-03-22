@@ -884,6 +884,9 @@ body:not(.path-frontpage) #block-headerimageblock img {
 .page-node-type-branches .front_content_3 #block-views-block-varbase-blog-block-1 .form-group .view-content .slick__slide {
   text-align: center;
 }
+.page-node-type-branches .front_content_3 #block-views-block-varbase-blog-block-1 .form-group .view-content .slick__slide .node--view-mode-horizontal-media-teaser-medium-branch {
+  margin: 0;
+}
 .page-node-type-branches .front_content_3 #block-views-block-varbase-blog-block-1 .form-group .view-content .slick__slide .views-field-title {
   font-weight: 500;
   font-size: 20px;
