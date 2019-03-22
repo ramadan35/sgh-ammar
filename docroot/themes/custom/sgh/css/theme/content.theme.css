@@ -1762,6 +1762,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
 }
 .page-node-type-branches .front_content_1 #block-quicktabsbranchestabs {
   top: -90px;
+  position: relative;
 }
 .page-node-type-branches .front_content_1 #block-quicktabsbranchestabs ul.quicktabs-tabs {
   text-align: center;
