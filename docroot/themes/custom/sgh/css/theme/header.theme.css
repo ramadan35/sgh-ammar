@@ -236,6 +236,8 @@ body .hero_slider #block-slidertextoverlay p::before {
   font-weight: bold;
   color: #FFF;
   text-align: left;
+  margin: 0;
+  margin-top: 4px;
 }
 .page-node-type-branches #block-entityviewcontent-3 .node--view-mode-header-information .bs-region--right .field {
   display: inline-block;
