@@ -15,3 +15,71 @@
 // -----------------------------------------------------------------------------
 
 // Insert your vartheme header (RTL) custom styling.
+header {
+    .header-top {
+        text-align: left;
+        #block-topmenu {
+            float: left;
+            ul.menu {
+                text-align: left;
+                li {
+
+                }
+            }
+        }
+        #block-languageswitcher {
+            ul.links {
+                li {
+
+                }
+            }
+        }
+        #block-searchform {
+            padding-left: 0px;
+            padding-right: 7px;
+            float: left;
+            form {
+                right: auto;
+                left: 35px;
+                .form-item {
+                    button {
+                        right: auto;
+                        left: 0;
+                    }
+                }
+            }
+        }
+        #block-socialicons-2 {
+            float: right;
+            .menu.nav {
+                li {
+                    display: inline-block;
+                    &:first-child {
+                        a {
+                            border-left:  none;
+                        }
+                    }
+                }
+            }
+        } 
+    }
+    .header-bottom {
+        .left {
+
+        }
+
+    }
+    .right {
+        ul.menu {
+            text-align: left;
+            li{
+                &:last-child {
+                    a {
+                        padding-left: 0;
+                    }
+                    
+                }
+            } 
+        }
+    }
+}

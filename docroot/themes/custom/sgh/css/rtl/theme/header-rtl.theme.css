@@ -1,1 +1,38 @@
+header .header-top {
+  text-align: left;
+}
+header .header-top #block-topmenu {
+  float: left;
+}
+header .header-top #block-topmenu ul.menu {
+  text-align: left;
+}
+header .header-top #block-searchform {
+  padding-left: 0px;
+  padding-right: 7px;
+  float: left;
+}
+header .header-top #block-searchform form {
+  right: auto;
+  left: 35px;
+}
+header .header-top #block-searchform form .form-item button {
+  right: auto;
+  left: 0;
+}
+header .header-top #block-socialicons-2 {
+  float: right;
+}
+header .header-top #block-socialicons-2 .menu.nav li {
+  display: inline-block;
+}
+header .header-top #block-socialicons-2 .menu.nav li:first-child a {
+  border-left: none;
+}
+header .right ul.menu {
+  text-align: left;
+}
+header .right ul.menu li:last-child a {
+  padding-left: 0;
+}
 /*# sourceMappingURL=header-rtl.theme.css.map */

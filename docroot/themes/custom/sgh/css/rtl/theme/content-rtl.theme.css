@@ -1,1 +1,28 @@
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Cairo Light'), local('Cairo-Light'), url(https://fonts.gstatic.com/s/cairo/v5/SLXLc1nY6HkvalqKbI6O59M.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Cairo'), local('Cairo-Regular'), url(https://fonts.gstatic.com/s/cairo/v5/SLXGc1nY6HkvalIkTp4.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Cairo SemiBold'), local('Cairo-SemiBold'), url(https://fonts.gstatic.com/s/cairo/v5/SLXLc1nY6Hkvalr-ao6O59M.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Cairo';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Cairo Bold'), local('Cairo-Bold'), url(https://fonts.gstatic.com/s/cairo/v5/SLXLc1nY6Hkvalqaa46O59M.ttf) format('truetype');
+}
+body {
+  font-family: 'Cairo', sans-serif;
+}
 /*# sourceMappingURL=content-rtl.theme.css.map */
