@@ -27,7 +27,7 @@
   src: url(../../fonts/dinar/GEDinarTwo-Medium.ttf);
 }
 body {
-  font-family: GEDinarTwo-Medium;
+  font-family: 'Cairo', sans-serif;
 }
 .path-frontpage .more-link {
   right: auto;
