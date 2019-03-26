@@ -6,7 +6,7 @@
 .footer-wrapper .footer .footer-top ul.menu li a::before {
   margin-right: 0px;
   margin-left: 10px;
-  background: url(../../images/arrow-right-ar.png) no-repeat;
+  background: url(../../../images/arrow-right-ar.png) no-repeat;
 }
 .footer-wrapper .footer .footer-top #block-subscribetoournewsletter form {
   position: relative;
