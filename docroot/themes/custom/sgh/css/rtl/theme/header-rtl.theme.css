@@ -7,6 +7,9 @@ header .header-top #block-topmenu {
 header .header-top #block-topmenu ul.menu {
   text-align: left;
 }
+header .header-top #block-topmenu ul.menu li {
+  border-left: 1px solid #FFF;
+}
 header .header-top #block-searchform {
   padding-left: 0px;
   padding-right: 7px;
@@ -34,5 +37,14 @@ header .right ul.menu {
 }
 header .right ul.menu li:last-child a {
   padding-left: 0;
+}
+body .hero_slider #block-slidertextoverlay {
+  text-align: left;
+}
+body .hero_slider #block-slidertextoverlay p::before {
+  content: "";
+  background: url(../../images/phone_white_ar.png) no-repeat;
+  margin-right: 0px;
+  margin-left: 5px;
 }
 /*# sourceMappingURL=header-rtl.theme.css.map */

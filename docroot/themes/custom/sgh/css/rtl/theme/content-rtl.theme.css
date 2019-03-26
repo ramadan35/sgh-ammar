@@ -25,4 +25,87 @@
 body {
   font-family: 'Cairo', sans-serif;
 }
+.path-frontpage .more-link {
+  right: auto;
+  left: 0px;
+}
+.path-frontpage .more-link a {
+  background: url(../../images/arrow-right.png) #2D3A88 no-repeat;
+}
+.path-frontpage #block-views-block-events-block-1 {
+  padding-bottom: 50px;
+}
+.path-frontpage #block-views-block-events-block-1 .field--name-field-date {
+  float: right;
+}
+.path-frontpage #block-views-block-events-block-1 .field--name-field-capacity {
+  float: right;
+}
+.path-frontpage #block-views-block-events-block-1 .more-link {
+  left: auto;
+  right: 0px;
+}
+.path-frontpage #block-views-block-events-block-1 .more-link a {
+  background: url(../../images/arrow-right.png) #2D3A88 no-repeat;
+  background-position: 92% 50%;
+}
+.path-frontpage .front_content_3 #block-views-block-offers-promotions-block-1 .block-title::before {
+  content: "";
+  background: url(../../images/events.png) no-repeat;
+}
+.path-frontpage .front_content_3 #block-views-block-offers-promotions-block-1 .form-group .slick__arrow .slick-prev::before {
+  background: url(../../images/slider-arrow-left.png) no-repeat;
+}
+.path-frontpage .front_content_3 #block-views-block-offers-promotions-block-1 .form-group .slick__arrow .slick-next::before {
+  background: url(../../images/slider-arrow-right.png) no-repeat;
+}
+.path-frontpage .front_content_3 #block-views-block-visiting-doctors-block-1 .block-title::before {
+  content: "";
+  background: url(../../images/doctors.png) no-repeat;
+}
+.path-frontpage .front_content_3 #block-views-block-visiting-doctors-block-1 .form-group .view-content .slick__slide {
+  text-align: center;
+  padding: 0 30px;
+}
+.path-frontpage .front_content_3 #block-views-block-visiting-doctors-block-1 .form-group .view-content .slick__arrow .slick-prev::before {
+  background: url(../../images/slider-arrow-left.png) no-repeat;
+}
+.path-frontpage .front_content_3 #block-views-block-visiting-doctors-block-1 .form-group .view-content .slick__arrow .slick-next::before {
+  background: url(../../images/slider-arrow-right.png) no-repeat;
+}
+.path-frontpage .front_content_1 #block-quicktabsfronttabs ul.quicktabs-tabs {
+  text-align: center;
+  margin: 0;
+  margin-bottom: -24px;
+}
+.path-frontpage .front_content_1 #block-quicktabsfronttabs ul.quicktabs-tabs li {
+  display: inline-block;
+  padding: 0;
+  padding: 0 3px;
+}
+.path-frontpage .front_content_1 #block-quicktabsfronttabs ul.quicktabs-tabs li a::after {
+  margin-right: 5px;
+  margin-left: 0px;
+}
+.path-frontpage .front_content_1 #block-quicktabsfronttabs .quicktabs-main .webform-submission-book-an-appointment-add-form .webform-telephone--wrapper legend {
+  float: right;
+}
+.path-frontpage .hero_slider .counter {
+  right: 30px;
+  left: auto;
+}
+.path-frontpage .hero_slider .slick__arrow .slick-prev {
+  right: 30px;
+  left: auto;
+}
+.path-frontpage .hero_slider .slick__arrow .slick-prev::before {
+  background: url(../../images/slider-arrow-left.png) no-repeat;
+}
+.path-frontpage .hero_slider .slick__arrow .slick-next {
+  left: 30px;
+  right: auto;
+}
+.path-frontpage .hero_slider .slick__arrow .slick-next::before {
+  background: url(../../images/slider-arrow-right.png) no-repeat;
+}
 /*# sourceMappingURL=content-rtl.theme.css.map */

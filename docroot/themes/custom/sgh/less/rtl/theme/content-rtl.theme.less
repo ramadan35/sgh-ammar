@@ -20,3 +20,144 @@
 body {
     font-family: 'Cairo', sans-serif;
 }
+
+.path-frontpage {
+    .more-link {
+        right: auto;
+        left:0px;
+        a {
+            background: url(../../images/arrow-right.png) @brand-primary no-repeat;
+        }
+    }
+    #block-views-block-events-block-1 {
+        padding-bottom: 50px;
+        .field--name-field-date {
+            float: right;
+        }
+        .field--name-field-capacity {
+            float: right;
+        }
+        .more-link {
+            left: auto;
+            right: 0px;
+            a {
+                background: url(../../images/arrow-right.png) @brand-primary no-repeat;
+                background-position: 92% 50%;
+            }
+        }
+    }
+    .front_content_3 {
+        #block-views-block-offers-promotions-block-1 {
+            .block-title {
+                &::before {
+                    content: "";
+                    background: url(../../images/events.png) no-repeat;
+                }
+            }
+            .form-group {
+                .view-content {
+                    .slick__slide {
+                        .left {
+
+                        }
+                        .right {
+
+                        }
+                    }
+                }
+                .slick__arrow {
+                    .slick-prev {
+                        &::before {
+                            background: url(../../images/slider-arrow-left.png) no-repeat;
+                        }
+                    }
+                    .slick-next {
+                        &::before {
+                            background: url(../../images/slider-arrow-right.png) no-repeat;
+                        }
+                    }
+                }
+            }
+        }
+        #block-views-block-visiting-doctors-block-1 {
+            .block-title {
+                &::before {
+                    content: "";
+                    background: url(../../images/doctors.png) no-repeat;
+                }
+            }
+            .form-group {
+                .view-content {
+                    .slick__slide {
+                        text-align: center;
+                        padding: 0 30px;
+                    }
+                    .slick__arrow {
+                        .slick-prev {
+                            &::before {
+                                background: url(../../images/slider-arrow-left.png) no-repeat;
+                            }
+                        }
+                        .slick-next {
+                            &::before {
+                                background: url(../../images/slider-arrow-right.png) no-repeat;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .front_content_1 {
+        #block-quicktabsfronttabs {
+            ul.quicktabs-tabs {
+                text-align: center;
+                margin: 0;
+                margin-bottom: -24px;
+                li {
+                    display: inline-block;
+                    padding: 0;
+                    padding: 0 3px;
+                    a {
+                        &::after {
+                            margin-right: 5px;
+                            margin-left: 0px;
+                        }
+                    }
+                }
+            }
+            .quicktabs-main {
+                .webform-submission-book-an-appointment-add-form {
+                    .webform-telephone--wrapper {
+                        legend {
+                            float: right;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+    .hero_slider {
+        .counter {
+            right: 30px;
+            left: auto;
+        }
+        .slick__arrow {
+            .slick-prev {
+                right: 30px;
+                left: auto;
+                &::before {
+                    background: url(../../images/slider-arrow-left.png) no-repeat;
+                }
+            }
+            .slick-next {
+                left: 30px;
+                right: auto;
+                &::before {
+                    background: url(../../images/slider-arrow-right.png) no-repeat;
+                }
+            }
+        }
+    }
+}

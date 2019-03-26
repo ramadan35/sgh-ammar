@@ -23,14 +23,7 @@ header {
             ul.menu {
                 text-align: left;
                 li {
-
-                }
-            }
-        }
-        #block-languageswitcher {
-            ul.links {
-                li {
-
+                    border-left: 1px solid #FFF;
                 }
             }
         }
@@ -63,12 +56,6 @@ header {
             }
         } 
     }
-    .header-bottom {
-        .left {
-
-        }
-
-    }
     .right {
         ul.menu {
             text-align: left;
@@ -80,6 +67,22 @@ header {
                     
                 }
             } 
+        }
+    }
+}
+
+body {
+    .hero_slider {
+        #block-slidertextoverlay {
+            text-align: left;
+            p {
+                &::before {
+                    content: "";
+                    background: url(../../images/phone_white_ar.png) no-repeat;
+                    margin-right: 0px;
+                    margin-left: 5px;
+                }
+            }
         }
     }
 }
