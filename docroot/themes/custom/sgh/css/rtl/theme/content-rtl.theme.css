@@ -22,8 +22,12 @@
   font-weight: 700;
   src: local('Cairo Bold'), local('Cairo-Bold'), url(https://fonts.gstatic.com/s/cairo/v5/SLXLc1nY6Hkvalqaa46O59M.ttf) format('truetype');
 }
+@font-face {
+  font-family: GEDinarTwo-Medium;
+  src: url(../../fonts/dinar/GEDinarTwo-Medium.ttf);
+}
 body {
-  font-family: 'Cairo', sans-serif;
+  font-family: GEDinarTwo-Medium;
 }
 .path-frontpage .more-link {
   right: auto;
@@ -34,6 +38,9 @@ body {
 }
 .path-frontpage #block-views-block-events-block-1 {
   padding-bottom: 50px;
+}
+.path-frontpage #block-views-block-events-block-1 .field--name-node-title a {
+  font-family: 'Cairo', sans-serif;
 }
 .path-frontpage #block-views-block-events-block-1 .field--name-field-date {
   float: right;
@@ -49,6 +56,9 @@ body {
   background: url(../../images/arrow-right.png) #2D3A88 no-repeat;
   background-position: 92% 50%;
 }
+.path-frontpage .front_content_3 #block-views-block-offers-promotions-block-1 .block-title {
+  font-family: 'Cairo', sans-serif;
+}
 .path-frontpage .front_content_3 #block-views-block-offers-promotions-block-1 .block-title::before {
   content: "";
   background: url(../../images/events.png) no-repeat;
@@ -58,6 +68,9 @@ body {
 }
 .path-frontpage .front_content_3 #block-views-block-offers-promotions-block-1 .form-group .slick__arrow .slick-next::before {
   background: url(../../images/slider-arrow-right.png) no-repeat;
+}
+.path-frontpage .front_content_3 #block-views-block-visiting-doctors-block-1 .block-title {
+  font-family: 'Cairo', sans-serif;
 }
 .path-frontpage .front_content_3 #block-views-block-visiting-doctors-block-1 .block-title::before {
   content: "";

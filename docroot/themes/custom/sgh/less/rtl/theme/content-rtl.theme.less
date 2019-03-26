@@ -17,8 +17,13 @@
 // Insert your vartheme content (RTL) custom styling.
 @import url('https://fonts.googleapis.com/css?family=Cairo:300,400,600,700&subset=arabic');
 
+@font-face {
+    font-family: GEDinarTwo-Medium;
+    src: url(../../fonts/dinar/GEDinarTwo-Medium.ttf);
+}
+
 body {
-    font-family: 'Cairo', sans-serif;
+    font-family: GEDinarTwo-Medium;
 }
 
 .path-frontpage {
@@ -31,6 +36,11 @@ body {
     }
     #block-views-block-events-block-1 {
         padding-bottom: 50px;
+        .field--name-node-title {
+            a {
+                font-family: 'Cairo', sans-serif;
+            }
+        }
         .field--name-field-date {
             float: right;
         }
@@ -49,6 +59,7 @@ body {
     .front_content_3 {
         #block-views-block-offers-promotions-block-1 {
             .block-title {
+                font-family: 'Cairo', sans-serif;
                 &::before {
                     content: "";
                     background: url(../../images/events.png) no-repeat;
@@ -81,6 +92,7 @@ body {
         }
         #block-views-block-visiting-doctors-block-1 {
             .block-title {
+                font-family: 'Cairo', sans-serif;
                 &::before {
                     content: "";
                     background: url(../../images/doctors.png) no-repeat;
