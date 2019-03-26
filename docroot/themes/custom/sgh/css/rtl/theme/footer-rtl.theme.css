@@ -1,1 +1,33 @@
+.footer-wrapper .footer .footer-top .block-title li a,
+.footer-wrapper .footer .footer-top ul.menu li a {
+  font-family: 'Cairo', sans-serif;
+}
+.footer-wrapper .footer .footer-top .block-title li a::before,
+.footer-wrapper .footer .footer-top ul.menu li a::before {
+  margin-right: 0px;
+  margin-left: 10px;
+}
+.footer-wrapper .footer .footer-top #block-subscribetoournewsletter form {
+  position: relative;
+}
+.footer-wrapper .footer .footer-top #block-subscribetoournewsletter form button {
+  left: 0;
+  right: auto;
+}
+.footer-wrapper .footer .footer-bottom ul.nav {
+  float: left;
+}
+.footer-wrapper .footer .footer-bottom ul.nav li:first-child a {
+  border-right: 0px solid #c2c2c2;
+  border-left: 1px solid #c2c2c2;
+}
+.footer-wrapper .footer .footer-bottom #block-socialicons {
+  float: left;
+}
+.footer-wrapper .footer .footer-bottom #block-socialicons .menu.nav li:first-child a {
+  border-left: none;
+}
+.footer-wrapper .footer .footer-bottom #block-sgh-footer {
+  float: right;
+}
 /*# sourceMappingURL=footer-rtl.theme.css.map */

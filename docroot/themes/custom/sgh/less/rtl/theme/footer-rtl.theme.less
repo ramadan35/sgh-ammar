@@ -15,3 +15,63 @@
 // -----------------------------------------------------------------------------
 
 // Insert your vartheme footer (RTL) custom styling.
+.footer-wrapper {
+    .footer {
+        .footer-top {
+            .block-title,
+            ul.menu {
+                li {
+
+                    a {
+                        font-family: 'Cairo', sans-serif;
+                        &::before {
+                            margin-right: 0px;
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+            #block-subscribetoournewsletter {
+                form {
+                    position: relative;
+                    button {
+                        left: 0;
+                        right: auto;
+                    }
+                }
+
+            }
+        }
+        .footer-bottom {
+            ul.nav {
+                float: left;
+                li {
+                    &:first-child {
+                        a {
+                            border-right: 0px solid #c2c2c2;
+                            border-left: 1px solid #c2c2c2;
+                        }
+                    }
+
+                }
+
+            }
+            #block-socialicons {
+                float: left;
+                .menu.nav {
+                    li {
+                        &:first-child {
+                            a {
+                                border-left:  none;
+                            }
+                        }
+                    }
+                }
+            }
+            #block-sgh-footer {
+                float: right;
+            }
+        }
+
+    }
+}
