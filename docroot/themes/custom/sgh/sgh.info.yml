@@ -63,12 +63,12 @@ libraries-override:
   vartheme/global-scripts: false
 
 # Comment lines to use (RTL) libraries from vartheme.
-  vartheme/bootstrap-styles-rtl: false
+  vartheme/bootstrap-styles-rtl: true
   vartheme/global-styles-rtl: true
 # Comment lines to use (RTL) libraries from sgh.
-  sgh/bootstrap-styles-rtl: false
-  sgh/vartheme-styles-rtl: false
-  sgh/global-styles-rtl: false
+  sgh/bootstrap-styles-rtl: true
+  sgh/vartheme-styles-rtl: true
+  sgh/global-styles-rtl: true
 
 # sgh Varbase Bootstrap Paragraphs colors theme.
   varbase_bootstrap_paragraphs/vbp-colors: sgh/vbp-colors
