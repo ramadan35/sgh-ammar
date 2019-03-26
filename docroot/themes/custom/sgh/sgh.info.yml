@@ -64,7 +64,7 @@ libraries-override:
 
 # Comment lines to use (RTL) libraries from vartheme.
   vartheme/bootstrap-styles-rtl: false
-  vartheme/global-styles-rtl: false
+  vartheme/global-styles-rtl: true
 # Comment lines to use (RTL) libraries from sgh.
   sgh/bootstrap-styles-rtl: false
   sgh/vartheme-styles-rtl: false
