@@ -1,0 +1,125 @@
+// Vartheme header (RTL) styling.
+// -----------------------------------------------------------------------------
+@import "../../../bootstrap/less/variables.less";  // Bootstrap variables.
+@import "../../../bootstrap/less/mixins.less";     // Bootstrap mixins.
+@import "../../variables.less";                    // Vartheme variables.
+@import "../../mixins.less";                       // Vartheme mixins.
+
+// Core variables and mixins imported from the latest original bootstrap.
+// Mixins
+// --------------------------------------------------
+@import "../../../bootstrap-rtl/less/mixins/pagination-rtl.less"; // RTL
+@import "../../../bootstrap-rtl/less/mixins/gradients-rtl.less"; // RTL
+@import "../../../bootstrap-rtl/less/mixins/grid-framework-rtl.less"; // RTL
+@import "../../../bootstrap-rtl/less/mixins/grid-rtl.less"; // RTL
+// -----------------------------------------------------------------------------
+
+// Insert your vartheme header (RTL) custom styling.
+
+.view-offers-promotions {
+    .col {
+        .wrapper{
+            .top {
+                position: relative;
+                .percentage {
+                    left: auto;
+                    right: 15px;
+                    font-family: GEDinarTwo-Medium;
+                    span{
+                        font-family: GEDinarTwo-Medium;
+                        text-align: right;
+                    }
+                } 
+                .bottom-of-top {
+                    .green-button {
+                        float: left;
+                    }
+                }
+            }
+
+        }
+        .bottom {
+            .field--name-field-date {
+                float: right;
+                width: 100%;
+                .field--label {
+                    font-family: GEDinarTwo-Medium;
+                }
+                .field--item {
+font-family: GEDinarTwo-Medium;
+                    &:last-child {
+                        float: right;
+                    }
+                    &:first-child {
+                        float: right;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.page-node-type-offers-promotions {
+    .wrapper{
+        .top {
+            .percentage {
+                left: auto;
+                right: 15px;
+                font-family: GEDinarTwo-Medium;
+                span{
+                    font-family: GEDinarTwo-Medium;
+                    text-align: right;
+                }
+            } 
+            .bottom-of-top {
+                .field--name-node-title {
+                    h2{
+                      font-family: GEDinarTwo-Medium;
+                    }
+                }
+            }
+
+        }
+        .bottom {
+            .field--name-field-date {
+                float: right;
+                width: 100%;
+                .field--label {
+                   font-family: GEDinarTwo-Medium;
+                }
+                .field--item {
+                    font-family: GEDinarTwo-Medium;
+                    &:last-child {
+                        padding-left: 0px;
+                         padding-right: 15px;
+                    }
+                }
+            }
+        }
+    }
+    .main-container {
+        form {
+            fieldset {
+                legend {
+                    float: right;
+                }
+
+            }
+
+            .form-actions {
+                float: left;
+                button {
+                    &::after {
+                        content: "";
+                        background: url(../../../images/phone_white_ar.png) no-repeat;
+                        width: 38px;
+                        height: 10px;
+                        display: inline-block;
+                        background-position: 50%;
+                    }
+                }
+            }
+        }
+    }
+
+}

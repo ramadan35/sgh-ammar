@@ -1,0 +1,72 @@
+.view-offers-promotions .col .wrapper .top {
+  position: relative;
+}
+.view-offers-promotions .col .wrapper .top .percentage {
+  left: auto;
+  right: 15px;
+  font-family: GEDinarTwo-Medium;
+}
+.view-offers-promotions .col .wrapper .top .percentage span {
+  font-family: GEDinarTwo-Medium;
+  text-align: right;
+}
+.view-offers-promotions .col .wrapper .top .bottom-of-top .green-button {
+  float: left;
+}
+.view-offers-promotions .col .bottom .field--name-field-date {
+  float: right;
+  width: 100%;
+}
+.view-offers-promotions .col .bottom .field--name-field-date .field--label {
+  font-family: GEDinarTwo-Medium;
+}
+.view-offers-promotions .col .bottom .field--name-field-date .field--item {
+  font-family: GEDinarTwo-Medium;
+}
+.view-offers-promotions .col .bottom .field--name-field-date .field--item:last-child {
+  float: right;
+}
+.view-offers-promotions .col .bottom .field--name-field-date .field--item:first-child {
+  float: right;
+}
+.page-node-type-offers-promotions .wrapper .top .percentage {
+  left: auto;
+  right: 15px;
+  font-family: GEDinarTwo-Medium;
+}
+.page-node-type-offers-promotions .wrapper .top .percentage span {
+  font-family: GEDinarTwo-Medium;
+  text-align: right;
+}
+.page-node-type-offers-promotions .wrapper .top .bottom-of-top .field--name-node-title h2 {
+  font-family: GEDinarTwo-Medium;
+}
+.page-node-type-offers-promotions .wrapper .bottom .field--name-field-date {
+  float: right;
+  width: 100%;
+}
+.page-node-type-offers-promotions .wrapper .bottom .field--name-field-date .field--label {
+  font-family: GEDinarTwo-Medium;
+}
+.page-node-type-offers-promotions .wrapper .bottom .field--name-field-date .field--item {
+  font-family: GEDinarTwo-Medium;
+}
+.page-node-type-offers-promotions .wrapper .bottom .field--name-field-date .field--item:last-child {
+  padding-left: 0px;
+  padding-right: 15px;
+}
+.page-node-type-offers-promotions .main-container form fieldset legend {
+  float: right;
+}
+.page-node-type-offers-promotions .main-container form .form-actions {
+  float: left;
+}
+.page-node-type-offers-promotions .main-container form .form-actions button::after {
+  content: "";
+  background: url(../../../images/phone_white_ar.png) no-repeat;
+  width: 38px;
+  height: 10px;
+  display: inline-block;
+  background-position: 50%;
+}
+/*# sourceMappingURL=pagestyles-rtl.theme.css.map */
