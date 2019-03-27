@@ -101,17 +101,38 @@ header .header-top #block-socialicons-2 .menu.nav li a:focus {
 header .header-top #block-socialicons-2 .menu.nav li:first-child a {
   border-right: none;
 }
+@media (max-width: 992px) {
+  header .header-bottom .left {
+    text-align: center;
+  }
+}
 header .header-bottom .left a {
   margin-top: 24px;
   margin-bottom: 24px;
 }
+@media (max-width: 992px) {
+  header .header-bottom .left a {
+    float: none !important;
+    display: block;
+  }
+}
 header .header-bottom .left a img {
   height: 40px;
+}
+@media (max-width: 1200px) {
+  header .header-bottom .right {
+    padding: 0;
+  }
 }
 header .header-bottom .right ul.menu {
   text-align: right;
   width: 100%;
   padding-top: 22px;
+}
+@media (max-width: 992px) {
+  header .header-bottom .right ul.menu {
+    text-align: center;
+  }
 }
 header .header-bottom .right ul.menu li {
   float: none;
@@ -129,6 +150,11 @@ header .header-bottom .right ul.menu li a:hover,
 header .header-bottom .right ul.menu li a:focus {
   color: #50A155;
   background: transparent;
+}
+@media (max-width: 1200px) {
+  header .header-bottom .right ul.menu li a {
+    padding: 15px 5px;
+  }
 }
 header .header-bottom .right ul.menu li:last-child a {
   padding-right: 0;

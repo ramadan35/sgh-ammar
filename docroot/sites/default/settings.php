@@ -779,3 +779,7 @@ $databases['default']['default'] = array (
   'driver' => 'mysql',
 );
 $config_directories['sync'] = 'sites/default/files/config_lFdzDd2ol_df8fSvAh-B2n7uIkMS_57Xql2hTr50Mxmb6We54_iFmU5Ar5mHsj4yc6Gie6VOVw/sync';
+//Disabling cache
+$settings['cache']['bins']['render'] = 'cache.backend.null';
+$settings['cache']['bins']['dynamic_page_cache'] = 'cache.backend.null';    
+$settings['container_yamls'][] = DRUPAL_ROOT . '/sites/development.services.yml';

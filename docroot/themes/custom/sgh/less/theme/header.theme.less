@@ -117,9 +117,16 @@ header {
     }
     .header-bottom {
         .left {
+            @media (max-width: @screen-md) {
+                text-align: center;
+            }
             a {
                 margin-top: 24px;
                 margin-bottom: 24px;
+                @media (max-width: @screen-md) {
+                    float: none !important;
+                    display: block;
+                }
                 img {
                     height: 40px;
                 }
@@ -127,10 +134,16 @@ header {
 
         }
         .right {
+            @media (max-width: @screen-lg) {
+                padding: 0;
+            }
             ul.menu {
                 text-align: right;
                 width: 100%;
                 padding-top: 22px;
+                @media (max-width: @screen-md) {
+                    text-align: center;
+                }
                 li{
                     float:none;
                     display: inline-block;
@@ -146,6 +159,9 @@ header {
                             color: @green;
                             background: transparent;
                         }
+                        @media (max-width: @screen-lg) {
+                            padding: 15px 5px;
+                        } 
                     }
                     &:last-child {
                         a {
