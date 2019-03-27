@@ -93,4 +93,7 @@ body {
   padding-right: 0px;
   padding-left: 30px;
 }
+.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall.node--type-events .right .green-button {
+  float: left;
+}
 /*# sourceMappingURL=content-rtl.theme.css.map */
