@@ -24,10 +24,10 @@
 }
 @font-face {
   font-family: GEDinarTwo-Medium;
-  src: url(../../fonts/dinar/GEDinarTwo-Medium.ttf);
+  src: url(../../../fonts/dinar/GEDinarTwo-Medium.ttf);
 }
 body {
-  font-family: 'Cairo', sans-serif;
+  font-family: GEDinarTwo-Medium;
 }
 .path-frontpage .more-link {
   right: auto;
