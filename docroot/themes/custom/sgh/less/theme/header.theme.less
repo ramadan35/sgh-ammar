@@ -61,6 +61,10 @@ header {
                 right: 35px;
                 top: -6px;
                 display: none;
+                @media (max-width: @screen-sm) {
+                    right: auto;
+                    left: 30px;
+                }
                 .form-item {
                     margin: 0;
                     position: relative;
@@ -85,6 +89,10 @@ header {
             .trigger-search {
                 color: @white;
                 cursor: pointer;
+            }
+            @media (max-width: @screen-sm) {
+                float: none;
+                position: relative;
             }
         }
         #block-socialicons-2 {
@@ -113,7 +121,14 @@ header {
                     }
                 }
             }
-        } 
+            @media (max-width: @screen-sm) {
+                width: 100%;
+                text-align: center;
+            }
+        }
+        @media (max-width: @screen-sm) {
+            text-align: center;
+        }
     }
     .header-bottom {
         .left {
@@ -154,6 +169,7 @@ header {
                         text-transform: uppercase;
                         transition: color 0.5s ease;
                         background: transparent;
+                        padding: 15px;
                         &:hover,
                             &:focus {
                             color: @green;
@@ -166,6 +182,27 @@ header {
                     &:last-child {
                         a {
                             padding-right: 0;
+                        }
+                    }
+                }
+            }
+            .sf-accordion-toggle {
+                text-align: center;
+                margin-bottom: 10px;
+                a {
+                    font-size: 0;
+                    &::before {
+                        font-family: FontAwesome !important;
+                        content: "\f0c9";
+                        font-size: 20px;
+                        color: @brand-primary;
+                    }
+                    &.sf-expanded {
+                        &::before {
+                            font-family: FontAwesome !important;
+                            content: "\f00d";
+                            font-size: 20px;
+                            color: @brand-primary;
                         }
                     }
                 }

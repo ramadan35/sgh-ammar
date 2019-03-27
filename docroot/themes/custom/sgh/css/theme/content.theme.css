@@ -236,6 +236,17 @@ body:not(.path-frontpage) #block-headerimageblock img {
   left: -20px;
   top: 0;
 }
+@media (max-width: 768px) {
+  .node--view-mode-horizontal-media-teaser-medium .left {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .node--view-mode-horizontal-media-teaser-medium .right {
+    width: 100%;
+    padding-top: 10px;
+  }
+}
 .node--view-mode-horizontal-media-teaser-medium .right .field--name-node-post-date {
   color: #50A155;
   font-size: 12px;
@@ -259,6 +270,13 @@ body:not(.path-frontpage) #block-headerimageblock img {
   box-shadow: 1px 1px 6px #ecebeb;
   padding: 20px 22px;
   position: relative;
+}
+@media (max-width: 992px) {
+  .path-frontpage #block-views-block-news-block-1,
+  .path-frontpage #block-views-block-varbase-blog-homepage-blog-block,
+  .path-frontpage #block-views-block-events-block-1 {
+    margin-top: 30px;
+  }
 }
 .path-frontpage #block-views-block-news-block-1 .block-title,
 .path-frontpage #block-views-block-varbase-blog-homepage-blog-block .block-title,
@@ -491,6 +509,11 @@ body:not(.path-frontpage) #block-headerimageblock img {
   display: block;
   background-size: 100%;
 }
+@media (max-width: 992px) {
+  .path-frontpage .front_content_2 {
+    padding-top: 40px;
+  }
+}
 .path-frontpage .front_content_2 > .container {
   padding: 0;
 }
@@ -498,15 +521,32 @@ body:not(.path-frontpage) #block-headerimageblock img {
   position: relative;
   top: -70px;
 }
+@media (max-width: 992px) {
+  .path-frontpage .front_content_1 {
+    top: 0;
+  }
+}
 .path-frontpage .front_content_1 #block-quicktabsfronttabs ul.quicktabs-tabs {
   text-align: center;
   margin: 0;
   margin-bottom: -24px;
 }
+@media (max-width: 992px) {
+  .path-frontpage .front_content_1 #block-quicktabsfronttabs ul.quicktabs-tabs {
+    margin: 0;
+    padding: 0;
+  }
+}
 .path-frontpage .front_content_1 #block-quicktabsfronttabs ul.quicktabs-tabs li {
   display: inline-block;
   padding: 0;
   padding: 0 3px;
+}
+@media (max-width: 992px) {
+  .path-frontpage .front_content_1 #block-quicktabsfronttabs ul.quicktabs-tabs li {
+    width: 100%;
+    padding: 0;
+  }
 }
 .path-frontpage .front_content_1 #block-quicktabsfronttabs ul.quicktabs-tabs li a {
   background: #2D3A88;
@@ -515,6 +555,11 @@ body:not(.path-frontpage) #block-headerimageblock img {
   padding: 18px 40px;
   border-radius: 8px;
   text-transform: uppercase;
+}
+@media (max-width: 992px) {
+  .path-frontpage .front_content_1 #block-quicktabsfronttabs ul.quicktabs-tabs li a {
+    border-radius: 0px;
+  }
 }
 .path-frontpage .front_content_1 #block-quicktabsfronttabs ul.quicktabs-tabs li a::before {
   content: "";
@@ -651,13 +696,29 @@ body:not(.path-frontpage) #block-headerimageblock img {
 .path-frontpage .front_content_1 #block-quicktabsfronttabs .quicktabs-main .webform-submission-book-an-appointment-add-form .form-item .fieldset-wrapper {
   display: inline-block;
 }
+@media (max-width: 480px) {
+  .path-frontpage .front_content_1 #block-quicktabsfronttabs .quicktabs-main .webform-submission-book-an-appointment-add-form .form-item-date-time {
+    width: 100%;
+  }
+}
 .path-frontpage .front_content_1 #block-quicktabsfronttabs .quicktabs-main .webform-submission-book-an-appointment-add-form .form-item-date-time label {
   vertical-align: top;
   padding-top: 10px;
 }
+@media (max-width: 480px) {
+  .path-frontpage .front_content_1 #block-quicktabsfronttabs .quicktabs-main .webform-submission-book-an-appointment-add-form .form-item-date-time label {
+    width: 100%;
+  }
+}
 .path-frontpage .front_content_1 #block-quicktabsfronttabs .quicktabs-main .webform-submission-book-an-appointment-add-form .form-item-date-time .container-inline {
   display: inline-block;
   max-width: 255px;
+}
+@media (max-width: 480px) {
+  .path-frontpage .front_content_1 #block-quicktabsfronttabs .quicktabs-main .webform-submission-book-an-appointment-add-form .form-item-date-time .container-inline {
+    width: 100%;
+    max-width: 100%;
+  }
 }
 .path-frontpage .front_content_1 #block-quicktabsfronttabs .quicktabs-main .webform-submission-book-an-appointment-add-form .form-item-date-time .form-inline {
   margin: 0;
@@ -1732,15 +1793,32 @@ body:not(.path-frontpage) #block-headerimageblock img {
   top: -90px;
   position: relative;
 }
+@media (max-width: 992px) {
+  .page-node-type-branches .front_content_1 #block-quicktabsbranchestabs {
+    top: 0;
+  }
+}
 .page-node-type-branches .front_content_1 #block-quicktabsbranchestabs ul.quicktabs-tabs {
   text-align: center;
   margin: 0;
   margin-bottom: -24px;
 }
+@media (max-width: 992px) {
+  .page-node-type-branches .front_content_1 #block-quicktabsbranchestabs ul.quicktabs-tabs {
+    margin: 0;
+    padding: 0;
+  }
+}
 .page-node-type-branches .front_content_1 #block-quicktabsbranchestabs ul.quicktabs-tabs li {
   display: inline-block;
   padding: 0;
   padding: 0 3px;
+}
+@media (max-width: 992px) {
+  .page-node-type-branches .front_content_1 #block-quicktabsbranchestabs ul.quicktabs-tabs li {
+    width: 100%;
+    padding: 0;
+  }
 }
 .page-node-type-branches .front_content_1 #block-quicktabsbranchestabs ul.quicktabs-tabs li a {
   background: #2D3A88;
@@ -1749,6 +1827,11 @@ body:not(.path-frontpage) #block-headerimageblock img {
   padding: 18px 40px;
   border-radius: 8px;
   text-transform: uppercase;
+}
+@media (max-width: 992px) {
+  .page-node-type-branches .front_content_1 #block-quicktabsbranchestabs ul.quicktabs-tabs li a {
+    border-radius: 0;
+  }
 }
 .page-node-type-branches .front_content_1 #block-quicktabsbranchestabs ul.quicktabs-tabs li a::before {
   content: "";
@@ -1885,13 +1968,29 @@ body:not(.path-frontpage) #block-headerimageblock img {
 .page-node-type-branches .front_content_1 #block-quicktabsbranchestabs .quicktabs-main .webform-submission-book-an-appointment-add-form .form-item .fieldset-wrapper {
   display: inline-block;
 }
+@media (max-width: 480px) {
+  .page-node-type-branches .front_content_1 #block-quicktabsbranchestabs .quicktabs-main .webform-submission-book-an-appointment-add-form .form-item-date-time {
+    width: 100%;
+  }
+}
 .page-node-type-branches .front_content_1 #block-quicktabsbranchestabs .quicktabs-main .webform-submission-book-an-appointment-add-form .form-item-date-time label {
   vertical-align: top;
   padding-top: 10px;
 }
+@media (max-width: 480px) {
+  .page-node-type-branches .front_content_1 #block-quicktabsbranchestabs .quicktabs-main .webform-submission-book-an-appointment-add-form .form-item-date-time label {
+    width: 100%;
+  }
+}
 .page-node-type-branches .front_content_1 #block-quicktabsbranchestabs .quicktabs-main .webform-submission-book-an-appointment-add-form .form-item-date-time .container-inline {
   display: inline-block;
   max-width: 255px;
+}
+@media (max-width: 480px) {
+  .page-node-type-branches .front_content_1 #block-quicktabsbranchestabs .quicktabs-main .webform-submission-book-an-appointment-add-form .form-item-date-time .container-inline {
+    width: 100%;
+    max-width: 100%;
+  }
 }
 .page-node-type-branches .front_content_1 #block-quicktabsbranchestabs .quicktabs-main .webform-submission-book-an-appointment-add-form .form-item-date-time .form-inline {
   margin: 0;

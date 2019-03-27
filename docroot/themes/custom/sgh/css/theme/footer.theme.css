@@ -51,6 +51,11 @@
 .footer-wrapper .footer .footer-top .region-footer4 img {
   margin-bottom: 5px;
 }
+@media (max-width: 768px) {
+  .footer-wrapper .footer .footer-top .region-footer4 img {
+    max-width: 265px;
+  }
+}
 .footer-wrapper .footer .footer-top #block-subscribetoournewsletter {
   margin-top: 22px;
 }
@@ -61,10 +66,20 @@
 .footer-wrapper .footer .footer-top #block-subscribetoournewsletter form {
   position: relative;
 }
+@media (max-width: 992px) {
+  .footer-wrapper .footer .footer-top #block-subscribetoournewsletter form {
+    max-width: 265px;
+  }
+}
 .footer-wrapper .footer .footer-top #block-subscribetoournewsletter form input {
   border: 1px solid #CCC;
   height: 35px;
   padding: 3px;
+}
+@media (max-width: 992px) {
+  .footer-wrapper .footer .footer-top #block-subscribetoournewsletter form input {
+    width: 100%;
+  }
 }
 .footer-wrapper .footer .footer-top #block-subscribetoournewsletter form button {
   position: absolute;
@@ -76,8 +91,21 @@
   border: 0;
   background-position: 50%;
 }
+@media (max-width: 768px) {
+  .footer-wrapper .footer .footer-top .region-footer1 a {
+    display: block;
+  }
+}
 .footer-wrapper .footer .footer-top .region-footer1 img {
   margin-bottom: 15px;
+}
+@media (max-width: 768px) {
+  .footer-wrapper .footer .footer-top .col-1,
+  .footer-wrapper .footer .footer-top .col-2,
+  .footer-wrapper .footer .footer-top .col-3,
+  .footer-wrapper .footer .footer-top .col-4 {
+    margin-bottom: 20px;
+  }
 }
 .footer-wrapper .footer .footer-bottom {
   clear: both;
@@ -86,6 +114,11 @@
 .footer-wrapper .footer .footer-bottom ul.nav {
   float: right;
   padding: 10px 0 10px 0;
+}
+@media (max-width: 768px) {
+  .footer-wrapper .footer .footer-bottom ul.nav {
+    width: 100%;
+  }
 }
 .footer-wrapper .footer .footer-bottom ul.nav li {
   display: inline-block;
@@ -97,6 +130,12 @@
 }
 .footer-wrapper .footer .footer-bottom #block-socialicons {
   float: right;
+}
+@media (max-width: 768px) {
+  .footer-wrapper .footer .footer-bottom #block-socialicons {
+    text-align: center;
+    width: 100%;
+  }
 }
 .footer-wrapper .footer .footer-bottom #block-socialicons .menu.nav li a {
   padding: 7px;
@@ -111,5 +150,11 @@
 }
 .footer-wrapper .footer .footer-bottom #block-sgh-footer {
   float: left;
+}
+@media (max-width: 768px) {
+  .footer-wrapper .footer .footer-bottom #block-sgh-footer {
+    width: 100%;
+    text-align: center;
+  }
 }
 /*# sourceMappingURL=footer.theme.css.map */

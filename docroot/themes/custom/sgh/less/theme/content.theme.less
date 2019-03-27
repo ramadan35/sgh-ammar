@@ -315,8 +315,15 @@ body:not(.path-frontpage) {
 
 .node--view-mode-horizontal-media-teaser-medium {
     .left {
+        @media (max-width: @screen-sm) {
+            width: 100%;
+        }
     }
     .right {
+        @media (max-width: @screen-sm) {
+            width: 100%;
+            padding-top: 10px;
+        }
         .field--name-node-post-date {
             color: @green;
             font-size: 12px;
@@ -346,6 +353,9 @@ body:not(.path-frontpage) {
         box-shadow: 1px 1px 6px #ecebeb;
         padding: 20px 22px;
         position: relative;
+        @media (max-width: @screen-md) {
+            margin-top: 30px;
+        }
         .block-title {
             font-size: 30px;
             font-weight: bold;
@@ -603,6 +613,9 @@ body:not(.path-frontpage) {
         }
     }
     .front_content_2 {
+        @media (max-width: @screen-md) {
+            padding-top: 40px;
+        }
         > .container {
             padding: 0;
         }
@@ -610,15 +623,26 @@ body:not(.path-frontpage) {
     .front_content_1 {
         position: relative;
         top: -70px;
+        @media (max-width: @screen-md) {
+            top: 0;
+        }
         #block-quicktabsfronttabs {
             ul.quicktabs-tabs {
                 text-align: center;
                 margin: 0;
                 margin-bottom: -24px;
+                @media (max-width: @screen-md) {
+                    margin: 0;
+                    padding: 0;
+                }
                 li {
                     display: inline-block;
                     padding: 0;
                     padding: 0 3px;
+                    @media (max-width: @screen-md) {
+                        width: 100%;
+                        padding: 0;
+                    }
                     a {
                         background: @brand-primary;
                         color: @white;
@@ -626,6 +650,9 @@ body:not(.path-frontpage) {
                         padding: 18px 40px;
                         border-radius: 8px;
                         text-transform: uppercase;
+                        @media (max-width: @screen-md) {
+                            border-radius: 0px;
+                        }
                         &::before {
                             content: "";
                             width: 20px;
@@ -790,13 +817,23 @@ body:not(.path-frontpage) {
 
                     }
                     .form-item-date-time  {
+                        @media (max-width: @screen-xs) {
+                            width: 100%;
+                        }
                         label {
                             vertical-align: top;
                             padding-top: 10px;
+                            @media (max-width: @screen-xs) {
+                                width: 100%;
+                            }
                         }
                         .container-inline {
                             display: inline-block;
                             max-width: 255px;
+                            @media (max-width: @screen-xs) {
+                                width: 100%;
+                                max-width: 100%;
+                            }
                         }
                         .form-inline {
                             margin: 0;
@@ -2054,14 +2091,25 @@ body:not(.path-frontpage) {
         #block-quicktabsbranchestabs {
             top: -90px;
             position: relative;
+            @media (max-width: @screen-md) {
+                top: 0;
+            }
             ul.quicktabs-tabs {
                 text-align: center;
                 margin: 0;
                 margin-bottom: -24px;
+                @media (max-width: @screen-md) {
+                    margin: 0;
+                    padding: 0;
+                }
                 li {
                     display: inline-block;
                     padding: 0;
                     padding: 0 3px;
+                    @media (max-width: @screen-md) {
+                        width: 100%;
+                        padding: 0;
+                    }
                     a {
                         background: @brand-primary;
                         color: @white;
@@ -2069,6 +2117,9 @@ body:not(.path-frontpage) {
                         padding: 18px 40px;
                         border-radius: 8px;
                         text-transform: uppercase;
+                        @media (max-width: @screen-md) {
+                            border-radius: 0;
+                        }
                         &::before {
                             content: "";
                             width: 20px;
@@ -2233,13 +2284,23 @@ body:not(.path-frontpage) {
 
                     }
                     .form-item-date-time  {
+                        @media (max-width: @screen-xs) {
+                            width: 100%;
+                        }
                         label {
                             vertical-align: top;
                             padding-top: 10px;
+                            @media (max-width: @screen-xs) {
+                                width: 100%;
+                            }
                         }
                         .container-inline {
                             display: inline-block;
                             max-width: 255px;
+                            @media (max-width: @screen-xs) {
+                                width: 100%;
+                                max-width: 100%;
+                            }
                         }
                         .form-inline {
                             margin: 0;

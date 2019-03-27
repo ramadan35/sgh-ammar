@@ -48,7 +48,7 @@
                             width: 30px;
                             height: 10px;
                             margin-right: 10px;
-                            
+
                         }
                         &:hover,
                             &:focus {
@@ -60,6 +60,9 @@
             .region-footer4 {
                 img {
                     margin-bottom: 5px;
+                    @media (max-width: @screen-sm) {
+                        max-width: 265px;
+                    }
                 }
             }
             #block-subscribetoournewsletter {
@@ -70,10 +73,16 @@
                 }
                 form {
                     position: relative;
+                    @media (max-width: @screen-md) {
+                        max-width: 265px;
+                    }
                     input {
                         border: 1px solid #CCC;
                         height: 35px;
                         padding: 3px;
+                        @media (max-width: @screen-md) {
+                            width: 100%;
+                        }
                     }
                     button {
                         position: absolute;
@@ -89,8 +98,21 @@
 
             }
             .region-footer1 {
+                @media (max-width: @screen-sm) {
+                    a {
+                        display: block;
+                    }
+                }
                 img {
                     margin-bottom: 15px;
+                }
+            }
+            .col-1 ,
+            .col-2 , 
+            .col-3 , 
+            .col-4 {
+                @media (max-width: @screen-sm) {
+                    margin-bottom: 20px;
                 }
             }
 
@@ -101,7 +123,9 @@
             ul.nav {
                 float: right;
                 padding: 10px 0 10px 0;
-
+                @media (max-width: @screen-sm) {
+                    width: 100%;
+                }
                 li {
                     display: inline-block;
                     list-style: none;
@@ -117,6 +141,10 @@
             }
             #block-socialicons {
                 float: right;
+                @media (max-width: @screen-sm) {
+                    text-align: center;
+                    width: 100%;
+                }
                 .menu.nav {
                     li {
                         a {
@@ -137,6 +165,10 @@
             }
             #block-sgh-footer {
                 float: left;
+                @media (max-width: @screen-sm) {
+                    width: 100%;
+                    text-align: center;
+                }
             }
         }
 
