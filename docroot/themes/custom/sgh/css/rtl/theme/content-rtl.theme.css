@@ -81,4 +81,12 @@ body {
 .path-frontpage .hero_slider .slick__arrow .slick-next::before {
   background: url(../../images/slider-arrow-right.png) no-repeat;
 }
+.green-button a::after {
+  content: "";
+  background: url(../../../images/arrow-right-ar2.png) no-repeat;
+  width: 38px;
+  height: 10px;
+  display: inline-block;
+  background-position: 50%;
+}
 /*# sourceMappingURL=content-rtl.theme.css.map */
