@@ -24,7 +24,7 @@
   font-family: GEDinarTwo-Medium;
 }
 .view-offers-promotions .col .bottom .field--name-field-date .field--item:last-child {
-  float: right;
+  float: left;
 }
 .view-offers-promotions .col .bottom .field--name-field-date .field--item:first-child {
   float: right;

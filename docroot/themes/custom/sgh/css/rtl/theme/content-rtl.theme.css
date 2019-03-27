@@ -89,11 +89,16 @@ body {
   display: inline-block;
   background-position: 50%;
 }
-.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall.node--type-events .right .field--name-field-date .field--item {
+.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall.node--type-events .right .field--name-field-date .field--item,
+.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall .right .field--name-field-date .field--item {
   padding-right: 0px;
   padding-left: 30px;
 }
-.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall.node--type-events .right .green-button {
+.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall.node--type-events .right .green-button,
+.views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall .right .green-button {
+  float: left;
+}
+.taxonomy-term--view-mode-horizontal-media-teaser-xsmall .green-button {
   float: left;
 }
 /*# sourceMappingURL=content-rtl.theme.css.map */
