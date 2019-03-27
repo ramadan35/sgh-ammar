@@ -9,6 +9,7 @@ header .header-top #block-topmenu ul.menu {
 }
 header .header-top #block-topmenu ul.menu li {
   border-left: 1px solid #FFF;
+  border-right: 0px solid #FFF;
 }
 header .header-top #block-searchform {
   padding-left: 0px;
