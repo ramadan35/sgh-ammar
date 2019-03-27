@@ -55,8 +55,14 @@
   padding-left: 0px;
   padding-right: 15px;
 }
+.page-node-type-offers-promotions .main-container form fieldset .fieldset-wrapper {
+  max-width: 100%;
+}
 .page-node-type-offers-promotions .main-container form fieldset legend {
   float: right;
+}
+.page-node-type-offers-promotions .main-container form fieldset.webform-address--wrapper .fieldset-wrapper {
+  width: 100%;
 }
 .page-node-type-offers-promotions .main-container form .form-actions {
   float: left;

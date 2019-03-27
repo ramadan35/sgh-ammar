@@ -100,12 +100,18 @@ font-family: GEDinarTwo-Medium;
     .main-container {
         form {
             fieldset {
+                .fieldset-wrapper {
+                        max-width: 100%;
+                }
                 legend {
                     float: right;
                 }
-
             }
-
+            fieldset.webform-address--wrapper {
+                .fieldset-wrapper {
+                 width: 100%;   
+                }
+            }
             .form-actions {
                 float: left;
                 button {
