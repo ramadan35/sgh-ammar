@@ -69,7 +69,7 @@
 }
 .page-node-type-offers-promotions .main-container form .form-actions button::after {
   content: "";
-  background: url(../../../images/phone_white_ar.png) no-repeat;
+  background: url(../../../images/arrow-right-ar2.png) no-repeat;
   width: 38px;
   height: 10px;
   display: inline-block;
