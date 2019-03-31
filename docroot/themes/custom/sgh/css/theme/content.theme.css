@@ -78,6 +78,13 @@ body:not(.path-frontpage) #block-headerimageblock img {
   padding-bottom: 15px;
   float: right;
 }
+@media (max-width: 768px) {
+  .page-node-type-news .main-container .field--name-field-image img {
+    padding: 0;
+    padding-bottom: 20px;
+    width: 100%;
+  }
+}
 .page-node-type-news .main-container .field--name-node-post-date {
   margin-top: 30px;
   color: #50A155;
@@ -217,6 +224,20 @@ body:not(.path-frontpage) #block-headerimageblock img {
 }
 .page-node-type-landing-page .view-filters label {
   display: none;
+}
+@media (max-width: 480px) {
+  .page-node-type-landing-page .view-filters {
+    width: 100%;
+  }
+  .page-node-type-landing-page .view-filters .select-wrapper {
+    width: 100%;
+  }
+  .page-node-type-landing-page .view-filters .select-wrapper select {
+    width: 100%;
+  }
+  .page-node-type-landing-page .view-filters .form-actions button {
+    width: 100%;
+  }
 }
 .pagination li {
   width: 30px;

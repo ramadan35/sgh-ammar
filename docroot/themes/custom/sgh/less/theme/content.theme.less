@@ -112,6 +112,11 @@ body:not(.path-frontpage) {
                 padding-left: 15px;
                 padding-bottom: 15px;
                 float: right;
+                @media (max-width: @screen-sm) {
+                    padding: 0;
+                    padding-bottom: 20px;
+                    width: 100%;
+                }
             }
         }
         .field--name-node-post-date {
@@ -267,6 +272,20 @@ body:not(.path-frontpage) {
         }
         label {
             display: none;
+        }
+        @media (max-width: @screen-xs) {
+            width: 100%;
+            .select-wrapper {
+                width: 100%;
+                select {
+                    width: 100%;
+                }
+            }
+            .form-actions {
+                button {
+                    width: 100%;
+                }
+            }
         }
     }
 }
