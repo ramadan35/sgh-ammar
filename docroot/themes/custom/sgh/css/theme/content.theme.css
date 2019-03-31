@@ -38,6 +38,11 @@ body:not(.path-frontpage) .main-container .field--name-node-post-date {
   font-weight: bold;
   text-transform: uppercase;
 }
+@media (max-width: 768px) {
+  body:not(.path-frontpage) .main-container .region-header {
+    padding: 0 15px;
+  }
+}
 body:not(.path-frontpage) .taxonomy-term--view-mode-header-image {
   border-bottom: 4px solid #50A155;
 }
@@ -97,8 +102,20 @@ body:not(.path-frontpage) #block-headerimageblock img {
   margin: 0;
   margin-bottom: 15px;
 }
+@media (max-width: 768px) {
+  .views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall .left {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
 .views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall .left img {
   width: 100%;
+}
+@media (max-width: 768px) {
+  .views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall .right {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }
 .views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall .right .field--name-node-post-date {
   color: #50A155;
