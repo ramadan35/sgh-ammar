@@ -62,8 +62,12 @@
             $('.page-node-type-branches #block-views-block-medical-specialties-block-2 .bx-wrapper .bx-viewport .views-row .views-field-field-image').matchHeight();
             $('.page-node-type-branches #block-views-block-medical-specialties-block-2 .bx-wrapper .bx-viewport .views-row .views-field-description__value').matchHeight();
             $('.page-node-type-branches .node--view-mode-header-information').addClass('container');
-
+            //translate
+            if ($("body").hasClass("lang-ar")) {
+                $(".discount").html("خصم");
+            }
         }
+
     };
 
 })(window.jQuery, window._, window.Drupal, window.drupalSettings);
