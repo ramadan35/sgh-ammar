@@ -69,6 +69,8 @@
                 $(".view-offers-promotions .col .bottom .field--name-field-date .field--item:last-child .field--label").html("تاريخ الانتهاء");
                 $(".page-node-type-offers-promotions .wrapper .bottom .field--name-field-date .field--item:first-child .field--label").html("تاريخ البدء");
                 $(".page-node-type-offers-promotions .wrapper .bottom .field--name-field-date .field--item:last-child .field--label").html("تاريخ الانتهاء");
+                $(".field--name-field-date .field--item:first-child .field--label").html("تاريخ البدء");
+                $(".field--name-field-date .field--item:last-child .field--label").html("تاريخ الانتهاء");
             }
         }
 
