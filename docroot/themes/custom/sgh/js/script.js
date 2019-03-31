@@ -66,7 +66,9 @@
             if ($("body").hasClass("lang-ar")) {
                 $(".discount").html("خصم");
                 $(".view-offers-promotions .col .bottom .field--name-field-date .field--item:first-child .field--label").html("تاريخ البدء");
-                
+                $(".view-offers-promotions .col .bottom .field--name-field-date .field--item:last-child .field--label").html("تاريخ الانتهاء");
+                $(".page-node-type-offers-promotions .wrapper .bottom .field--name-field-date .field--item:first-child .field--label").html("تاريخ البدء");
+                $(".page-node-type-offers-promotions .wrapper .bottom .field--name-field-date .field--item:last-child .field--label").html("تاريخ الانتهاء");
             }
         }
 
