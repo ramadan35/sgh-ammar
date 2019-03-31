@@ -1074,6 +1074,19 @@ body:not(.path-frontpage) #block-headerimageblock img {
   padding: 0 15px;
   display: table;
 }
+@media (max-width: 768px) {
+  .page-node-type-events .main-container .node--view-mode-full {
+    display: block;
+  }
+  .page-node-type-events .main-container .node--view-mode-full .bs-region--left,
+  .page-node-type-events .main-container .node--view-mode-full .bs-region--right {
+    display: block;
+    width: 100%;
+    padding: 0;
+    padding-bottom: 15px;
+    background: transparent;
+  }
+}
 .page-node-type-events .main-container .node--view-mode-full .bs-region--left {
   padding: 0;
   display: table-cell;
