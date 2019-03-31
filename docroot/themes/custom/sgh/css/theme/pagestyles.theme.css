@@ -147,17 +147,16 @@
   margin: 0;
   font-family: gothem;
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .page-node-type-offers-promotions .wrapper .top .bottom-of-top .field--name-node-title h2 {
     font-size: 18px;
     color: #2D3A88;
     margin-bottom: 10px;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .page-node-type-offers-promotions .wrapper .top .bottom-of-top {
-    position: relative;
-    bottom: 0;
+    position: initial;
     padding: 12px 0px;
   }
 }
