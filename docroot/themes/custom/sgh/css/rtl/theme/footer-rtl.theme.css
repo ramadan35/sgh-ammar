@@ -15,6 +15,12 @@
 .footer-wrapper .footer .footer-top #block-subscribetoournewsletter form button {
   left: 0;
   right: auto;
+  background: url(../../../images/arrow-right-ar.png) no-repeat;
+  background-position: 50%;
+}
+.footer-wrapper .footer .footer-top #block-subscribetoournewsletter form input {
+  float: left;
+  width: 100%;
 }
 .footer-wrapper .footer .footer-bottom ul.nav {
   float: left;
