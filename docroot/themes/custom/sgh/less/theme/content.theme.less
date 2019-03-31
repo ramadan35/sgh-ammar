@@ -464,6 +464,10 @@ body:not(.path-frontpage) {
         padding: 60px 0;
         margin-top: 35px;
         background-size: 100%;
+        @media (max-width: @screen-lg) {
+            background-size: cover;
+        }
+
         #block-views-block-offers-promotions-block-1 {
             .block-title {
                 font-size: 30px;
@@ -538,6 +542,9 @@ body:not(.path-frontpage) {
                         }
                     }
                 }
+            }
+            @media (max-width: @screen-md) {
+                margin-bottom: 50px;
             }
         }
         #block-views-block-visiting-doctors-block-1 {
@@ -2435,7 +2442,7 @@ body:not(.path-frontpage) {
         color: #000;
         margin: 0;
         text-transform: uppercase;
-        margin-bottom: 10px;
+        margin-bottom: 30px;
         &::after {
             content: "";
             width: 42px;

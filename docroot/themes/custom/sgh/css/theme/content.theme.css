@@ -388,6 +388,11 @@ body:not(.path-frontpage) #block-headerimageblock img {
   margin-top: 35px;
   background-size: 100%;
 }
+@media (max-width: 1200px) {
+  .path-frontpage .front_content_3 {
+    background-size: cover;
+  }
+}
 .path-frontpage .front_content_3 #block-views-block-offers-promotions-block-1 .block-title {
   font-size: 30px;
   font-weight: bold;
@@ -446,6 +451,11 @@ body:not(.path-frontpage) #block-headerimageblock img {
   height: 25px;
   display: block;
   background-size: 100%;
+}
+@media (max-width: 992px) {
+  .path-frontpage .front_content_3 #block-views-block-offers-promotions-block-1 {
+    margin-bottom: 50px;
+  }
 }
 .path-frontpage .front_content_3 #block-views-block-visiting-doctors-block-1 .block-title {
   font-size: 30px;
@@ -2111,7 +2121,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
   color: #000;
   margin: 0;
   text-transform: uppercase;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
 }
 #block-views-block-partners-block-1 .block-title::after {
   content: "";
