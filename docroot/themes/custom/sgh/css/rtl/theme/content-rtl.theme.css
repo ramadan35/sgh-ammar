@@ -101,4 +101,34 @@ body {
 .taxonomy-term--view-mode-horizontal-media-teaser-xsmall .green-button {
   float: left;
 }
+.field {
+  font-family: GEDinarTwo-Medium !important;
+}
+.bef-exposed-form .form--inline > .form-item {
+  margin-right: 0px;
+  margin-left: 5px;
+  float: right;
+}
+.path-taxonomy .green-button {
+  right: auto;
+  left: 20px;
+}
+.path-taxonomy .lang-ar {
+  display: block;
+}
+.path-taxonomy .lang-en {
+  display: none;
+}
+.path-taxonomy .field--name-dynamic-block-fieldtaxonomy-term-find-a-doctor .field--label {
+  right: 15px;
+  left: auto;
+}
+.path-taxonomy .views-exposed-form {
+  width: 100%;
+  float: left;
+}
+.path-taxonomy .views-exposed-form .form--inline {
+  text-align: left;
+  float: left;
+}
 /*# sourceMappingURL=content-rtl.theme.css.map */
