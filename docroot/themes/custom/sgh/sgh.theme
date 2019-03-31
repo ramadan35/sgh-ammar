@@ -27,3 +27,7 @@ function sgh_theme_suggestions_page_alter(array &$suggestions, array $variables)
 function sgh_preprocess_page(&$variables) {
   $variables['logo_print'] = \Drupal::request()->getBaseUrl() . '/' . drupal_get_path('theme', 'sgh') . '/logo-print.png';
 }
+function sgh_preprocess_html(&$variables) {
+   $language = \Drupal::languageManager()->getCurrentLanguage()->getId();
+   $variables['attributes']['class'][] = 'lang-' . $language;
+}
