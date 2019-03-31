@@ -65,6 +65,8 @@
             //translate
             if ($("body").hasClass("lang-ar")) {
                 $(".discount").html("خصم");
+                $(".view-offers-promotions .col .bottom .field--name-field-date .field--item:first-child .field--label").html("تاريخ البدء");
+                
             }
         }
 
