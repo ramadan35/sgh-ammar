@@ -101,7 +101,9 @@ body {
 .taxonomy-term--view-mode-horizontal-media-teaser-xsmall .green-button {
   float: left;
 }
-.field {
+.field,
+label,
+button {
   font-family: GEDinarTwo-Medium !important;
 }
 .bef-exposed-form .form--inline > .form-item {
@@ -122,6 +124,9 @@ body {
 .path-taxonomy .field--name-dynamic-block-fieldtaxonomy-term-find-a-doctor .field--label {
   right: 15px;
   left: auto;
+}
+.path-taxonomy .field--name-dynamic-block-fieldtaxonomy-term-find-a-doctor .view-content table tbody tr td {
+  text-align: right;
 }
 .path-taxonomy .views-exposed-form {
   width: 100%;
