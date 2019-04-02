@@ -873,6 +873,11 @@ body:not(.path-frontpage) #block-headerimageblock img {
 .page-node-type-branches .front_content_3 #block-views-block-offers-promotions-block-3 {
   border-right: 1px solid #9c9c9c63;
 }
+@media (max-width: 992px) {
+  .page-node-type-branches .front_content_3 #block-views-block-offers-promotions-block-3 {
+    border: 0;
+  }
+}
 .page-node-type-branches .front_content_3 #block-views-block-offers-promotions-block-3 .block-title {
   font-size: 30px;
   font-weight: bold;
@@ -957,6 +962,10 @@ body:not(.path-frontpage) #block-headerimageblock img {
 }
 .page-node-type-branches .front_content_3 #block-views-block-varbase-blog-block-1 .form-group .view-content .slick__slide .node--view-mode-horizontal-media-teaser-medium-branch {
   margin: 0;
+}
+.page-node-type-branches .front_content_3 #block-views-block-varbase-blog-block-1 .form-group .view-content .slick__slide .node--view-mode-horizontal-media-teaser-medium-branch .left,
+.page-node-type-branches .front_content_3 #block-views-block-varbase-blog-block-1 .form-group .view-content .slick__slide .node--view-mode-horizontal-media-teaser-medium-branch .right {
+  width: 100%;
 }
 .page-node-type-branches .front_content_3 #block-views-block-varbase-blog-block-1 .form-group .view-content .slick__slide .views-field-title {
   font-weight: 500;
@@ -1694,6 +1703,11 @@ body:not(.path-frontpage) #block-headerimageblock img {
   padding-top: 0px;
   padding-bottom: 40px;
 }
+@media (max-width: 992px) {
+  .page-node-type-branches #block-views-block-medical-specialties-block-2 {
+    padding-top: 40px;
+  }
+}
 .page-node-type-branches #block-views-block-medical-specialties-block-2 .block-title {
   font-size: 30px;
   font-weight: bold;
@@ -1804,11 +1818,21 @@ body:not(.path-frontpage) #block-headerimageblock img {
   margin-top: 35px;
   background-size: 100%;
 }
+@media (max-width: 992px) {
+  .page-node-type-branches .front_content_3 {
+    background-size: cover;
+  }
+}
 .page-node-type-branches .front_content_2 {
   padding-top: 40px;
 }
 .page-node-type-branches .front_content_2 > .container {
   padding: 0;
+}
+@media (max-width: 992px) {
+  .page-node-type-branches .front_content_2 > .container #block-views-block-news-block-3 {
+    padding-top: 30px;
+  }
 }
 .page-node-type-branches .front_content_2 > .container #block-views-block-news-block-3 .block-title {
   font-size: 30px;

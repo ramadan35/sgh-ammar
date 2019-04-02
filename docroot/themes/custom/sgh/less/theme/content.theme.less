@@ -993,6 +993,9 @@ body:not(.path-frontpage) {
         background-size: 100%;
         #block-views-block-offers-promotions-block-3 {
             border-right: 1px solid #9c9c9c63;
+             @media (max-width: @screen-md) {
+                 border: 0;
+             }
             .block-title {
                 font-size: 30px;
                 font-weight: bold;
@@ -1095,6 +1098,10 @@ body:not(.path-frontpage) {
                         text-align: center;
                         .node--view-mode-horizontal-media-teaser-medium-branch {
                             margin: 0;
+                            .left , 
+                            .right {
+                                width: 100%;
+                            }
                         }
                         .views-field-title {
                             font-weight: 500;
@@ -1953,6 +1960,9 @@ body:not(.path-frontpage) {
     #block-views-block-medical-specialties-block-2 {
         padding-top: 0px;
         padding-bottom: 40px;
+        @media (max-width: @screen-md) { 
+            padding-top: 40px;
+        }
         .block-title {
             font-size: 30px;
             font-weight: bold;
@@ -2076,12 +2086,18 @@ body:not(.path-frontpage) {
         padding: 60px 0;
         margin-top: 35px;
         background-size: 100%;
+        @media (max-width: @screen-md) { 
+            background-size: cover;
+        }
     }
     .front_content_2 {
         padding-top: 40px;
         > .container {
             padding: 0;
             #block-views-block-news-block-3 {
+                @media (max-width: @screen-md) { 
+                    padding-top: 30px;
+                }
                 .block-title {
                     font-size: 30px;
                     font-weight: bold;

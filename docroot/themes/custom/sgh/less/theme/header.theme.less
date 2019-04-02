@@ -309,6 +309,10 @@ body {
         .node--view-mode-header-information {
             margin: 0 auto;
             .bs-region--left {
+                @media (max-width: @screen-md) {
+                    width: 100%;
+                    text-align: center;
+                }
                 h2 {
                     padding:0 15px;
                     font-size: 20px;
@@ -317,9 +321,16 @@ body {
                     text-align: left;
                     margin: 0;
                     margin-top: 4px;
+                    @media (max-width: @screen-md) {
+                        text-align: center;
+                    }
                 }
             }
             .bs-region--right {
+                @media (max-width: @screen-md) {
+                    width: 100%;
+                    text-align: center;
+                }
                 .field {
                     display: inline-block;
                     font-size: 20px;

@@ -300,6 +300,12 @@ body .hero_slider #block-slidertextoverlay p::before {
 .page-node-type-branches #block-entityviewcontent-3 .node--view-mode-header-information {
   margin: 0 auto;
 }
+@media (max-width: 992px) {
+  .page-node-type-branches #block-entityviewcontent-3 .node--view-mode-header-information .bs-region--left {
+    width: 100%;
+    text-align: center;
+  }
+}
 .page-node-type-branches #block-entityviewcontent-3 .node--view-mode-header-information .bs-region--left h2 {
   padding: 0 15px;
   font-size: 20px;
@@ -308,6 +314,17 @@ body .hero_slider #block-slidertextoverlay p::before {
   text-align: left;
   margin: 0;
   margin-top: 4px;
+}
+@media (max-width: 992px) {
+  .page-node-type-branches #block-entityviewcontent-3 .node--view-mode-header-information .bs-region--left h2 {
+    text-align: center;
+  }
+}
+@media (max-width: 992px) {
+  .page-node-type-branches #block-entityviewcontent-3 .node--view-mode-header-information .bs-region--right {
+    width: 100%;
+    text-align: center;
+  }
 }
 .page-node-type-branches #block-entityviewcontent-3 .node--view-mode-header-information .bs-region--right .field {
   display: inline-block;
