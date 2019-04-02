@@ -864,6 +864,11 @@ body:not(.path-frontpage) #block-headerimageblock img {
   display: block;
   background-size: 100%;
 }
+@media (max-width: 992px) {
+  .page-node-type-branches .main-container > .row > .col-sm-12:first-child {
+    padding-top: 0;
+  }
+}
 .page-node-type-branches .front_content_3 {
   background: url(../../images/bluebg.jpg) no-repeat;
   padding: 60px 0;
@@ -2042,6 +2047,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
   width: 100%;
   max-width: 255px;
   box-shadow: none;
+  display: inline-block;
 }
 .page-node-type-branches .front_content_1 #block-quicktabsbranchestabs .quicktabs-main #views-exposed-form-find-a-doctor-find-doctor .form-actions {
   width: 100%;

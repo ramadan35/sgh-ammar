@@ -986,6 +986,11 @@ body:not(.path-frontpage) {
 }
 
 .page-node-type-branches{
+    .main-container > .row > .col-sm-12:first-child {
+        @media (max-width: @screen-md) {
+            padding-top: 0;
+        }
+    }
     .front_content_3 {
         background: url(../../images/bluebg.jpg) no-repeat;
         padding: 60px 0;
@@ -993,9 +998,9 @@ body:not(.path-frontpage) {
         background-size: 100%;
         #block-views-block-offers-promotions-block-3 {
             border-right: 1px solid #9c9c9c63;
-             @media (max-width: @screen-md) {
-                 border: 0;
-             }
+            @media (max-width: @screen-md) {
+                border: 0;
+            }
             .block-title {
                 font-size: 30px;
                 font-weight: bold;
@@ -2321,6 +2326,7 @@ body:not(.path-frontpage) {
                             width: 100%;
                             max-width: 255px;
                             box-shadow: none;
+                            display: inline-block;
                         }
                     }
                     .form-actions {
