@@ -2278,4 +2278,25 @@ body:not(.path-frontpage) #block-headerimageblock img {
 #block-views-block-partners-block-1 .view-content .slick-dots li.slick-active button::before {
   color: #50A155;
 }
+.page-node-type-medical-departments .main-container .node--view-mode-full .field--name-field-media-image {
+  float: left;
+  padding-right: 30px;
+}
+@media (max-width: 768px) {
+  .page-node-type-medical-departments .main-container .node--view-mode-full .field--name-field-media-image {
+    width: 100%;
+    padding: 0;
+    padding-bottom: 30px;
+  }
+  .page-node-type-medical-departments .main-container .node--view-mode-full .field--name-field-media-image img {
+    width: 100%;
+  }
+}
+.page-node-type-medical-departments .main-container .node--view-mode-full .field--name-node-title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.page-node-type-medical-departments .main-container .node--view-mode-full .field--name-node-title h1 {
+  font-size: 20px;
+}
 /*# sourceMappingURL=content.theme.css.map */
