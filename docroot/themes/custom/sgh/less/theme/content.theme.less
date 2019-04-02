@@ -787,6 +787,7 @@ body:not(.path-frontpage) {
                             width: 100%;
                             max-width: 255px;
                             box-shadow: none;
+                            display: inline-block;
                         }
                     }
                     .form-actions {
@@ -1347,6 +1348,9 @@ body:not(.path-frontpage) {
             z-index: 1;
             top: 40px;
             left: 15px;
+            @media (max-width: @screen-sm) {
+                top: 20px;
+            }
         }
         .view-content {
             table {
@@ -1377,13 +1381,26 @@ body:not(.path-frontpage) {
     }
     .views-exposed-form {
         background: #E6E6E6;
-        padding: 30px 15px;
+        padding: 55px 15px;
         font-family: gothembook;
         > .form--inline {
             text-align: right;
+            @media (max-width: @screen-sm) {
+                text-align: left;
+            }
             input {
                 box-shadow: none;
                 border: 1px solid rgb(169, 169, 169);
+            }
+            .select-wrapper {
+                @media (max-width: @screen-sm) {
+                    width: 100%;
+                }
+            }
+        }
+        .form-actions {
+            button {
+                width: 100%;
             }
         }
     }
@@ -1502,6 +1519,14 @@ body:not(.path-frontpage) {
             .field--name-field-media-image {
                 float: left;
                 padding-right: 30px;
+                @media (max-width: @screen-sm) { 
+                    width: 100%;
+                    padding: 0;
+                    padding-bottom: 30px;
+                    img {
+                        width: 100%;
+                    }
+                }
             }
             .field--name-node-title {
                 margin-top: 20px;

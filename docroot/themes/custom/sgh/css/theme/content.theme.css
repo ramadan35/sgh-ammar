@@ -687,6 +687,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
   width: 100%;
   max-width: 255px;
   box-shadow: none;
+  display: inline-block;
 }
 .path-frontpage .front_content_1 #block-quicktabsfronttabs .quicktabs-main #views-exposed-form-find-a-doctor-find-doctor .form-actions {
   width: 100%;
@@ -1188,6 +1189,11 @@ body:not(.path-frontpage) #block-headerimageblock img {
   top: 40px;
   left: 15px;
 }
+@media (max-width: 768px) {
+  .path-taxonomy .field--name-dynamic-block-fieldtaxonomy-term-find-a-doctor .field--label {
+    top: 20px;
+  }
+}
 .path-taxonomy .field--name-dynamic-block-fieldtaxonomy-term-find-a-doctor .view-content table tbody tr {
   border-bottom: 1px solid #a2a2a2;
 }
@@ -1206,15 +1212,28 @@ body:not(.path-frontpage) #block-headerimageblock img {
 }
 .path-taxonomy .views-exposed-form {
   background: #E6E6E6;
-  padding: 30px 15px;
+  padding: 55px 15px;
   font-family: gothembook;
 }
 .path-taxonomy .views-exposed-form > .form--inline {
   text-align: right;
 }
+@media (max-width: 768px) {
+  .path-taxonomy .views-exposed-form > .form--inline {
+    text-align: left;
+  }
+}
 .path-taxonomy .views-exposed-form > .form--inline input {
   box-shadow: none;
   border: 1px solid #a9a9a9;
+}
+@media (max-width: 768px) {
+  .path-taxonomy .views-exposed-form > .form--inline .select-wrapper {
+    width: 100%;
+  }
+}
+.path-taxonomy .views-exposed-form .form-actions button {
+  width: 100%;
 }
 .view-varbase-blog .views-view-grid > .row {
   margin: 0;
@@ -1310,6 +1329,16 @@ body:not(.path-frontpage) #block-headerimageblock img {
 .page-node-type-doctors .main-container .node--view-mode-full .field--name-field-media-image {
   float: left;
   padding-right: 30px;
+}
+@media (max-width: 768px) {
+  .page-node-type-doctors .main-container .node--view-mode-full .field--name-field-media-image {
+    width: 100%;
+    padding: 0;
+    padding-bottom: 30px;
+  }
+  .page-node-type-doctors .main-container .node--view-mode-full .field--name-field-media-image img {
+    width: 100%;
+  }
 }
 .page-node-type-doctors .main-container .node--view-mode-full .field--name-node-title {
   margin-top: 20px;
