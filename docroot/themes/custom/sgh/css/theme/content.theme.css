@@ -25,6 +25,11 @@ body:not(.path-frontpage) .hero_slider #block-entityviewcontent {
 body:not(.path-frontpage) .hero_slider #block-entityviewcontent img {
   width: 100%;
 }
+@media (max-width: 768px) {
+  body:not(.path-frontpage) .main-container > .row {
+    margin: 0;
+  }
+}
 body:not(.path-frontpage) .main-container > .row > .col-sm-12:first-child {
   padding-left: 0;
   padding-right: 0;
@@ -865,6 +870,11 @@ body:not(.path-frontpage) #block-headerimageblock img {
   height: 25px;
   display: block;
   background-size: 100%;
+}
+@media (max-width: 768px) {
+  .path-frontpage .main-container > .row {
+    margin: 0;
+  }
 }
 @media (max-width: 992px) {
   .page-node-type-branches .main-container > .row > .col-sm-12:first-child {
@@ -2128,7 +2138,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
 }
 @media (max-width: 480px) {
   .page-node-type-branches .front_content_1 #block-quicktabsbranchestabs .quicktabs-main .webform-submission-book-an-appointment-add-form .form-item-date-time label {
-    width: 100%;
+    display: block;
   }
 }
 .page-node-type-branches .front_content_1 #block-quicktabsbranchestabs .quicktabs-main .webform-submission-book-an-appointment-add-form .form-item-date-time .container-inline {

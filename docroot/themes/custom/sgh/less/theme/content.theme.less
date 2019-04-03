@@ -50,6 +50,9 @@ body:not(.path-frontpage) {
     }
     .main-container {
         > .row {
+            @media (max-width: @screen-sm) {
+                margin: 0;
+            }
             > .col-sm-12:first-child {
                 padding-left: 0;
                 padding-right: 0;
@@ -980,6 +983,13 @@ body:not(.path-frontpage) {
                     display: block;
                     background-size: 100%;
                 }
+            }
+        }
+    }
+    .main-container {
+        > .row {
+            @media (max-width: @screen-sm) {
+                margin: 0;
             }
         }
     }
@@ -2410,7 +2420,7 @@ body:not(.path-frontpage) {
                             vertical-align: top;
                             padding-top: 10px;
                             @media (max-width: @screen-xs) {
-                                width: 100%;
+                                display: block;
                             }
                         }
                         .container-inline {
