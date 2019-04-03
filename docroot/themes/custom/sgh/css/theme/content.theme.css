@@ -1274,6 +1274,11 @@ body:not(.path-frontpage) #block-headerimageblock img {
 .view-varbase-blog .views-view-grid > .row {
   margin: 0;
 }
+@media (max-width: 480px) {
+  .view-varbase-blog .views-view-grid > .row {
+    margin: 0 -15px;
+  }
+}
 .page-node-type-varbase-blog .main-container .node--view-mode-full {
   padding: 0 15px;
   display: table;
