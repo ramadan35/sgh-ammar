@@ -1687,6 +1687,20 @@ body:not(.path-frontpage) #block-headerimageblock img {
 .path-doctors .main-container .views-exposed-form label {
   display: none;
 }
+@media (max-width: 992px) {
+  .path-doctors .main-container .views-exposed-form .form-item {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .path-doctors .main-container .views-exposed-form .form-item input,
+  .path-doctors .main-container .views-exposed-form .form-item select {
+    width: 100%;
+  }
+  .path-doctors .main-container .views-exposed-form .form-item .select-wrapper {
+    width: 100%;
+  }
+}
 .path-doctors .main-container .views-view-grid.horizontal .row .col article {
   background: #F7F7F7;
   padding: 10px;

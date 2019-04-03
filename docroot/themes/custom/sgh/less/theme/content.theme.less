@@ -1467,7 +1467,7 @@ body:not(.path-frontpage) {
         .node--view-mode-full {
             padding: 0 15px;
             display: table;
-            
+
             .bs-region--left {
                 padding: 0;
                 display: table-cell;
@@ -1922,6 +1922,20 @@ body:not(.path-frontpage) {
             }
             label {
                 display: none;
+            }
+            @media (max-width: @screen-md) { 
+                .form-item {
+                    width: 100%;
+                    margin-left: 0;
+                    margin-right: 0;
+                    input,
+                    select {
+                        width: 100%;
+                    }
+                    .select-wrapper {
+                        width: 100%;
+                    }
+                }
             }
         }
         .views-view-grid.horizontal {
