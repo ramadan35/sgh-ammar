@@ -219,6 +219,11 @@ body:not(.path-frontpage) #block-headerimageblock img {
   color: #505150;
   text-decoration: underline;
 }
+@media (max-width: 480px) {
+  .taxonomy-term--view-mode-horizontal-media-teaser-xsmall .field--name-description {
+    margin-bottom: 15px;
+  }
+}
 .page-node-type-landing-page .view-filters {
   background: #2D3A88;
   padding: 10px;
