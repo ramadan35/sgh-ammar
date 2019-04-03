@@ -225,6 +225,9 @@ body {
                 bottom: auto;
                 top: 50%;
                 transform: translateY(-50%);
+                @media (max-width: @screen-sm) {
+                    display: none;
+                }
                 .row {
                     background: transparent !important;
                     .field {
@@ -234,6 +237,9 @@ body {
                     .field--name-node-title {
                         h2 {
                             font-size: 50px;
+                            @media (max-width: @screen-lg) {
+                                font-size: 30px;
+                            }
                         }
                         color: #FFF;
                         text-align: center;
@@ -244,6 +250,9 @@ body {
                     .field--name-field-brief {
                         text-align: center;
                         font-size: 16px;
+                        @media (max-width: @screen-lg) {
+                            font-size: 14px;
+                        }
                     }
                     .field--name-field-link,
                     .field--name-field-call-to-action {

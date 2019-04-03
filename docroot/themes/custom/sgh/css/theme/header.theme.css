@@ -216,6 +216,12 @@ body .hero_slider .node--type-branch-slider .hero-slide-content {
   top: 50%;
   transform: translateY(-50%);
 }
+@media (max-width: 768px) {
+  body .hero_slider .node--type-varbase-heroslider-media .hero-slide-content,
+  body .hero_slider .node--type-branch-slider .hero-slide-content {
+    display: none;
+  }
+}
 body .hero_slider .node--type-varbase-heroslider-media .hero-slide-content .row,
 body .hero_slider .node--type-branch-slider .hero-slide-content .row {
   background: transparent !important;
@@ -237,10 +243,22 @@ body .hero_slider .node--type-varbase-heroslider-media .hero-slide-content .row 
 body .hero_slider .node--type-branch-slider .hero-slide-content .row .field--name-node-title h2 {
   font-size: 50px;
 }
+@media (max-width: 1200px) {
+  body .hero_slider .node--type-varbase-heroslider-media .hero-slide-content .row .field--name-node-title h2,
+  body .hero_slider .node--type-branch-slider .hero-slide-content .row .field--name-node-title h2 {
+    font-size: 30px;
+  }
+}
 body .hero_slider .node--type-varbase-heroslider-media .hero-slide-content .row .field--name-field-brief,
 body .hero_slider .node--type-branch-slider .hero-slide-content .row .field--name-field-brief {
   text-align: center;
   font-size: 16px;
+}
+@media (max-width: 1200px) {
+  body .hero_slider .node--type-varbase-heroslider-media .hero-slide-content .row .field--name-field-brief,
+  body .hero_slider .node--type-branch-slider .hero-slide-content .row .field--name-field-brief {
+    font-size: 14px;
+  }
 }
 body .hero_slider .node--type-varbase-heroslider-media .hero-slide-content .row .field--name-field-link a,
 body .hero_slider .node--type-branch-slider .hero-slide-content .row .field--name-field-link a,
