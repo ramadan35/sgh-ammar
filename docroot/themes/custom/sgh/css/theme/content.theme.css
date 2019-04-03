@@ -145,6 +145,11 @@ body:not(.path-frontpage) #block-headerimageblock img {
   color: #505150;
   text-decoration: underline;
 }
+@media (max-width: 768px) {
+  .views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall .right .field--name-body {
+    margin-bottom: 15px;
+  }
+}
 .views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall .right .field--name-field-visiting-date {
   color: #2D3A88;
   font-size: 12px;
