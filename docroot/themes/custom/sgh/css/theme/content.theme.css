@@ -238,6 +238,11 @@ body:not(.path-frontpage) #block-headerimageblock img {
   .page-node-type-landing-page .view-filters {
     width: 100%;
   }
+  .page-node-type-landing-page .view-filters .form-item {
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
   .page-node-type-landing-page .view-filters .select-wrapper {
     width: 100%;
   }
