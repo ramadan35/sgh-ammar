@@ -1201,6 +1201,10 @@ body:not(.path-frontpage) {
     position: fixed;
     right: 0;
     top: 260px;
+    @media (max-width: @screen-xs) {
+        display: none;
+    }
+
 }
 #block-booknow {
     position: fixed;
@@ -1210,6 +1214,9 @@ body:not(.path-frontpage) {
     background: @green;
     a {
         color: #FFF;
+    }
+    @media (max-width: @screen-xs) {
+        display: none;
     }
 }
 
