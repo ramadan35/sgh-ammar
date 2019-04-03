@@ -1214,6 +1214,11 @@ body:not(.path-frontpage) #block-headerimageblock img {
   position: absolute;
   right: 20px;
 }
+@media (max-width: 480px) {
+  .path-taxonomy .green-button {
+    position: initial;
+  }
+}
 .path-taxonomy .lang-ar {
   display: none;
 }

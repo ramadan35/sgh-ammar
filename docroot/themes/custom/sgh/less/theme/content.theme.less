@@ -1366,6 +1366,9 @@ body:not(.path-frontpage) {
     .green-button {
         position: absolute;
         right: 20px;
+        @media (max-width: @screen-xs) {
+            position: initial;
+        }
     }
     .lang-ar {
         display: none;
