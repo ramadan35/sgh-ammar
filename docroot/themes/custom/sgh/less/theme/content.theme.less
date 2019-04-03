@@ -1467,19 +1467,7 @@ body:not(.path-frontpage) {
         .node--view-mode-full {
             padding: 0 15px;
             display: table;
-            @media (max-width: @screen-sm) {
-                display: block;
-                .bs-region--left , 
-                .bs-region--right {
-                    display: block;
-                    width: 100%;
-                    padding: 0;
-                    padding-bottom: 15px;
-                }
-                .bs-region--right {
-                    padding: 15px;
-                }
-            }
+            
             .bs-region--left {
                 padding: 0;
                 display: table-cell;
@@ -1493,6 +1481,20 @@ body:not(.path-frontpage) {
                 vertical-align: top;
                 padding-top: 30px;
                 padding-bottom: 30px;
+            }
+            @media (max-width: @screen-sm) {
+                display: block;
+                .bs-region--left , 
+                .bs-region--right {
+                    display: block;
+                    width: 100%;
+                    padding: 0;
+                    padding-bottom: 15px;
+                }
+                .bs-region--right {
+                    padding: 15px;
+                    margin-top: 15px;
+                }
             }
         }
         .field--name-node-title {
