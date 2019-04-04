@@ -71,4 +71,10 @@ body .hero_slider #block-slidertextoverlay p::before {
   margin-right: 0px;
   margin-left: 5px;
 }
+.page-node-type-branches #block-entityviewcontent-3 .node--view-mode-header-information .bs-region--right .field::before {
+  background: url(../../../images/phone_white_ar.png) no-repeat;
+  background-size: contain;
+  margin-right: 0px;
+  margin-left: 5px;
+}
 /*# sourceMappingURL=header-rtl.theme.css.map */
