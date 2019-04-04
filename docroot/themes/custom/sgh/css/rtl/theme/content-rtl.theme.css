@@ -63,6 +63,9 @@ body {
 .path-frontpage .front_content_1 #block-quicktabsfronttabs .quicktabs-main .webform-submission-book-an-appointment-add-form .webform-telephone--wrapper legend {
   float: right;
 }
+.path-frontpage .front_content_1 #block-quicktabsfronttabs .quicktabs-main #views-exposed-form-find-a-doctor-find-doctor .form-actions button span {
+  display: none;
+}
 .path-frontpage .hero_slider .counter {
   right: 30px;
   left: auto;
@@ -143,5 +146,10 @@ button {
 #block-booknow {
   right: auto;
   left: 0;
+}
+.select-wrapper:after {
+  right: auto;
+  left: 0;
+  padding-left: 10px;
 }
 /*# sourceMappingURL=content-rtl.theme.css.map */
