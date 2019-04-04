@@ -180,4 +180,22 @@ button {
   direction: rtl;
   text-align: right;
 }
+.path-webform .main-container form fieldset legend {
+  float: right;
+}
+.path-webform .main-container form .fieldset.webform-name--wrapper .fieldset-wrapper {
+  width: 100%;
+  max-width: 100%;
+}
+.path-webform .main-container form .form-actions {
+  float: left;
+}
+.path-webform .main-container form .form-actions button {
+  margin-left: 0px;
+  margin-right: 10px;
+}
+.path-webform .main-container form .form-actions button:after {
+  background: url(../../../images/arrow-right-ar2.png) no-repeat;
+  background-position: 50%;
+}
 /*# sourceMappingURL=content-rtl.theme.css.map */

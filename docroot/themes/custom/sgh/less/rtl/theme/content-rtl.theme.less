@@ -251,7 +251,7 @@ body {
     direction: ltr;
 }
 .path-frontpage .front_content_1 #block-quicktabsfronttabs .quicktabs-main .webform-submission-book-an-appointment-add-form .form-item select, .path-frontpage .front_content_1 #block-quicktabsfronttabs .quicktabs-main .webform-submission-book-an-appointment-add-form .form-item input {
-         text-align: right;
+    text-align: right;
 }
 .form-actions .btn, .form-actions .btn-group {
     margin-left: 10px;
@@ -261,3 +261,32 @@ body {
     direction: rtl;
     text-align: right;
 }
+.path-webform {
+    .main-container {
+        form {
+            fieldset {
+                legend {
+                    float: right;
+                }
+            } 
+            .fieldset.webform-name--wrapper {
+                .fieldset-wrapper {
+                    width: 100%;
+                    max-width: 100%;
+                }
+            }
+            .form-actions {
+                float: left;
+                button {
+                    margin-left: 0px;
+                    margin-right: 10px;
+                    &:after {
+                        background: url(../../../images/arrow-right-ar2.png) no-repeat;
+                        background-position: 50%;
+                    }
+                }
+            }
+        }
+    }
+}   
+ 
