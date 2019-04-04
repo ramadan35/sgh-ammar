@@ -9,6 +9,10 @@ body {
   right: auto;
   left: 0px;
 }
+.path-frontpage .more-link a {
+  background: url(../../../images/arrow-left.png) #2D3A88 no-repeat;
+  background-position: 50%;
+}
 .path-frontpage #block-views-block-events-block-1 {
   padding-bottom: 50px;
 }
@@ -210,7 +214,8 @@ button {
 .page-node-type-branches .front_content_3 #block-views-block-varbase-blog-block-1 .block-title {
   font-family: GEDinarTwo-Medium;
 }
-.page-node-type-branches .front_content_2 > .container #block-views-block-events-block-3 .field--name-node-title a {
+.page-node-type-branches .front_content_2 > .container #block-views-block-events-block-3 .field--name-node-title a,
+.page-node-type-branches .front_content_2 > .container #block-views-block-news-block-3 .field--name-node-title a {
   font-family: GEDinarTwo-Medium;
 }
 .bx-wrapper .bx-viewport {
