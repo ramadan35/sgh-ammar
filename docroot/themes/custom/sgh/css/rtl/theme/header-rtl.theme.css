@@ -55,4 +55,14 @@ body .hero_slider #block-slidertextoverlay p::before {
   margin-left: 5px;
   background-size: contain;
 }
+.page-node-type-branches #block-entityviewcontent-3 .node--view-mode-header-information .bs-region--left h2 {
+  text-align: right;
+}
+.page-node-type-branches #block-entityviewcontent-3 .node--view-mode-header-information .bs-region--right .field.field--name-field-phone-number-1 {
+  margin-left: 15px;
+  margin-right: 0px;
+}
+.page-node-type-branches #block-entityviewcontent-3 .bs-region--right {
+  text-align: left;
+}
 /*# sourceMappingURL=header-rtl.theme.css.map */
