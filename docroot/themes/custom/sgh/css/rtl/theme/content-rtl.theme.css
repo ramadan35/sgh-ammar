@@ -198,4 +198,7 @@ button {
   background: url(../../../images/arrow-right-ar2.png) no-repeat;
   background-position: 50%;
 }
+.path-webform .main-container form fieldset.webform-name--wrapper .fieldset-wrapper {
+  width: 100% !important;
+}
 /*# sourceMappingURL=content-rtl.theme.css.map */
