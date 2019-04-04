@@ -201,7 +201,7 @@ button {
 .path-webform .main-container form fieldset.webform-name--wrapper .fieldset-wrapper {
   width: 100% !important;
 }
-.page-node-type-branches .front_content_1 #block-quicktabsbranchestabs .quicktabs-main #views-exposed-form-find-a-doctor-find-doctor .form-actions button {
+.page-node-type-branches .front_content_1 #block-quicktabsbranchestabs .quicktabs-main #views-exposed-form-find-a-doctor-find-doctor .form-actions button span {
   display: none;
 }
 /*# sourceMappingURL=content-rtl.theme.css.map */
