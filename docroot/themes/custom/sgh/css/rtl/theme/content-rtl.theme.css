@@ -152,4 +152,28 @@ button {
   left: 0;
   padding-left: 10px;
 }
+.intl-tel-input.allow-dropdown input,
+.intl-tel-input.allow-dropdown input[type=text],
+.intl-tel-input.allow-dropdown input[type=tel],
+.intl-tel-input.separate-dial-code input,
+.intl-tel-input.separate-dial-code input[type=text],
+.intl-tel-input.separate-dial-code input[type=tel] {
+  padding-right: 52px;
+  padding-left: 6px;
+}
+.intl-tel-input.allow-dropdown .flag-container,
+.intl-tel-input.separate-dial-code .flag-container {
+  right: 0;
+  left: auto;
+  direction: ltr;
+}
+.path-frontpage .front_content_1 #block-quicktabsfronttabs .quicktabs-main .webform-submission-book-an-appointment-add-form .form-item select,
+.path-frontpage .front_content_1 #block-quicktabsfronttabs .quicktabs-main .webform-submission-book-an-appointment-add-form .form-item input {
+  text-align: right;
+}
+.form-actions .btn,
+.form-actions .btn-group {
+  margin-left: 10px;
+  margin-right: 0px;
+}
 /*# sourceMappingURL=content-rtl.theme.css.map */
