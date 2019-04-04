@@ -184,7 +184,7 @@ button {
   float: right;
 }
 .path-webform .main-container form .fieldset.webform-name--wrapper .fieldset-wrapper {
-  width: 100%;
+  width: 100% !important;
   max-width: 100%;
 }
 .path-webform .main-container form .form-actions {

@@ -74,6 +74,13 @@
                 $(".page-node-type-offers-promotions .wrapper .bottom .field--name-field-date .field--item:last-child .field--label").html("تاريخ الانتهاء");
                 $(".field--name-field-date .field--item:first-child .field--label").html("تاريخ البدء");
                 $(".field--name-field-date .field--item:last-child .field--label").html("تاريخ الانتهاء");
+                $(".page-node-type-events .green-button a").html("تسجيل");
+                
+                $(".page-node-type-events .green-button a").each(function () {
+                    $old_url = $(this).attr('href');
+                    $new_url = '/ar' + $old_url;
+                    $(this).attr('href', $new_url);
+                });
             }
         }
 
