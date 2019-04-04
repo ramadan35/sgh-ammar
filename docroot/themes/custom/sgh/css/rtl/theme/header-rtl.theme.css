@@ -33,6 +33,9 @@ header .header-top #block-socialicons-2 .menu.nav li {
 header .header-top #block-socialicons-2 .menu.nav li:first-child a {
   border-left: none;
 }
+header .header-top #block-languageswitcher {
+  float: left;
+}
 header .right ul.menu {
   text-align: left;
 }
