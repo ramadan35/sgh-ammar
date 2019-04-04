@@ -176,4 +176,8 @@ button {
   margin-left: 10px;
   margin-right: 0px;
 }
+.intl-tel-input .country-list .country {
+  direction: rtl;
+  text-align: right;
+}
 /*# sourceMappingURL=content-rtl.theme.css.map */
