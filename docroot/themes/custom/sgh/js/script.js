@@ -77,11 +77,9 @@
                 $(".page-node-type-events .green-button a").html("تسجيل");
 
             }
-            $(".lang-ar.page-node-type-events .green-button a").each(function () {
-                $old_url = $(this).attr('href');
-                $new_url = '/ar' + $old_url;
-                $(this).attr('href', $new_url);
-            });
+            $old_url = $('.lang-ar.page-node-type-events .green-button a').attr('href');
+            $new_url = '/ar' + $old_url;
+            $('.lang-ar.page-node-type-events .green-button a').attr('href', $new_url);
         }
 
     };
