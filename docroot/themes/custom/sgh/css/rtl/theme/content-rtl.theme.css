@@ -136,4 +136,12 @@ button {
   text-align: left;
   float: left;
 }
+#block-chat {
+  right: auto;
+  left: 0;
+}
+#block-booknow {
+  right: auto;
+  left: 0;
+}
 /*# sourceMappingURL=content-rtl.theme.css.map */
