@@ -90,14 +90,14 @@ body {
   left: auto;
 }
 .path-frontpage .hero_slider .slick__arrow .slick-prev::before {
-  background: url(../../images/slider-arrow-left.png) no-repeat;
+  background: url(../../../images/slider-arrow-right.png) no-repeat;
 }
 .path-frontpage .hero_slider .slick__arrow .slick-next {
   left: 30px;
   right: auto;
 }
 .path-frontpage .hero_slider .slick__arrow .slick-next::before {
-  background: url(../../images/slider-arrow-right.png) no-repeat;
+  background: url(../../../images/slider-arrow-left.png) no-repeat;
 }
 .green-button a::after {
   content: "";
