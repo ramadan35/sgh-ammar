@@ -229,4 +229,7 @@ button {
   padding-left: 15px;
   padding-right: 0px;
 }
+.page-node-type-news .main-container .field--name-field-image img {
+  float: left;
+}
 /*# sourceMappingURL=content-rtl.theme.css.map */
