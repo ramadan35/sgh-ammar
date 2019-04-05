@@ -247,4 +247,8 @@ button {
 #slick-views-partners-block-1-4 {
   direction: ltr;
 }
+.page-node-type-varbase-blog .main-container .field--name-body {
+  padding-left: 15px;
+  padding-right: 0px;
+}
 /*# sourceMappingURL=content-rtl.theme.css.map */
