@@ -235,4 +235,7 @@ button {
 .page-node-type-news .main-container .field--name-field-image img {
   float: left;
 }
+.green-button a {
+  direction: rtl;
+}
 /*# sourceMappingURL=content-rtl.theme.css.map */
