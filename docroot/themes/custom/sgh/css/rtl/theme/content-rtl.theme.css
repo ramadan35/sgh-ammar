@@ -36,8 +36,14 @@ body {
 .path-frontpage .front_content_3 #block-views-block-offers-promotions-block-1 .block-title {
   font-family: GEDinarTwo-Medium;
 }
+.path-frontpage .front_content_3 #block-views-block-offers-promotions-block-1 .form-group .slick__arrow .slick-prev {
+  right: -3px;
+}
 .path-frontpage .front_content_3 #block-views-block-offers-promotions-block-1 .form-group .slick__arrow .slick-prev::before {
   background: url(../../../images/slider-arrow-right.png) no-repeat;
+}
+.path-frontpage .front_content_3 #block-views-block-offers-promotions-block-1 .form-group .slick__arrow .slick-next {
+  left: 9px;
 }
 .path-frontpage .front_content_3 #block-views-block-offers-promotions-block-1 .form-group .slick__arrow .slick-next::before {
   background: url(../../../images/slider-arrow-left.png) no-repeat;
