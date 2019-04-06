@@ -321,7 +321,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
 .node--view-mode-horizontal-media-teaser-medium .right .field--name-body {
   font-size: 13px;
   color: #505150;
-  text-decoration: underline;
+  /*text-decoration: underline;*/
 }
 .path-frontpage #block-views-block-news-block-1,
 .path-frontpage #block-views-block-varbase-blog-homepage-blog-block,

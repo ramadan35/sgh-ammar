@@ -170,6 +170,7 @@ header .header-bottom .right ul.menu li a {
   transition: color 0.5s ease;
   background: transparent;
   padding: 15px;
+  font-family: gothem;
 }
 header .header-bottom .right ul.menu li a:hover,
 header .header-bottom .right ul.menu li a:focus {
