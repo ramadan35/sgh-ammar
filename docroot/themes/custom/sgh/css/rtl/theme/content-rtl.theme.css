@@ -255,6 +255,11 @@ button {
 .path-frontpage .front_content_3 #block-views-block-offers-promotions-block-1 .form-group .view-content #slick-views-offers-promotions-block-1-2-slider {
   direction: ltr;
 }
+.page-node-type-visiting-doctors .main-container .node--view-mode-full .field--name-field-media-image {
+  float: right;
+  padding-left: 30px;
+  padding-right: 0px;
+}
 body .lang-ar {
   display: block;
 }
