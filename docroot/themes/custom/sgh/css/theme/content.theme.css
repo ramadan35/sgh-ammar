@@ -16,6 +16,9 @@ body {
 body .lang-ar {
   display: none;
 }
+body android.ar {
+  display: none;
+}
 body:not(.path-frontpage) .hero_slider #block-entityviewcontent {
   border-bottom: 4px solid #50A155;
 }

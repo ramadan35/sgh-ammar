@@ -252,4 +252,16 @@ button {
   padding-left: 15px;
   padding-right: 0px;
 }
+body .lang-ar {
+  display: block;
+}
+body .lang-en {
+  display: none;
+}
+body android.ar {
+  display: block;
+}
+body android.en {
+  display: none;
+}
 /*# sourceMappingURL=content-rtl.theme.css.map */
