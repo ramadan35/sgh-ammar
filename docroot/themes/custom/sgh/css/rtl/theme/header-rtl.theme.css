@@ -48,7 +48,11 @@ header .right ul.menu li:last-child a {
 header .header-bottom .right ul.menu li a {
   font-family: GEDinarTwo-Medium;
   font-size: 14px;
-  padding: 12px 19px;
+  padding: 15px 18px;
+}
+header .header-bottom .right ul.menu li:last-child a {
+  padding-right: 15px;
+  padding-left: 0;
 }
 body .hero_slider #block-slidertextoverlay {
   text-align: left;
