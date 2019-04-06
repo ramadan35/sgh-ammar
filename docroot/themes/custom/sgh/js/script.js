@@ -12,11 +12,11 @@
             $('.path-frontpage #block-views-block-events-block-1 .field--name-field-date .field--item:last-child , #views-bootstrap-events-block-2 .field--name-field-date .field--item:last-child , .page-node-type-events .field--name-field-date .field--item:last-child , .view-offers-promotions .field--name-field-date .field--item:last-child , .page-node-type-offers-promotions .field--name-field-date .field--item:last-child , .page-node-type-branches #views-bootstrap-events-block-3 .field--name-field-date .field--item:last-child', context).prepend('<div class="field--label">End date</div>');
             $('.path-frontpage #block-views-block-events-block-1 .field--name-field-date .field--item:first-child , #views-bootstrap-events-block-2 .field--name-field-date .field--item:first-child , .page-node-type-events .field--name-field-date .field--item:first-child , .view-offers-promotions .field--name-field-date .field--item:first-child , .page-node-type-offers-promotions .field--name-field-date .field--item:first-child , .page-node-type-branches #views-bootstrap-events-block-3 .field--name-field-date .field--item:first-child', context).prepend('<div class="field--label">Start date</div>');
 
-             if($(window).width() > 992) {
+            if ($(window).width() > 992) {
                 var left_height = $('.region-front-content-2-left', context).height();
                 $('.path-frontpage #block-views-block-events-block-1', context).css('height', left_height);
             }
-            
+
 
             $('#block-searchform', context).append('<i class="trigger-search fa fa-search"></i>');
             $('#block-searchform .trigger-search', context).addClass('closed');
@@ -75,11 +75,14 @@
                 $(".field--name-field-date .field--item:first-child .field--label").html("تاريخ البدء");
                 $(".field--name-field-date .field--item:last-child .field--label").html("تاريخ الانتهاء");
                 $(".page-node-type-events .green-button a").html("تسجيل");
-
+                console.log("arabi");
+                $(".page-node-type-events .green-button a").each(function () {
+                    $old_url = $(this).attr('href');
+                    console.log($old_url);
+                    $new_url = '/ar' + $old_url;
+                    $(this).attr('href', $new_url);
+                });
             }
-            $old_url = $('.lang-ar.page-node-type-events .green-button a').attr('href');
-            $new_url = '/ar' + $old_url;
-            $('.lang-ar.page-node-type-events .green-button a').attr('href', $new_url);
         }
 
     };
