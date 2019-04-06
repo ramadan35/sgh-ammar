@@ -11,8 +11,8 @@ function text_to_dropdown_form_alter(&$form, \Drupal\Core\Form\FormStateInterfac
           '' => t('Branch'),
       );
       foreach($nodes as $key => $value) {
-          $translated_entity = $value->getTranslation($language);
-          $translated_title = $translated_entity->getTitle();
+          $translation = \Drupal::service('entity.repository')->getTranslationFromCon‌text($value);
+          $translated_title = $translation->getTitle();
           $title = $value->getTitle();
           $options[$key] = $translated_title;
       }
