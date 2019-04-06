@@ -260,6 +260,10 @@ button {
   padding-left: 30px;
   padding-right: 0px;
 }
+.path-frontpage .front_content_1 #block-quicktabsfronttabs .quicktabs-main .webform-submission-book-an-appointment-add-form .form-item legend,
+.path-frontpage .front_content_1 #block-quicktabsfronttabs .quicktabs-main .webform-submission-book-an-appointment-add-form .form-item .fieldset-wrapper {
+  float: right;
+}
 body .lang-ar {
   display: block;
 }
