@@ -75,13 +75,6 @@
                 $(".field--name-field-date .field--item:first-child .field--label").html("تاريخ البدء");
                 $(".field--name-field-date .field--item:last-child .field--label").html("تاريخ الانتهاء");
                 $(".page-node-type-events .green-button a").html("تسجيل");
-                console.log("arabi");
-                $(".page-node-type-events .green-button a").each(function () {
-                    $old_url = $(this).attr('href');
-                    console.log($old_url);
-                    $new_url = '/ar' + $old_url;
-                    $(this).attr('href', $new_url);
-                });
             }
         }
 
