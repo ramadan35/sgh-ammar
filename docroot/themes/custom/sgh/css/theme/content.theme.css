@@ -146,7 +146,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
 .views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall .right .field--name-body {
   font-size: 13px;
   color: #505150;
-  text-decoration: underline;
+  /*text-decoration: underline;*/
 }
 @media (max-width: 768px) {
   .views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall .right .field--name-body {
@@ -197,7 +197,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
 }
 .views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall.node--type-events .right .field--name-body {
   font-size: 13px;
-  color: #505150;
+  /*color: #505150;*/
   text-decoration: underline;
 }
 .views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall.node--type-events .right .green-button {
@@ -220,7 +220,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
 .taxonomy-term--view-mode-horizontal-media-teaser-xsmall .field--name-description {
   font-size: 13px;
   color: #505150;
-  text-decoration: underline;
+  /*text-decoration: underline;*/
 }
 @media (max-width: 480px) {
   .taxonomy-term--view-mode-horizontal-media-teaser-xsmall .field--name-description {
@@ -1720,7 +1720,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
   margin-bottom: 10px;
   font-size: 13px;
   color: #505150;
-  text-decoration: underline;
+  /*text-decoration: underline;*/
 }
 .path-doctors .main-container .views-view-grid.horizontal .row .col article .field--name-field-specialty {
   font-family: gothem;
