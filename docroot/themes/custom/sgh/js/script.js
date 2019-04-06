@@ -76,6 +76,7 @@
                 $(".field--name-field-date .field--item:last-child .field--label").html("تاريخ الانتهاء");
                 $(".page-node-type-events .green-button a").html("تسجيل");
             }
+            $('.path-frontpage #views-exposed-form-find-a-doctor-find-doctor .form-item-name input').attr('placeholder' , '');
         }
 
     };
