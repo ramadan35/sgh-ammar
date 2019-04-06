@@ -1205,23 +1205,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
   font-size: 12px;
   font-family: gothem;
 }
-.page-node-type-events .main-container .node--view-mode-full .bs-region--right .field--name-field-email .field--label {
-  color: #000;
-  margin-bottom: 20px;
-}
-.page-node-type-events .main-container .node--view-mode-full .bs-region--right .field--name-field-email .field--item {
-  margin-bottom: 20px;
-}
-.page-node-type-events .main-container .node--view-mode-full .bs-region--right .field--name-field-email .field--item .field--item {
-  margin: 0;
-}
-.page-node-type-events .main-container .node--view-mode-full .bs-region--right .field--name-field-email .field--item .field--name-field-title {
-  color: #2D3A88;
-  text-transform: uppercase;
-  font-size: 12px;
-  font-family: gothem;
-}
-.page-node-type-events .main-container .node--view-mode-full .bs-region--right .field--name-field-email .field--item .field--name-field-value {
+.page-node-type-events .main-container .node--view-mode-full .bs-region--right .field--name-field-email a {
   color: #50A155;
   text-transform: uppercase;
   font-size: 12px;
