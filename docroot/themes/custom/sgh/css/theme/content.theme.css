@@ -831,6 +831,14 @@ body:not(.path-frontpage) #block-headerimageblock img {
   background-color: #50A155;
   border-color: #50A155;
 }
+.path-frontpage .front_content_1 #block-quicktabsfronttabs .quicktabs-main .webform-submission-book-an-appointment-add-form .form-item-how-did-you-hear-about-us-select .fieldset-wrapper {
+  float: left;
+  width: 100%;
+  max-width: 255p;
+}
+.path-frontpage .front_content_1 #block-quicktabsfronttabs .quicktabs-main .webform-submission-book-an-appointment-add-form .form-item-how-did-you-hear-about-us-select legend {
+  float: left;
+}
 .path-frontpage .front_content_1 #block-quicktabsfronttabs .quicktabs-main .webform-submission-book-an-appointment-add-form .js-webform-type-webform-name {
   width: 100%;
 }
