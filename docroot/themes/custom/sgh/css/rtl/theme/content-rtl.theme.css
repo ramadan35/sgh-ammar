@@ -258,10 +258,10 @@ body .lang-ar {
 body .lang-en {
   display: none;
 }
-body android.ar {
+body .android.ar {
   display: block;
 }
-body android.en {
+body .android.en {
   display: none;
 }
 /*# sourceMappingURL=content-rtl.theme.css.map */

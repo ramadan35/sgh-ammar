@@ -16,7 +16,7 @@ body {
 body .lang-ar {
   display: none;
 }
-body android.ar {
+body .android.ar {
   display: none;
 }
 body:not(.path-frontpage) .hero_slider #block-entityviewcontent {
