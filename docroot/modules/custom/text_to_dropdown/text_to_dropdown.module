@@ -21,9 +21,6 @@ function text_to_dropdown_form_alter(&$form, \Drupal\Core\Form\FormStateInterfac
         }
                   
       }
-
-      kint($form);
-      kint($options);
       $form['field_branch_target_id'] = array(
           '#title' => t('Crust Size'),
           '#type' => 'select',
