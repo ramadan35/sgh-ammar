@@ -43,6 +43,11 @@ header .header-top #block-languageswitcher ul.links li a {
 header .header-top #block-languageswitcher ul.links li.is-active {
   display: none;
 }
+@media (max-width: 768px) {
+  header .header-top #block-languageswitcher {
+    float: none;
+  }
+}
 header .header-top #block-searchform {
   display: inline-block;
   padding-left: 7px;
@@ -110,6 +115,7 @@ header .header-top #block-exposedformsearchpage-1-2 form {
   header .header-top #block-exposedformsearchpage-1-2 form {
     right: auto;
     left: 30px;
+    width: 200px;
   }
 }
 header .header-top #block-exposedformsearchpage-1-2 form .form-item {

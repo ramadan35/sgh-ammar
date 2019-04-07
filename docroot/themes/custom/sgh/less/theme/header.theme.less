@@ -51,6 +51,9 @@ header {
                     }
                 }
             }
+            @media (max-width: @screen-sm) {
+                float: none;
+            }
         }
         #block-searchform {
             display: inline-block;
@@ -112,6 +115,7 @@ header {
                 @media (max-width: @screen-sm) {
                     right: auto;
                     left: 30px;
+                    width: 200px;
                 }
                 .form-item {
                     margin: 0;
