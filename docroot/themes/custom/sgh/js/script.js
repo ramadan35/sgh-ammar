@@ -8,12 +8,25 @@
 
     Drupal.behaviors.sgh = {
         attach: function (context) {
-            
-            if ($(window).width() > 460) {
+
+            if ($(window).width() < 460) {
                 var number = $('body .hero_slider #block-slidertextoverlay p').html();
                 $('body .hero_slider #block-slidertextoverlay p').wrap('<a href="tel:' + number + '">' + number + '</a>');
+                $('body .hero_slider #block-slidertextoverlay p').hide();
+
+                if ($('body').hasClass('page-node-type-branches')) {
+                    number = $('.page-node-type-branches #block-entityviewcontent-3 .field--name-field-phone-number-1').html();
+                    $('.page-node-type-branches #block-entityviewcontent-3 .field--name-field-phone-number-1').wrap('<a href="tel:' + number + '">' + number + '</a>');
+                    $('.page-node-type-branches #block-entityviewcontent-3 .field--name-field-phone-number-1').hide();
+                    if ($('.page-node-type-branches #block-entityviewcontent-3 .field--name-field-phone-number-2').length > 0) {
+                        number = $('.page-node-type-branches #block-entityviewcontent-3 .field--name-field-phone-number-2').html();
+                        $('.page-node-type-branches #block-entityviewcontent-3 .field--name-field-phone-number-2').hide();
+                        $('.page-node-type-branches #block-entityviewcontent-3 .field--name-field-phone-number-2').wrap('<a href="tel:' + number + '">' + number + '</a>');
+                    }
+                }
+
             }
-            
+
             // Vartheme subtheme JavaScript behaviors goes here.
             $('.path-frontpage #block-views-block-events-block-1 .field--name-field-date .field--item:last-child , #views-bootstrap-events-block-2 .field--name-field-date .field--item:last-child , .page-node-type-events .field--name-field-date .field--item:last-child , .view-offers-promotions .field--name-field-date .field--item:last-child , .page-node-type-offers-promotions .field--name-field-date .field--item:last-child , .page-node-type-branches #views-bootstrap-events-block-3 .field--name-field-date .field--item:last-child', context).prepend('<div class="field--label">End date</div>');
             $('.path-frontpage #block-views-block-events-block-1 .field--name-field-date .field--item:first-child , #views-bootstrap-events-block-2 .field--name-field-date .field--item:first-child , .page-node-type-events .field--name-field-date .field--item:first-child , .view-offers-promotions .field--name-field-date .field--item:first-child , .page-node-type-offers-promotions .field--name-field-date .field--item:first-child , .page-node-type-branches #views-bootstrap-events-block-3 .field--name-field-date .field--item:first-child', context).prepend('<div class="field--label">Start date</div>');

@@ -356,13 +356,15 @@ body .hero_slider #block-slidertextoverlay {
   text-align: right;
   z-index: 9999;
 }
-body .hero_slider #block-slidertextoverlay p {
+body .hero_slider #block-slidertextoverlay p,
+body .hero_slider #block-slidertextoverlay a {
   padding: 0 15px;
   font-size: 20px;
   font-weight: bold;
   color: #FFF;
 }
-body .hero_slider #block-slidertextoverlay p::before {
+body .hero_slider #block-slidertextoverlay p::before,
+body .hero_slider #block-slidertextoverlay a::before {
   content: "";
   background: url(../../images/phone_white.png) no-repeat;
   width: 17px;
@@ -419,6 +421,22 @@ body .hero_slider #block-slidertextoverlay p::before {
     width: 100%;
     text-align: center;
   }
+}
+.page-node-type-branches #block-entityviewcontent-3 .node--view-mode-header-information .bs-region--right a {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFF;
+  text-align: right;
+}
+.page-node-type-branches #block-entityviewcontent-3 .node--view-mode-header-information .bs-region--right a::before {
+  content: "";
+  background: url(../../images/phone_white.png) no-repeat;
+  width: 17px;
+  height: 17px;
+  display: inline-block;
+  background-size: contain;
+  margin-right: 5px;
 }
 .page-node-type-branches #block-entityviewcontent-3 .node--view-mode-header-information .bs-region--right .field {
   display: inline-block;
