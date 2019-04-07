@@ -22,6 +22,9 @@ header {
                     display: inline-block;
                     border-right: 1px solid #FFF;
                     line-height: 0px;
+                    @media (max-width: @screen-sm) {
+                        border: 0;
+                    }
                     a{
                         color: #FFF;
                         font-size: 12px;
@@ -177,6 +180,7 @@ header {
             @media (max-width: @screen-sm) {
                 width: 100%;
                 text-align: center;
+                display: none;
             }
         }
         @media (max-width: @screen-sm) {
@@ -332,6 +336,7 @@ body {
             img {
                 width: 100%;
             }
+
         }
         #block-slidertextoverlay {
             position: absolute;
@@ -356,6 +361,15 @@ body {
                     margin-right: 5px;
                 }
             }
+            @media (max-width: @screen-xs) {
+                position: initial;
+            }
+        }
+    }
+    #block-sgh-views-block-varbase-heroslider-media-varbase-heroslider-media, 
+    #block-views-block-varbase-heroslider-media-block-1 {
+        @media (max-width: @screen-xs) {
+            display: none;
         }
     }
 }
@@ -414,6 +428,9 @@ body {
                     }
                 }
             }
+        }
+        @media (max-width: @screen-xs) {
+            position: initial;
         }
     }
     #block-slidertextoverlay {

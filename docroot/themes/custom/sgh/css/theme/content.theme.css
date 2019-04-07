@@ -861,8 +861,8 @@ body:not(.path-frontpage) #block-headerimageblock img {
 }
 .path-frontpage .front_content_1 #block-quicktabsfronttabs .quicktabs-main .webform-submission-book-an-appointment-add-form .form-type-processed-text {
   width: 100%;
-  color: #FFF;
   text-align: center;
+  color: #FFF;
 }
 .path-frontpage .front_content_1 #block-quicktabsfronttabs .quicktabs-main .field--name-body {
   color: #FFFFFF;
@@ -873,6 +873,11 @@ body:not(.path-frontpage) #block-headerimageblock img {
 }
 .path-frontpage .hero_slider {
   margin: 0;
+}
+@media (max-width: 992px) {
+  .path-frontpage .hero_slider {
+    maring-bottom: 10px;
+  }
 }
 .path-frontpage .hero_slider .counter {
   position: absolute;

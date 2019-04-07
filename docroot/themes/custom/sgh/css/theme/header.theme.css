@@ -18,6 +18,11 @@ header .header-top #block-topmenu ul.menu li {
   border-right: 1px solid #FFF;
   line-height: 0px;
 }
+@media (max-width: 768px) {
+  header .header-top #block-topmenu ul.menu li {
+    border: 0;
+  }
+}
 header .header-top #block-topmenu ul.menu li a {
   color: #FFF;
   font-size: 12px;
@@ -175,6 +180,7 @@ header .header-top #block-socialicons-2 .menu.nav li:first-child a {
   header .header-top #block-socialicons-2 {
     width: 100%;
     text-align: center;
+    display: none;
   }
 }
 @media (max-width: 768px) {
@@ -365,6 +371,17 @@ body .hero_slider #block-slidertextoverlay p::before {
   background-size: contain;
   margin-right: 5px;
 }
+@media (max-width: 480px) {
+  body .hero_slider #block-slidertextoverlay {
+    position: initial;
+  }
+}
+@media (max-width: 480px) {
+  body #block-sgh-views-block-varbase-heroslider-media-varbase-heroslider-media,
+  body #block-views-block-varbase-heroslider-media-block-1 {
+    display: none;
+  }
+}
 .page-node-type-branches #block-entityviewcontent-3 {
   position: absolute;
   top: 0;
@@ -421,6 +438,11 @@ body .hero_slider #block-slidertextoverlay p::before {
 }
 .page-node-type-branches #block-entityviewcontent-3 .node--view-mode-header-information .bs-region--right .field.field--name-field-phone-number-1 {
   margin-right: 15px;
+}
+@media (max-width: 480px) {
+  .page-node-type-branches #block-entityviewcontent-3 {
+    position: initial;
+  }
 }
 .page-node-type-branches #block-slidertextoverlay {
   display: none;

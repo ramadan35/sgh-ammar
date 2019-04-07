@@ -975,8 +975,8 @@ body:not(.path-frontpage) {
                     }
                     .form-type-processed-text {
                         width: 100%;
-                        color: #FFF;
                         text-align: center;
+                        color: #FFF;
                     }
                 }
                 .field--name-body {
@@ -992,6 +992,9 @@ body:not(.path-frontpage) {
     }
     .hero_slider {
         margin: 0;
+        @media (max-width: @screen-md) {
+            maring-bottom: 10px;
+        }
         .counter {
             position: absolute;
             bottom: 30px;
