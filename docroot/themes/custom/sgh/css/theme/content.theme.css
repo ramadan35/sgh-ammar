@@ -824,6 +824,12 @@ body:not(.path-frontpage) #block-headerimageblock img {
 .path-frontpage .front_content_1 #block-quicktabsfronttabs .quicktabs-main .webform-submission-book-an-appointment-add-form fieldset.form-item {
   margin: 0;
 }
+.path-frontpage .front_content_1 #block-quicktabsfronttabs .quicktabs-main .webform-submission-book-an-appointment-add-form fieldset.form-item legend {
+  float: left;
+}
+.path-frontpage .front_content_1 #block-quicktabsfronttabs .quicktabs-main .webform-submission-book-an-appointment-add-form fieldset.form-item .fieldset-wrapper {
+  width: 255px;
+}
 .path-frontpage .front_content_1 #block-quicktabsfronttabs .quicktabs-main .webform-submission-book-an-appointment-add-form .webform-telephone--wrapper legend {
   float: left;
   padding-top: 7px;
