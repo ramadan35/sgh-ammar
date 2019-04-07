@@ -100,7 +100,7 @@ header .header-top #block-exposedformsearchpage-1-2 {
 header .header-top #block-exposedformsearchpage-1-2 form {
   max-width: 300px;
   position: absolute;
-  right: 35px;
+  right: 20px;
   top: -6px;
   display: none;
 }
@@ -112,20 +112,19 @@ header .header-top #block-exposedformsearchpage-1-2 form {
 }
 header .header-top #block-exposedformsearchpage-1-2 form .form-item {
   margin: 0;
-  position: relative;
 }
 header .header-top #block-exposedformsearchpage-1-2 form .form-item input {
   width: 100%;
   box-shadow: none;
   border: 0;
 }
-header .header-top #block-exposedformsearchpage-1-2 form .form-item button {
+header .header-top #block-exposedformsearchpage-1-2 form .form-item .input-group {
+  width: 300px;
+}
+header .header-top #block-exposedformsearchpage-1-2 form .edit-actions button {
   position: absolute;
   right: 0;
   top: 0;
-}
-header .header-top #block-exposedformsearchpage-1-2 form .form-item .input-group {
-  width: 300px;
 }
 header .header-top #block-exposedformsearchpage-1-2 .form-item-field-branch-target-id {
   display: none;
