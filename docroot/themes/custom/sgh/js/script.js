@@ -18,26 +18,26 @@
             }
 
 
-            $('#block-searchform', context).append('<i class="trigger-search fa fa-search"></i>');
-            $('#block-searchform .trigger-search', context).addClass('closed');
-            $('#block-searchform .trigger-search', context).click(function () {
+            $('#block-exposedformsearchpage-1-2', context).append('<i class="trigger-search fa fa-search"></i>');
+            $('#block-exposedformsearchpage-1-2 .trigger-search', context).addClass('closed');
+            $('#block-exposedformsearchpage-1-2 .trigger-search', context).click(function () {
                 if ($(this).hasClass('closed')) {
                     //open search
-                    $('#block-searchform .trigger-search').removeClass('closed');
-                    $('#block-searchform .trigger-search').addClass('opened');
+                    $('#block-exposedformsearchpage-1-2 .trigger-search').removeClass('closed');
+                    $('#block-exposedformsearchpage-1-2 .trigger-search').addClass('opened');
 
-                    $('#block-searchform .trigger-search').removeClass('fa-search');
-                    $('#block-searchform .trigger-search').addClass('fa-times');
+                    $('#block-exposedformsearchpage-1-2 .trigger-search').removeClass('fa-search');
+                    $('#block-exposedformsearchpage-1-2 .trigger-search').addClass('fa-times');
 
                     $('#block-searchform form').show();
                 } else {
-                    $('#block-searchform .trigger-search').addClass('closed');
-                    $('#block-searchform .trigger-search').removeClass('opened');
+                    $('#block-exposedformsearchpage-1-2 .trigger-search').addClass('closed');
+                    $('#block-exposedformsearchpage-1-2 .trigger-search').removeClass('opened');
 
-                    $('#block-searchform .trigger-search').removeClass('fa-times');
-                    $('#block-searchform .trigger-search').addClass('fa-search');
+                    $('#block-exposedformsearchpage-1-2 .trigger-search').removeClass('fa-times');
+                    $('#block-exposedformsearchpage-1-2 .trigger-search').addClass('fa-search');
 
-                    $('#block-searchform form').hide();
+                    $('#block-exposedformsearchpage-1-2 form').hide();
                 }
             });
 
