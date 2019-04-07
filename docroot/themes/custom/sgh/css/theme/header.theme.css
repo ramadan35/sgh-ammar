@@ -95,6 +95,7 @@ header .header-top #block-exposedformsearchpage-1-2 {
   display: inline-block;
   padding-left: 7px;
   float: right;
+  position: relative;
 }
 header .header-top #block-exposedformsearchpage-1-2 form {
   max-width: 300px;
@@ -128,6 +129,12 @@ header .header-top #block-exposedformsearchpage-1-2 form .form-item .input-group
 }
 header .header-top #block-exposedformsearchpage-1-2 .form-item-field-branch-target-id {
   display: none;
+}
+@media (max-width: 768px) {
+  header .header-top #block-exposedformsearchpage-1-2 {
+    float: none;
+    position: relative;
+  }
 }
 header .header-top #block-socialicons-2 {
   float: left;
