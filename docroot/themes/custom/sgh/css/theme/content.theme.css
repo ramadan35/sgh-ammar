@@ -859,6 +859,11 @@ body:not(.path-frontpage) #block-headerimageblock img {
 .path-frontpage .front_content_1 #block-quicktabsfronttabs .quicktabs-main .webform-submission-book-an-appointment-add-form .captcha .help-block {
   display: none;
 }
+.path-frontpage .front_content_1 #block-quicktabsfronttabs .quicktabs-main .webform-submission-book-an-appointment-add-form .form-type-processed-text {
+  width: 100%;
+  color: #FFF;
+  text-align: center;
+}
 .path-frontpage .front_content_1 #block-quicktabsfronttabs .quicktabs-main .field--name-body {
   color: #FFFFFF;
   text-align: center;

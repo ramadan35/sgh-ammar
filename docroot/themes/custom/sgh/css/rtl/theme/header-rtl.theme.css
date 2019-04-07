@@ -11,18 +11,32 @@ header .header-top #block-topmenu ul.menu li {
   border-left: 1px solid #FFF;
   border-right: 0px solid #FFF;
 }
-header .header-top #block-searchform {
+header .header-top #block-exposedformsearchpage-1-2 {
   padding-left: 0px;
   padding-right: 7px;
   float: left;
 }
-header .header-top #block-searchform form {
+header .header-top #block-exposedformsearchpage-1-2 form {
   right: auto;
-  left: 35px;
+  left: 20px;
 }
-header .header-top #block-searchform form .form-item button {
+header .header-top #block-exposedformsearchpage-1-2 form .form-item {
+  width: 100%;
+}
+header .header-top #block-exposedformsearchpage-1-2 form .form-actions {
+  position: absolute;
+  left: -10px;
   right: auto;
-  left: 0;
+  top: 0;
+  font-size: 0;
+}
+header .header-top #block-exposedformsearchpage-1-2 form .form-actions button {
+  color: #fff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+  border: 0;
+  border-radius: 0;
+  height: 34px;
 }
 header .header-top #block-socialicons-2 {
   float: right;

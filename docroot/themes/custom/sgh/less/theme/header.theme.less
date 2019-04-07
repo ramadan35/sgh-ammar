@@ -102,11 +102,13 @@ header {
             float: right;
             position: relative;
             form {
-                max-width: 300px;
+                max-width: 250px;
                 position: absolute;
                 right: 20px;
                 top: -6px;
                 display: none;
+                width: 250px;
+                z-index: 9;
                 @media (max-width: @screen-sm) {
                     right: auto;
                     left: 30px;
@@ -123,12 +125,11 @@ header {
                         width: 300px;
                     }
                 }
-                .edit-actions {
-                    button {
-                        position: absolute;
-                        right: 0;
-                        top: 0;
-                    }
+                .form-actions {
+                    position: absolute;
+                    right: -10px;
+                    top: 0;
+                    font-size: 0;
                 }
             }
             .form-item-field-branch-target-id {

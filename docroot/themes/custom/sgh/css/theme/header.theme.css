@@ -98,11 +98,13 @@ header .header-top #block-exposedformsearchpage-1-2 {
   position: relative;
 }
 header .header-top #block-exposedformsearchpage-1-2 form {
-  max-width: 300px;
+  max-width: 250px;
   position: absolute;
   right: 20px;
   top: -6px;
   display: none;
+  width: 250px;
+  z-index: 9;
 }
 @media (max-width: 768px) {
   header .header-top #block-exposedformsearchpage-1-2 form {
@@ -121,10 +123,11 @@ header .header-top #block-exposedformsearchpage-1-2 form .form-item input {
 header .header-top #block-exposedformsearchpage-1-2 form .form-item .input-group {
   width: 300px;
 }
-header .header-top #block-exposedformsearchpage-1-2 form .edit-actions button {
+header .header-top #block-exposedformsearchpage-1-2 form .form-actions {
   position: absolute;
-  right: 0;
+  right: -10px;
   top: 0;
+  font-size: 0;
 }
 header .header-top #block-exposedformsearchpage-1-2 .form-item-field-branch-target-id {
   display: none;
