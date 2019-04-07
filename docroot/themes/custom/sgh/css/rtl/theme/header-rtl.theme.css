@@ -93,4 +93,7 @@ body .hero_slider #block-slidertextoverlay p::before {
 .page-node-type-branches .front_content_1 #block-quicktabsbranchestabs .quicktabs-main .webform-submission-book-an-appointment-add-form .form-item input {
   text-align: right;
 }
+header .header-bottom .right ul.menu {
+  text-align: left;
+}
 /*# sourceMappingURL=header-rtl.theme.css.map */
