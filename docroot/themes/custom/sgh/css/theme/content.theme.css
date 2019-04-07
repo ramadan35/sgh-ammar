@@ -2397,4 +2397,12 @@ body:not(.path-frontpage) #block-headerimageblock img {
 .page-node-type-medical-departments .main-container .node--view-mode-full .field--name-node-title h1 {
   font-size: 20px;
 }
+.path-search .form-item-field-branch-target-id {
+  display: none;
+}
+.path-search .form-actions button {
+  color: #fff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+}
 /*# sourceMappingURL=content.theme.css.map */
