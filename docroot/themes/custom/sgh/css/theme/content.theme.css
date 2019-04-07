@@ -901,6 +901,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
   position: absolute;
   bottom: 30px;
   left: 30px;
+  direction: ltr;
 }
 .path-frontpage .hero_slider .counter .total {
   font-size: 30px;
