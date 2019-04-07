@@ -198,7 +198,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
 .views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall.node--type-events .right .field--name-body {
   font-size: 13px;
   /*color: #505150;*/
-  text-decoration: underline;
+  /*text-decoration: underline;*/
 }
 .views-view-grid.horizontal > .row .node--view-mode-horizontal-media-teaser-xsmall.node--type-events .right .green-button {
   float: right;

@@ -293,4 +293,7 @@ body .android.en {
 .ui-datepicker th {
   font-size: 10px;
 }
+.form-item-dob-date {
+  margin: 0;
+}
 /*# sourceMappingURL=content-rtl.theme.css.map */
