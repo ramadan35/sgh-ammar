@@ -1153,10 +1153,13 @@ body:not(.path-frontpage) {
                         text-align: center;
                         .node--view-mode-horizontal-media-teaser-medium-branch {
                             margin: 0;
-                            .left , 
-                            .right {
-                                width: 100%;
+                            @media (max-width: @screen-sm) {
+                                .left , 
+                                .right {
+                                    width: 100%;
+                                }
                             }
+
                         }
                         .views-field-title {
                             font-weight: 500;
@@ -2563,6 +2566,11 @@ body:not(.path-frontpage) {
                         .form-item-name-last {
 
                         }
+                    }
+                    .form-type-processed-text {
+                        width: 100%;
+                        text-align: center;
+                        color: #FFF;
                     }
                 }
                 .field--name-body {

@@ -1014,9 +1014,11 @@ body:not(.path-frontpage) #block-headerimageblock img {
 .page-node-type-branches .front_content_3 #block-views-block-varbase-blog-block-1 .form-group .view-content .slick__slide .node--view-mode-horizontal-media-teaser-medium-branch {
   margin: 0;
 }
-.page-node-type-branches .front_content_3 #block-views-block-varbase-blog-block-1 .form-group .view-content .slick__slide .node--view-mode-horizontal-media-teaser-medium-branch .left,
-.page-node-type-branches .front_content_3 #block-views-block-varbase-blog-block-1 .form-group .view-content .slick__slide .node--view-mode-horizontal-media-teaser-medium-branch .right {
-  width: 100%;
+@media (max-width: 768px) {
+  .page-node-type-branches .front_content_3 #block-views-block-varbase-blog-block-1 .form-group .view-content .slick__slide .node--view-mode-horizontal-media-teaser-medium-branch .left,
+  .page-node-type-branches .front_content_3 #block-views-block-varbase-blog-block-1 .form-group .view-content .slick__slide .node--view-mode-horizontal-media-teaser-medium-branch .right {
+    width: 100%;
+  }
 }
 .page-node-type-branches .front_content_3 #block-views-block-varbase-blog-block-1 .form-group .view-content .slick__slide .views-field-title {
   font-weight: 500;
@@ -2268,6 +2270,11 @@ body:not(.path-frontpage) #block-headerimageblock img {
 }
 .page-node-type-branches .front_content_1 #block-quicktabsbranchestabs .quicktabs-main .webform-submission-book-an-appointment-add-form .js-webform-type-webform-name .form-item {
   width: 49%;
+}
+.page-node-type-branches .front_content_1 #block-quicktabsbranchestabs .quicktabs-main .webform-submission-book-an-appointment-add-form .form-type-processed-text {
+  width: 100%;
+  text-align: center;
+  color: #FFF;
 }
 .page-node-type-branches .front_content_1 #block-quicktabsbranchestabs .quicktabs-main .field--name-body {
   color: #FFFFFF;
