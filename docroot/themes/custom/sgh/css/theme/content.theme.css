@@ -2272,6 +2272,15 @@ body:not(.path-frontpage) #block-headerimageblock img {
 .page-node-type-branches .front_content_1 #block-quicktabsbranchestabs .quicktabs-main .webform-submission-book-an-appointment-add-form fieldset .form-item input {
   display: inline-block;
 }
+.page-node-type-branches .front_content_1 #block-quicktabsbranchestabs .quicktabs-main .webform-submission-book-an-appointment-add-form .form-item-dob > .container-inline.form-inline {
+  display: inline-block;
+}
+.page-node-type-branches .front_content_1 #block-quicktabsbranchestabs .quicktabs-main .webform-submission-book-an-appointment-add-form .form-item-dob > .container-inline.form-inline .form-item {
+  width: 255px;
+}
+.page-node-type-branches .front_content_1 #block-quicktabsbranchestabs .quicktabs-main .webform-submission-book-an-appointment-add-form .form-item-dob > .container-inline.form-inline .form-item input {
+  width: 255px;
+}
 .page-node-type-branches .front_content_1 #block-quicktabsbranchestabs .quicktabs-main .webform-submission-book-an-appointment-add-form fieldset.form-item {
   margin: 0;
 }
