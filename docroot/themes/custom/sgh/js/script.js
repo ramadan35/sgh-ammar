@@ -77,7 +77,13 @@
                 $(".page-node-type-events .green-button a").html("تسجيل");
                 $('#block-subscribetoournewsletter form input').attr("placeholder", "البريد الإلكتروني");
             }
-            $('.path-frontpage #views-exposed-form-find-a-doctor-find-doctor .form-item-name input').attr('placeholder' , '');
+            $('.path-frontpage #views-exposed-form-find-a-doctor-find-doctor .form-item-name input').attr('placeholder', '');
+
+            $('.quicktabs-wrapper .quicktabs-tabs li a').click(function () {
+                $('html,body').animate({
+                    scrollTop: $('.quicktabs-main').offset().top
+                }, 'slow');
+            });
         }
 
     };
