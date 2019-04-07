@@ -879,6 +879,9 @@ body:not(.path-frontpage) #block-headerimageblock img {
   text-align: center;
   color: #FFF;
 }
+.path-frontpage .front_content_1 #block-quicktabsfronttabs .quicktabs-main .webform-submission-book-an-appointment-add-form .js-webform-type-webform-address .fieldset-wrapper {
+  width: 100%;
+}
 .path-frontpage .front_content_1 #block-quicktabsfronttabs .quicktabs-main .field--name-body {
   color: #FFFFFF;
   text-align: center;
