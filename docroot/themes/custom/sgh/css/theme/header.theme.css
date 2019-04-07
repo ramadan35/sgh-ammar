@@ -129,6 +129,10 @@ header .header-top #block-exposedformsearchpage-1-2 form .edit-actions button {
 header .header-top #block-exposedformsearchpage-1-2 .form-item-field-branch-target-id {
   display: none;
 }
+header .header-top #block-exposedformsearchpage-1-2 .trigger-search {
+  color: #FFFFFF;
+  cursor: pointer;
+}
 @media (max-width: 768px) {
   header .header-top #block-exposedformsearchpage-1-2 {
     float: none;
