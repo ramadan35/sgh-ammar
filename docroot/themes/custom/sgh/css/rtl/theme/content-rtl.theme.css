@@ -290,4 +290,7 @@ body .android.en {
 .path-frontpage .front_content_1 #block-quicktabsfronttabs .quicktabs-main .webform-submission-book-an-appointment-add-form .form-item {
   vertical-align: bottom;
 }
+.ui-datepicker th {
+  font-size: 10px;
+}
 /*# sourceMappingURL=content-rtl.theme.css.map */
