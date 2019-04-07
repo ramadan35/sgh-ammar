@@ -767,13 +767,13 @@ body:not(.path-frontpage) #block-headerimageblock img {
 .path-frontpage .front_content_1 #block-quicktabsfronttabs .quicktabs-main .webform-submission-book-an-appointment-add-form .form-item .fieldset-wrapper {
   display: inline-block;
 }
-.path-frontpage .front_content_1 #block-quicktabsfronttabs .quicktabs-main .webform-submission-book-an-appointment-add-form .form-item-dob .control-label.sr-only {
+.path-frontpage .front_content_1 #block-quicktabsfronttabs .quicktabs-main .webform-submission-book-an-appointment-add-form .form-item-dob > .container-inline.form-inline {
   display: inline-block;
 }
-.path-frontpage .front_content_1 #block-quicktabsfronttabs .quicktabs-main .webform-submission-book-an-appointment-add-form .form-item-dob .control-label.sr-only .form-item {
+.path-frontpage .front_content_1 #block-quicktabsfronttabs .quicktabs-main .webform-submission-book-an-appointment-add-form .form-item-dob > .container-inline.form-inline .form-item {
   width: 255px;
 }
-.path-frontpage .front_content_1 #block-quicktabsfronttabs .quicktabs-main .webform-submission-book-an-appointment-add-form .form-item-dob .control-label.sr-only .form-item input {
+.path-frontpage .front_content_1 #block-quicktabsfronttabs .quicktabs-main .webform-submission-book-an-appointment-add-form .form-item-dob > .container-inline.form-inline .form-item input {
   width: 255px;
 }
 @media (max-width: 480px) {
