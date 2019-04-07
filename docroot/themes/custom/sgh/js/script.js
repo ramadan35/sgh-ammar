@@ -29,7 +29,7 @@
                     $('#block-exposedformsearchpage-1-2 .trigger-search').removeClass('fa-search');
                     $('#block-exposedformsearchpage-1-2 .trigger-search').addClass('fa-times');
 
-                    $('#block-searchform form').show();
+                    $('#block-exposedformsearchpage-1-2 form').show();
                 } else {
                     $('#block-exposedformsearchpage-1-2 .trigger-search').addClass('closed');
                     $('#block-exposedformsearchpage-1-2 .trigger-search').removeClass('opened');
