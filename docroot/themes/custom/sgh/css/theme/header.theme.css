@@ -91,6 +91,44 @@ header .header-top #block-searchform .trigger-search {
     position: relative;
   }
 }
+header .header-top #block-exposedformsearchpage-1-2 {
+  display: inline-block;
+  padding-left: 7px;
+  float: right;
+}
+header .header-top #block-exposedformsearchpage-1-2 form {
+  max-width: 300px;
+  position: absolute;
+  right: 35px;
+  top: -6px;
+  display: none;
+}
+@media (max-width: 768px) {
+  header .header-top #block-exposedformsearchpage-1-2 form {
+    right: auto;
+    left: 30px;
+  }
+}
+header .header-top #block-exposedformsearchpage-1-2 form .form-item {
+  margin: 0;
+  position: relative;
+}
+header .header-top #block-exposedformsearchpage-1-2 form .form-item input {
+  width: 100%;
+  box-shadow: none;
+  border: 0;
+}
+header .header-top #block-exposedformsearchpage-1-2 form .form-item button {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+header .header-top #block-exposedformsearchpage-1-2 form .form-item .input-group {
+  width: 300px;
+}
+header .header-top #block-exposedformsearchpage-1-2 .form-item-field-branch-target-id {
+  display: none;
+}
 header .header-top #block-socialicons-2 {
   float: left;
 }
