@@ -858,7 +858,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
   width: 100%;
 }
 .path-frontpage .front_content_1 #block-quicktabsfronttabs .quicktabs-main .webform-submission-book-an-appointment-add-form .js-webform-type-webform-name .fieldset-wrapper {
-  width: 100%;
+  width: 100% !important;
 }
 .path-frontpage .front_content_1 #block-quicktabsfronttabs .quicktabs-main .webform-submission-book-an-appointment-add-form .js-webform-type-webform-name .form-item {
   width: 49%;
