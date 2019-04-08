@@ -244,8 +244,12 @@ header {
                         } 
                     }
                     &:last-child {
-                        a {
+                        a,
+                        span {
                             padding-right: 0;
+                            @media (max-width: @screen-md) { 
+                               padding: 15px; 
+                            }
                         }
                     }
                     ul {
@@ -257,6 +261,7 @@ header {
                             text-align: center;
                             box-shadow: none;
                         }
+                        
                     }
                 }
             }

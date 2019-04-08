@@ -255,8 +255,15 @@ header .header-bottom .right ul.menu li span:focus {
     padding: 15px 5px;
   }
 }
-header .header-bottom .right ul.menu li:last-child a {
+header .header-bottom .right ul.menu li:last-child a,
+header .header-bottom .right ul.menu li:last-child span {
   padding-right: 0;
+}
+@media (max-width: 992px) {
+  header .header-bottom .right ul.menu li:last-child a,
+  header .header-bottom .right ul.menu li:last-child span {
+    padding: 15px;
+  }
 }
 header .header-bottom .right ul.menu li ul {
   background: #FFF;
