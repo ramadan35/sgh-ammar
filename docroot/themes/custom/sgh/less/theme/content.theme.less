@@ -1495,31 +1495,34 @@ body:not(.path-frontpage) {
             }
         }
     }
-    .views-exposed-form {
-        background: #E6E6E6;
-        padding: 55px 15px;
-        font-family: gothembook;
-        > .form--inline {
-            text-align: right;
-            @media (max-width: @screen-sm) {
-                text-align: left;
-            }
-            input {
-                box-shadow: none;
-                border: 1px solid rgb(169, 169, 169);
-            }
-            .select-wrapper {
+    .main-container {
+        .views-exposed-form {
+            background: #E6E6E6;
+            padding: 55px 15px;
+            font-family: gothembook;
+            > .form--inline {
+                text-align: right;
                 @media (max-width: @screen-sm) {
+                    text-align: left;
+                }
+                input {
+                    box-shadow: none;
+                    border: 1px solid rgb(169, 169, 169);
+                }
+                .select-wrapper {
+                    @media (max-width: @screen-sm) {
+                        width: 100%;
+                    }
+                }
+            }
+            .form-actions {
+                button {
                     width: 100%;
                 }
             }
         }
-        .form-actions {
-            button {
-                width: 100%;
-            }
-        }
     }
+
 }
 
 .view-varbase-blog .views-view-grid{
