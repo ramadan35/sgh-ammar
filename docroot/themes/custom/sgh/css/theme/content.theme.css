@@ -1299,7 +1299,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
   color: #000;
   position: absolute;
   z-index: 1;
-  top: 40px;
+  top: 65px;
   left: 15px;
 }
 @media (max-width: 768px) {
