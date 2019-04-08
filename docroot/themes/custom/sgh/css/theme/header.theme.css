@@ -242,12 +242,6 @@ header .header-bottom .right ul.menu li span .sf-sub-indicator {
   right: 0;
   top: 46%;
 }
-header .header-bottom .right ul.menu li a ul,
-header .header-bottom .right ul.menu li span ul {
-  background: #FFF;
-  text-align: left;
-  z-index: 999;
-}
 header .header-bottom .right ul.menu li a:hover,
 header .header-bottom .right ul.menu li span:hover,
 header .header-bottom .right ul.menu li a:focus,
@@ -263,6 +257,11 @@ header .header-bottom .right ul.menu li span:focus {
 }
 header .header-bottom .right ul.menu li:last-child a {
   padding-right: 0;
+}
+header .header-bottom .right ul.menu li ul {
+  background: #FFF;
+  text-align: left;
+  z-index: 999;
 }
 header .header-bottom .right .sf-accordion-toggle {
   text-align: center;
