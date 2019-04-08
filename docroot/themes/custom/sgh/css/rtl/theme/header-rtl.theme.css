@@ -59,10 +59,21 @@ header .right ul.menu {
 header .right ul.menu li:last-child a {
   padding-left: 0;
 }
-header .header-bottom .right ul.menu li a {
+header .header-bottom .right ul.menu li a,
+header .header-bottom .right ul.menu li span {
   font-family: GEDinarTwo-Medium;
   font-size: 14px;
   padding: 15px 18px;
+}
+header .header-bottom .right ul.menu li a .sf-sub-indicator,
+header .header-bottom .right ul.menu li span .sf-sub-indicator {
+  padding: 0;
+  right: auto;
+  left: 0;
+  top: 46%;
+}
+header .header-bottom .right ul.menu ul {
+  text-align: right;
 }
 header .header-bottom .right ul.menu li:last-child a {
   padding-right: 15px;

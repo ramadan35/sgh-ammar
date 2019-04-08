@@ -96,11 +96,21 @@ header {
         .right {
             ul.menu {
                 li {
-                    a {
+                    a,
+                    span {
                         font-family: GEDinarTwo-Medium;
                         font-size: 14px;
                         padding: 15px 18px;
-                    }   
+                        .sf-sub-indicator {
+                            padding :0;
+                            right: auto;
+                            left: 0;
+                            top: 46%;
+                        }
+                    }  
+                }
+                ul {
+                    text-align: right;
                 }
                 li:last-child a {
                     padding-right: 15px;
