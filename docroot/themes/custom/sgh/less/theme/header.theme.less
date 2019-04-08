@@ -219,7 +219,8 @@ header {
                 li{
                     float:none;
                     display: inline-block;
-                    a {
+                    a,
+                    span {
                         font-size: 13px;
                         font-weight: bold;
                         color: #000;
@@ -228,6 +229,16 @@ header {
                         background: transparent;
                         padding: 15px;
                         font-family: gothem;
+                        .sf-sub-indicator {
+                            padding :0;
+                            right: 0;
+                            top: 46%;
+                        }
+                        ul {
+                            background: #FFF;
+                            text-align: left;
+                            z-index: 999;
+                        }
                         &:hover,
                             &:focus {
                             color: @green;
@@ -345,7 +356,7 @@ body {
             background: #464646e8;
             padding: 10px;
             text-align: right;
-            z-index: 9999;
+            z-index: 99;
             p ,
             a {
                 padding:0 15px;
@@ -383,7 +394,7 @@ body {
         background: #464646e8;
         padding: 10px;
         text-align: right;
-        z-index: 9999;
+        z-index: 99;
         .node--view-mode-header-information {
             margin: 0 auto;
             .bs-region--left {

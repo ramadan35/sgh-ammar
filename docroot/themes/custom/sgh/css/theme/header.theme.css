@@ -225,7 +225,8 @@ header .header-bottom .right ul.menu li {
   float: none;
   display: inline-block;
 }
-header .header-bottom .right ul.menu li a {
+header .header-bottom .right ul.menu li a,
+header .header-bottom .right ul.menu li span {
   font-size: 13px;
   font-weight: bold;
   color: #000;
@@ -235,13 +236,28 @@ header .header-bottom .right ul.menu li a {
   padding: 15px;
   font-family: gothem;
 }
+header .header-bottom .right ul.menu li a .sf-sub-indicator,
+header .header-bottom .right ul.menu li span .sf-sub-indicator {
+  padding: 0;
+  right: 0;
+  top: 46%;
+}
+header .header-bottom .right ul.menu li a ul,
+header .header-bottom .right ul.menu li span ul {
+  background: #FFF;
+  text-align: left;
+  z-index: 999;
+}
 header .header-bottom .right ul.menu li a:hover,
-header .header-bottom .right ul.menu li a:focus {
+header .header-bottom .right ul.menu li span:hover,
+header .header-bottom .right ul.menu li a:focus,
+header .header-bottom .right ul.menu li span:focus {
   color: #50A155;
   background: transparent;
 }
 @media (max-width: 1200px) {
-  header .header-bottom .right ul.menu li a {
+  header .header-bottom .right ul.menu li a,
+  header .header-bottom .right ul.menu li span {
     padding: 15px 5px;
   }
 }
@@ -354,7 +370,7 @@ body .hero_slider #block-slidertextoverlay {
   background: #464646e8;
   padding: 10px;
   text-align: right;
-  z-index: 9999;
+  z-index: 99;
 }
 body .hero_slider #block-slidertextoverlay p,
 body .hero_slider #block-slidertextoverlay a {
@@ -391,7 +407,7 @@ body .hero_slider #block-slidertextoverlay a::before {
   background: #464646e8;
   padding: 10px;
   text-align: right;
-  z-index: 9999;
+  z-index: 99;
 }
 .page-node-type-branches #block-entityviewcontent-3 .node--view-mode-header-information {
   margin: 0 auto;
