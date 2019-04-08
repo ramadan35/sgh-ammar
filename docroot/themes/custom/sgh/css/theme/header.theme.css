@@ -408,6 +408,7 @@ body .hero_slider #block-slidertextoverlay a::before {
   padding: 10px;
   text-align: right;
   z-index: 99;
+  box-shadow: 0px 1px 3px #CCC;
 }
 .page-node-type-branches #block-entityviewcontent-3 .node--view-mode-header-information {
   margin: 0 auto;
