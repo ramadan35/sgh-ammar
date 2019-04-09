@@ -5,6 +5,9 @@
 body {
   font-family: GEDinarTwo-Medium;
 }
+.path-frontpage a {
+  font-family: GEDinarTwo-Medium !important;
+}
 .path-frontpage .more-link {
   right: auto;
   left: 0px;
