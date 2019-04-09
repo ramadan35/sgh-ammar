@@ -338,9 +338,9 @@ body:not(.path-frontpage) #block-headerimageblock img {
     margin-top: 30px;
   }
 }
-.path-frontpage #block-views-block-news-block-1 .block-title,
-.path-frontpage #block-views-block-varbase-blog-homepage-blog-block .block-title,
-.path-frontpage #block-views-block-events-block-1 .block-title {
+.path-frontpage #block-views-block-news-block-1 .block-title a,
+.path-frontpage #block-views-block-varbase-blog-homepage-blog-block .block-title a,
+.path-frontpage #block-views-block-events-block-1 .block-title a {
   font-size: 30px;
   font-weight: bold;
   color: #000;
@@ -348,9 +348,9 @@ body:not(.path-frontpage) #block-headerimageblock img {
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-.path-frontpage #block-views-block-news-block-1 .block-title::after,
-.path-frontpage #block-views-block-varbase-blog-homepage-blog-block .block-title::after,
-.path-frontpage #block-views-block-events-block-1 .block-title::after {
+.path-frontpage #block-views-block-news-block-1 .block-title a::after,
+.path-frontpage #block-views-block-varbase-blog-homepage-blog-block .block-title a::after,
+.path-frontpage #block-views-block-events-block-1 .block-title a::after {
   content: "";
   width: 42px;
   height: 6px;
@@ -453,7 +453,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
     background-size: cover;
   }
 }
-.path-frontpage .front_content_3 #block-views-block-offers-promotions-block-1 .block-title {
+.path-frontpage .front_content_3 #block-views-block-offers-promotions-block-1 .block-title a {
   font-size: 30px;
   font-weight: bold;
   color: #FFFFFF;
@@ -517,7 +517,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
     margin-bottom: 50px;
   }
 }
-.path-frontpage .front_content_3 #block-views-block-visiting-doctors-block-1 .block-title {
+.path-frontpage .front_content_3 #block-views-block-visiting-doctors-block-1 .block-title a {
   font-size: 30px;
   font-weight: bold;
   color: #FFFFFF;
