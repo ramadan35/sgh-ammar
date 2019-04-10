@@ -131,4 +131,7 @@ body .hero_slider #block-slidertextoverlay p::before {
 header .header-bottom .right ul.menu {
   text-align: left;
 }
+header .header-bottom .right ul.menu ul {
+  text-align: right;
+}
 /*# sourceMappingURL=header-rtl.theme.css.map */
