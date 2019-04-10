@@ -244,6 +244,8 @@ button {
 }
 .page-node-type-news .main-container .field--name-field-image img {
   float: left;
+  padding-right: 15px;
+  padding-left: 0px;
 }
 .green-button a {
   direction: rtl;
@@ -254,6 +256,9 @@ button {
 .page-node-type-varbase-blog .main-container .field--name-body {
   padding-left: 15px;
   padding-right: 0px;
+}
+.page-node-type-varbase-blog .main-container .field--name-dynamic-token-fieldnode-addthis {
+  float: left;
 }
 .path-frontpage .front_content_3 #block-views-block-offers-promotions-block-1 .form-group .view-content #slick-views-offers-promotions-block-1-2-slider {
   direction: ltr;
