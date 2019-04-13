@@ -164,6 +164,9 @@ button {
 #block-booknow {
   right: auto;
   left: 0;
+  border-radius: 0;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 .select-wrapper:after {
   right: auto;
