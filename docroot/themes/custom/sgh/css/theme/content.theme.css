@@ -1145,7 +1145,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
   position: fixed;
   right: 0;
   top: 250px;
-  padding: 16px;
+  padding: 18px;
   background: #50A155;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
@@ -1156,6 +1156,24 @@ body:not(.path-frontpage) #block-headerimageblock img {
 }
 @media (max-width: 480px) {
   #block-booknow {
+    display: none;
+  }
+}
+#block-entityviewcontent-4 {
+  position: fixed;
+  right: 0;
+  top: 250px;
+  padding: 18px;
+  background: #50A155;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+#block-entityviewcontent-4 a {
+  color: #FFF;
+  font-size: 16px;
+}
+@media (max-width: 480px) {
+  #block-entityviewcontent-4 {
     display: none;
   }
 }

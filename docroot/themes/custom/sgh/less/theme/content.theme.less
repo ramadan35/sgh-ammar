@@ -1302,7 +1302,24 @@ body:not(.path-frontpage) {
     position: fixed;
     right: 0;
     top: 250px;
-    padding: 16px;
+    padding: 18px;
+    background: @green;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    a {
+        color: #FFF;
+        font-size: 16px;
+    }
+    @media (max-width: @screen-xs) {
+        display: none;
+    }
+}
+
+#block-entityviewcontent-4 {
+    position: fixed;
+    right: 0;
+    top: 250px;
+    padding: 18px;
     background: @green;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
@@ -2789,3 +2806,4 @@ body:not(.path-frontpage) {
         }
     }
 }
+
