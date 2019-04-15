@@ -1326,11 +1326,14 @@ body:not(.path-frontpage) {
     z-index: 9999;
     a {
         color: #FFF;
-        font-size: 16px;
+        font-size: 18px;
         cursor: pointer;
     }
     @media (max-width: @screen-xs) {
-        display: none;
+        padding: 12px;
+        a {
+            font-size: 14px;
+        }
     }
 }
 
