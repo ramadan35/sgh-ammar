@@ -1167,6 +1167,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
   background: #50A155;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
+  z-index: 9999;
 }
 #block-entityviewcontent-4 a {
   color: #FFF;
