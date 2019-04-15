@@ -1162,7 +1162,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
 #block-entityviewcontent-4 {
   position: fixed;
   right: 0;
-  top: 250px;
+  top: 312px;
   padding: 18px;
   background: #50A155;
   border-top-left-radius: 8px;
@@ -1171,6 +1171,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
 #block-entityviewcontent-4 a {
   color: #FFF;
   font-size: 16px;
+  cursor: pointer;
 }
 @media (max-width: 480px) {
   #block-entityviewcontent-4 {
