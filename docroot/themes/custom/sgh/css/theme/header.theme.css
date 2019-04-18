@@ -380,7 +380,7 @@ body .hero_slider #block-slidertextoverlay {
   position: absolute;
   top: 0;
   width: 100%;
-  background: #464646e8;
+  background: #828284c9;
   padding: 10px;
   text-align: right;
   z-index: 99;
@@ -417,7 +417,7 @@ body .hero_slider #block-slidertextoverlay a::before {
   position: absolute;
   top: 0;
   width: 100%;
-  background: #464646e8;
+  background: #828284c9;
   padding: 10px;
   text-align: right;
   z-index: 99;
