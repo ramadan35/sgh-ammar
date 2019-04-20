@@ -2502,14 +2502,6 @@ body:not(.path-frontpage) #block-headerimageblock img {
   font-weight: bold;
   font-size: 14px;
 }
-#block-views-block-partners-block-1 .view-content .slick__slide .field--name-field-media-image {
-  position: relative;
-}
-#block-views-block-partners-block-1 .view-content .slick__slide .field--name-field-media-image picture {
-  float: left;
-  width: 100%;
-  transform: translateY(50%);
-}
 #block-views-block-partners-block-1 .view-content .slick__slide .field--name-field-media-image img {
   margin: 0 auto;
   max-width: 175px;
