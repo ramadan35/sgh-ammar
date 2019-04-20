@@ -273,6 +273,11 @@ body:not(.path-frontpage) {
 }
 
 .page-node-type-landing-page {
+    .view-header {
+        text-align: center;
+        padding-bottom: 15px;
+        font-family: gothem;
+    }
     .view-filters {
         background: @brand-primary;
         padding: 10px;
@@ -520,7 +525,37 @@ body:not(.path-frontpage) {
         @media (max-width: @screen-lg) {
             background-size: cover;
         }
-
+        #block-offerspromotions {
+            text-align: center;
+            color: #FFF;
+            font-family: gothem;
+            .block-title {
+                text-align: center;
+                a {
+                    font-size: 30px;
+                    font-weight: bold;
+                    color: @white;
+                    text-align: center;
+                    margin-bottom: 45px;
+                    font-family: gothem;
+                    text-transform: uppercase;
+                }
+                &::before {
+                    content: "";
+                    background: url(../../images/events.png) no-repeat;
+                    width: 60px;
+                    height: 60px;
+                    display: block;
+                    margin: 0 auto;
+                    margin-bottom: 20px;
+                    background-size: 100%;
+                }
+            }
+            p {
+                padding-top: 15px;
+                padding-bottom: 15px;
+            }
+        }
         #block-views-block-offers-promotions-block-1 {
             .block-title {
                 text-align: center;
@@ -601,6 +636,37 @@ body:not(.path-frontpage) {
             }
             @media (max-width: @screen-md) {
                 margin-bottom: 50px;
+            }
+        }
+        #block-visitingdoctors {
+            text-align: center;
+            color: #FFF;
+            font-family: gothem;
+            .block-title {
+                text-align: center;
+                a {
+                    font-size: 30px;
+                    font-weight: bold;
+                    color: @white;
+                    text-align: center;
+                    margin-bottom: 45px;
+                    font-family: gothem;
+                    text-transform: uppercase;
+                }
+                &::before {
+                    content: "";
+                    background: url(../../images/doctors.png) no-repeat;
+                    width: 60px;
+                    height: 60px;
+                    display: block;
+                    margin: 0 auto;
+                    margin-bottom: 20px;
+                    background-size: 100%;
+                }
+            }
+            p {
+                padding-top: 15px;
+                padding-bottom: 15px;
             }
         }
         #block-views-block-visiting-doctors-block-1 {
@@ -2746,6 +2812,12 @@ body:not(.path-frontpage) {
             font-weight: bold;
             font-size: 14px;
             .field--name-field-media-image {
+                position: relative;
+                picture {
+                    float: left;
+                    width: 100%;
+                    transform: translateY(50%);
+                }
                 img {
                     margin: 0 auto;
                     max-width: 175px;
