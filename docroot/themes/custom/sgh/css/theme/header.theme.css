@@ -242,6 +242,11 @@ header .header-bottom .right ul.menu li span .sf-sub-indicator {
   right: 0;
   top: 46%;
 }
+header .header-bottom .right ul.menu li a .sf-sub-indicator::after,
+header .header-bottom .right ul.menu li span .sf-sub-indicator::after {
+  font-size: 10px;
+  top: 2px;
+}
 header .header-bottom .right ul.menu li a:hover,
 header .header-bottom .right ul.menu li span:hover,
 header .header-bottom .right ul.menu li a:focus,
