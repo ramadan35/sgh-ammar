@@ -314,4 +314,19 @@ body .android.en {
 .path-frontpage .front_content_3 #block-offerspromotions .block-title {
   font-family: GEDinarTwo-Medium;
 }
+#block-entityviewcontent-4 {
+  right: auto;
+  left: 0;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+.page-node-type-branches .front_content_3 #block-views-block-visiting-doctors-block-3 {
+  font-family: GEDinarTwo-Medium;
+}
+.page-node-type-branches .front_content_3 #block-views-block-offers-promotions-block-3 {
+  border: 0;
+  border-left: 1px solid #9c9c9c63;
+}
 /*# sourceMappingURL=content-rtl.theme.css.map */
