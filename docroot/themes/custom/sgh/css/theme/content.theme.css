@@ -485,6 +485,9 @@ body:not(.path-frontpage) #block-headerimageblock img {
   margin-bottom: 20px;
   background-size: 100%;
 }
+.path-frontpage .front_content_3 #block-offerspromotions img {
+  max-width: 220px;
+}
 .path-frontpage .front_content_3 #block-offerspromotions p {
   padding-top: 15px;
   padding-bottom: 15px;
@@ -582,6 +585,9 @@ body:not(.path-frontpage) #block-headerimageblock img {
   margin: 0 auto;
   margin-bottom: 20px;
   background-size: 100%;
+}
+.path-frontpage .front_content_3 #block-visitingdoctors img {
+  max-width: 220px;
 }
 .path-frontpage .front_content_3 #block-visitingdoctors p {
   padding-top: 15px;
