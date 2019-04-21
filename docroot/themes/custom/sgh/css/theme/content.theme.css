@@ -1050,6 +1050,10 @@ body:not(.path-frontpage) #block-headerimageblock img {
   font-family: gothem;
   text-transform: uppercase;
 }
+.page-node-type-branches .front_content_3 #block-views-block-offers-promotions-block-3 .block-title a {
+  color: #FFF;
+  font-weight: bold;
+}
 .page-node-type-branches .front_content_3 #block-views-block-offers-promotions-block-3 .block-title::before {
   content: "";
   background: url(../../images/events.png) no-repeat;
@@ -1206,6 +1210,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
 }
 .page-node-type-branches .front_content_3 #block-views-block-visiting-doctors-block-3 .block-title {
   text-align: center;
+  text-transform: uppercase;
 }
 .page-node-type-branches .front_content_3 #block-views-block-visiting-doctors-block-3 .block-title a {
   font-weight: bold;
