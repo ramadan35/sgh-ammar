@@ -486,7 +486,9 @@ body:not(.path-frontpage) #block-headerimageblock img {
   background-size: 100%;
 }
 .path-frontpage .front_content_3 #block-offerspromotions img {
-  max-width: 220px;
+  width: 220px;
+  height: 150px;
+  object-fit: cover;
 }
 .path-frontpage .front_content_3 #block-offerspromotions p {
   padding-top: 15px;
@@ -587,7 +589,9 @@ body:not(.path-frontpage) #block-headerimageblock img {
   background-size: 100%;
 }
 .path-frontpage .front_content_3 #block-visitingdoctors img {
-  max-width: 220px;
+  width: 220px;
+  height: 150px;
+  object-fit: cover;
 }
 .path-frontpage .front_content_3 #block-visitingdoctors p {
   padding-top: 15px;
