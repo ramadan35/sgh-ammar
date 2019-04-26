@@ -122,6 +122,7 @@ jQuery(document).ready(function ($) {
         auto: true,
         autoStart: true,
         slideMargin: 15,
-        touchEnabled: false
+        touchEnabled: false,
+        speed: 1500
     });
 });
