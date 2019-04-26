@@ -123,6 +123,7 @@ jQuery(document).ready(function ($) {
         autoStart: true,
         slideMargin: 15,
         touchEnabled: false,
-        speed: 1500
+        speed: 1500,
+        moveSlides: 1
     });
 });
