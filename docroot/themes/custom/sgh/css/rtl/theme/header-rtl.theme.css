@@ -48,7 +48,7 @@ header .header-top #block-socialicons-2 .menu.nav li:first-child a {
   border-left: none;
 }
 header .header-top #block-languageswitcher {
-  float: left;
+  float: right;
 }
 header .header-top #block-languageswitcher ul.links li a {
   font-family: gothem !important;

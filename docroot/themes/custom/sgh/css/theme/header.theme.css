@@ -35,7 +35,7 @@ header .header-top #block-topmenu ul.menu li a:focus {
 }
 header .header-top #block-languageswitcher {
   display: inline-block;
-  float: right;
+  float: left;
 }
 header .header-top #block-languageswitcher ul.links {
   list-style: none;
