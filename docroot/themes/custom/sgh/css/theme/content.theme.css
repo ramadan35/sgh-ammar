@@ -2056,7 +2056,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
   background: url(../../images/arrow-right.png) no-repeat;
   width: 38px;
   height: 10px;
-  display: inline-block;
+  /*display: inline-block;*/
   background-position: 50%;
 }
 .page-node-type-branches #block-views-block-medical-specialties-block-2 .bx-wrapper .bx-controls .bx-controls-direction a {
