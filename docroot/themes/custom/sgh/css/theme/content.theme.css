@@ -2582,4 +2582,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
   background-color: #5bc0de;
   border-color: #46b8da;
 }
+.lang-ar {
+  display: none;
+}
 /*# sourceMappingURL=content.theme.css.map */

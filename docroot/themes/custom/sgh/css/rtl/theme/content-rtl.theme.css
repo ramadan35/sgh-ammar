@@ -346,3 +346,10 @@ body .android.en {
   left: auto;
   background-size: 100%;
 }
+.lang-en {
+  display: none;
+}
+.lang-ar {
+  display: block;
+}
+/*# sourceMappingURL=content-rtl.theme.css.map */
