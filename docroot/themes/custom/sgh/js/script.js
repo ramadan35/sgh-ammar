@@ -118,7 +118,7 @@ jQuery(document).ready(function ($) {
         infiniteLoop: true,
         controls: true,
         pager: false,
-        speed: 500,
+        speed: 1000,
         auto: true,
         autoStart: true,
         slideMargin: 15,
