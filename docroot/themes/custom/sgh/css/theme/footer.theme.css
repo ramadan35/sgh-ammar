@@ -128,24 +128,39 @@
   border-right: 1px solid #c2c2c2;
   line-height: 0px;
 }
-.footer-wrapper .footer .footer-bottom #block-socialicons {
+.footer-wrapper .footer .footer-bottom #block-socialicons,
+.footer-wrapper .footer .footer-bottom #block-socialiconsriyadh,
+.footer-wrapper .footer .footer-bottom #block-socialiconsjeddah,
+.footer-wrapper .footer .footer-bottom #block-socialiconsasser {
   float: right;
 }
 @media (max-width: 768px) {
-  .footer-wrapper .footer .footer-bottom #block-socialicons {
+  .footer-wrapper .footer .footer-bottom #block-socialicons,
+  .footer-wrapper .footer .footer-bottom #block-socialiconsriyadh,
+  .footer-wrapper .footer .footer-bottom #block-socialiconsjeddah,
+  .footer-wrapper .footer .footer-bottom #block-socialiconsasser {
     text-align: center;
     width: 100%;
   }
 }
-.footer-wrapper .footer .footer-bottom #block-socialicons .menu.nav li a {
+.footer-wrapper .footer .footer-bottom #block-socialicons .menu.nav li a,
+.footer-wrapper .footer .footer-bottom #block-socialiconsriyadh .menu.nav li a,
+.footer-wrapper .footer .footer-bottom #block-socialiconsjeddah .menu.nav li a,
+.footer-wrapper .footer .footer-bottom #block-socialiconsasser .menu.nav li a {
   padding: 7px;
   font-size: 0;
 }
-.footer-wrapper .footer .footer-bottom #block-socialicons .menu.nav li a::before {
+.footer-wrapper .footer .footer-bottom #block-socialicons .menu.nav li a::before,
+.footer-wrapper .footer .footer-bottom #block-socialiconsriyadh .menu.nav li a::before,
+.footer-wrapper .footer .footer-bottom #block-socialiconsjeddah .menu.nav li a::before,
+.footer-wrapper .footer .footer-bottom #block-socialiconsasser .menu.nav li a::before {
   font-family: FontAwesome !important;
   font-size: 18px;
 }
-.footer-wrapper .footer .footer-bottom #block-socialicons .menu.nav li:first-child a {
+.footer-wrapper .footer .footer-bottom #block-socialicons .menu.nav li:first-child a,
+.footer-wrapper .footer .footer-bottom #block-socialiconsriyadh .menu.nav li:first-child a,
+.footer-wrapper .footer .footer-bottom #block-socialiconsjeddah .menu.nav li:first-child a,
+.footer-wrapper .footer .footer-bottom #block-socialiconsasser .menu.nav li:first-child a {
   border-right: none;
 }
 .footer-wrapper .footer .footer-bottom #block-sgh-footer {
@@ -157,4 +172,3 @@
     text-align: center;
   }
 }
-/*# sourceMappingURL=footer.theme.css.map */
