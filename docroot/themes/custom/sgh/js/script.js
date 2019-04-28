@@ -119,7 +119,7 @@ jQuery(document).ready(function ($) {
         controls: true,
         pager: false,
         speed: 1000,
-        auto: true,
+        auto: false,
         autoStart: false,
         slideMargin: 15,
         touchEnabled: false,
