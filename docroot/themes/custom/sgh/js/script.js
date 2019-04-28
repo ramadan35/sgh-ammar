@@ -120,7 +120,7 @@ jQuery(document).ready(function ($) {
         pager: false,
         speed: 1000,
         auto: true,
-        autoStart: true,
+        autoStart: false,
         slideMargin: 15,
         touchEnabled: false,
         speed: 1500,
