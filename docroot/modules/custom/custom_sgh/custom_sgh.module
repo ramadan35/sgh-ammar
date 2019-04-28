@@ -31,4 +31,12 @@ function custom_sgh_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $for
   if($form_id == 'webform_submission_book_an_appointment_node_42_add_form') {
     //select the default branch when in a branch page.
   }
+  
+  //translating mailchimp options
+  if($form_id == 'mailchimp_signup_subscribe_page_subscribe_to_our_news_letter_form') {
+    $options = $form['mergevars']['MMERGE2']['#options'];
+    foreach($options as $key => $value) {
+      $form['mergevars']['MMERGE2']['#options'][$key] = t($key);
+    }
+  }
 }
