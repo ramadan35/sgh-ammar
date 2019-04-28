@@ -29,13 +29,18 @@
   border-right: 0px solid #c2c2c2;
   border-left: 1px solid #c2c2c2;
 }
-.footer-wrapper .footer .footer-bottom #block-socialicons {
+.footer-wrapper .footer .footer-bottom #block-socialicons,
+.footer-wrapper .footer .footer-bottom #block-socialiconsriyadh,
+.footer-wrapper .footer .footer-bottom #block-socialiconsjeddah,
+.footer-wrapper .footer .footer-bottom #block-socialiconsasser {
   float: left;
 }
-.footer-wrapper .footer .footer-bottom #block-socialicons .menu.nav li:first-child a {
+.footer-wrapper .footer .footer-bottom #block-socialicons .menu.nav li:first-child a,
+.footer-wrapper .footer .footer-bottom #block-socialiconsriyadh .menu.nav li:first-child a,
+.footer-wrapper .footer .footer-bottom #block-socialiconsjeddah .menu.nav li:first-child a,
+.footer-wrapper .footer .footer-bottom #block-socialiconsasser .menu.nav li:first-child a {
   border-left: none;
 }
 .footer-wrapper .footer .footer-bottom #block-sgh-footer {
   float: right;
 }
-/*# sourceMappingURL=footer-rtl.theme.css.map */
