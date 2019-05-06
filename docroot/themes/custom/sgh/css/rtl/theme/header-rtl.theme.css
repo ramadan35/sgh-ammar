@@ -90,6 +90,14 @@ header .header-bottom .right ul.menu li:last-child a {
     text-align: center !important;
   }
 }
+body .hero_slider .node--type-varbase-heroslider-media .hero-slide-content .row .field--name-node-title,
+body .hero_slider .node--type-branch-slider .hero-slide-content .row .field--name-node-title {
+  font-family: GEDinarTwo-Medium;
+}
+body .hero_slider .node--type-varbase-heroslider-media .hero-slide-content .row .field--name-node-title h2,
+body .hero_slider .node--type-branch-slider .hero-slide-content .row .field--name-node-title h2 {
+  font-family: GEDinarTwo-Medium;
+}
 body .hero_slider #block-slidertextoverlay {
   text-align: left;
 }
