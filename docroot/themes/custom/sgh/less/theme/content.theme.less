@@ -1435,12 +1435,15 @@ body:not(.path-frontpage) {
         color: #FFF;
         font-size: 18px;
         cursor: pointer;
+        &::before {
+            content: "\f232";
+            color: #FFF;
+            font-family: FontAwesome !important;
+            font-size: 18px;
+        }
     }
     @media (max-width: @screen-xs) {
         padding: 12px;
-        a {
-            font-size: 14px;
-        }
     }
 }
 

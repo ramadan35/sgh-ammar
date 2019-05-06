@@ -1281,12 +1281,15 @@ body:not(.path-frontpage) #block-headerimageblock img {
   font-size: 18px;
   cursor: pointer;
 }
+#block-entityviewcontent-4 a::before {
+  content: "\f232";
+  color: #FFF;
+  font-family: FontAwesome !important;
+  font-size: 18px;
+}
 @media (max-width: 480px) {
   #block-entityviewcontent-4 {
     padding: 12px;
-  }
-  #block-entityviewcontent-4 a {
-    font-size: 14px;
   }
 }
 .page-header,
