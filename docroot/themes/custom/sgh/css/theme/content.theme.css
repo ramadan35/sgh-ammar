@@ -1278,14 +1278,14 @@ body:not(.path-frontpage) #block-headerimageblock img {
 }
 #block-entityviewcontent-4 a {
   color: #FFF;
-  font-size: 18px;
+  font-size: 0px;
   cursor: pointer;
 }
 #block-entityviewcontent-4 a::before {
   content: "\f232";
   color: #FFF;
   font-family: FontAwesome !important;
-  font-size: 18px;
+  font-size: 22px;
 }
 @media (max-width: 480px) {
   #block-entityviewcontent-4 {
