@@ -995,6 +995,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
   width: 13px;
   height: 25px;
   left: 30px;
+  right: auto;
 }
 .path-frontpage .hero_slider .slick__arrow .slick-prev::before {
   background: url(../../images/slider-arrow-left.png) no-repeat;
