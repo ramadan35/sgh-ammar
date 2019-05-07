@@ -236,6 +236,9 @@
 .page-node-type-offers-promotions .main-container form .form-item-phone-number .intl-tel-input input {
   width: 100%;
 }
+.page-node-type-offers-promotions .main-container form .form-item-payment-method .select-wrapper {
+  max-width: 300px;
+}
 .page-node-type-offers-promotions .main-container form .form-actions {
   float: right;
 }

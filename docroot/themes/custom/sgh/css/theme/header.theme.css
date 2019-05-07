@@ -341,7 +341,7 @@ body .hero_slider .node--type-branch-slider .hero-slide-content .row .field--nam
 body .hero_slider .node--type-varbase-heroslider-media .hero-slide-content .row .field--name-node-title h2,
 body .hero_slider .node--type-branch-slider .hero-slide-content .row .field--name-node-title h2 {
   font-size: 50px;
-  color: #929397;
+  color: #000;
 }
 @media (max-width: 1200px) {
   body .hero_slider .node--type-varbase-heroslider-media .hero-slide-content .row .field--name-node-title h2,
@@ -353,7 +353,7 @@ body .hero_slider .node--type-varbase-heroslider-media .hero-slide-content .row 
 body .hero_slider .node--type-branch-slider .hero-slide-content .row .field--name-field-brief {
   text-align: center;
   font-size: 16px;
-  color: #929397;
+  color: #000;
 }
 @media (max-width: 1200px) {
   body .hero_slider .node--type-varbase-heroslider-media .hero-slide-content .row .field--name-field-brief,
