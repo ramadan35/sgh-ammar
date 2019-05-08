@@ -1429,7 +1429,8 @@ body:not(.path-frontpage) {
     right: 0;
     top: 312px;
     padding: 18px;
-    background: @green;
+    /*background: @green;*/
+    background: transparent;
     border-top-left-radius: 8px;
     border-bottom-left-radius: 8px;
     z-index: 9999;
@@ -1439,9 +1440,13 @@ body:not(.path-frontpage) {
         cursor: pointer;
         &::before {
             content: "\f232";
-            color: #FFF;
+/*            color: #FFF;
             font-family: FontAwesome !important;
-            font-size: 22px;
+            font-size: 22px;*/
+            background: url(../../images/whatsapp.png) no-repeat;
+            width: 40px;
+            height: 40px;
+            background-size: 100%;
         }
     }
     @media (max-width: @screen-xs) {

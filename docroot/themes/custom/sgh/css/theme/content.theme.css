@@ -1273,7 +1273,8 @@ body:not(.path-frontpage) #block-headerimageblock img {
   right: 0;
   top: 312px;
   padding: 18px;
-  background: #50A155;
+  /*background: @green;*/
+  background: transparent;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
   z-index: 9999;
@@ -1285,9 +1286,13 @@ body:not(.path-frontpage) #block-headerimageblock img {
 }
 #block-entityviewcontent-4 a::before {
   content: "\f232";
-  color: #FFF;
-  font-family: FontAwesome !important;
-  font-size: 22px;
+  /*            color: #FFF;
+            font-family: FontAwesome !important;
+            font-size: 22px;*/
+  background: url(../../images/whatsapp.png) no-repeat;
+  width: 40px;
+  height: 40px;
+  background-size: 100%;
 }
 @media (max-width: 480px) {
   #block-entityviewcontent-4 {
