@@ -1293,6 +1293,7 @@ body:not(.path-frontpage) #block-headerimageblock img {
   width: 40px;
   height: 40px;
   background-size: 100%;
+  display: block;
 }
 @media (max-width: 480px) {
   #block-entityviewcontent-4 {
